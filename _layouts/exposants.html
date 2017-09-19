@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<ul>
+{% for data in site.data.exposants %}
+  <li>
+    {{ data.categorie }}
+    <ul>
+    {% for exposant in data.exposants %}
+      <li>
+        <a href="{{exposant.url}}">{{exposant.name}}</a> - {{exposant.expertise}}
+      </li>
+    {% endfor %}
+    <ul>
+  </li>
+{% endfor %}
+</ul>
