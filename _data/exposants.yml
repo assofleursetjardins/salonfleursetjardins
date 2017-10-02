@@ -2,16 +2,16 @@
   exposants:
     - name: Jardin Décor
       description: Paysagiste / Décorateur
-      url: http://raphaelsanchez.github.io
+      url:
     - name: JCEV
       description: Paysagiste
-      url:
+      url: http://j-cev.com
     - name: La Passion du Jardin
       description: Créateur de jardins et plantes rares
       url:
     - name: Les Jardins d’Agapanthe
       description: Architecte paysagiste
-      url:
+      url: http://www.jardin-agapanthe.fr
 
 - categorie: Horticulteurs
   exposants:
