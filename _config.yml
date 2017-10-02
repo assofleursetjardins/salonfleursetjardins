@@ -35,6 +35,16 @@ collections:
   pages:
     output: true
     permalink: /:path
+  animations:
+    output: true
+    layout: page
+
+defaults:
+  - scope:
+      path: ""
+      type: animations
+    values:
+      layout: page
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

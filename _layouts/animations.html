@@ -7,14 +7,9 @@ layout: default
 {{ content }}
 
 <ul>
-
-  {% for data in site.data.animations %}
+  {% for animation in site.animations %}
   <li>
-
-    <p><strong>{{data.name}}</strong></p>
-    <p>{{data.description}}</p>
-
+    <a href="{{ animation.url | absolute_url }}"><strong>{{ animation.title }}</strong></a>
   </li>
   {% endfor %}
-
 </ul>
