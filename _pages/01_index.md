@@ -1,6 +1,6 @@
 ---
 title: Accueil
-layout: default
+layout: home
 permalink: /
 ---
 
