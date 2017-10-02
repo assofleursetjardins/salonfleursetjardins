@@ -13,7 +13,11 @@ layout: default
     <ul>
     {% for exposant in data.exposants %}
       <li>
-        <a href="{{exposant.url}}">{{exposant.name}}</a> - {{exposant.description}}
+        {% if exposant.url %}
+        <a href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
+        {% else %}
+        <strong>{{exposant.name}}</strong> - {{exposant.description}}
+        {% endif %}
       </li>
     {% endfor %}
     </ul>
