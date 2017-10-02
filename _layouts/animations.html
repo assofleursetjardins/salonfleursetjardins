@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 ---
-
-<h1>{{ page.title }}</h1>
 
 {{ content }}
 
@@ -11,8 +9,10 @@ layout: default
   {% for data in site.data.animations %}
   <li>
 
-    <p><strong>{{data.name}}</strong></p>
-    <p>{{data.description}}</p>
+    <p>
+      <strong>{{data.name}}</strong><br>
+      {{data.description}}
+    </p>
 
   </li>
   {% endfor %}
