@@ -1,26 +1,20 @@
 ---
-layout: default
+layout: page
 ---
-
-<h1>{{ page.title }}</h1>
 
 {{ content }}
 
-<ul>
 {% for data in site.data.exposants %}
-  <li>
-    {{ data.categorie }}
-    <ul>
+  <h2>{{ data.categorie }}</h2>
+  <ul>
     {% for exposant in data.exposants %}
-      <li>
-        {% if exposant.url %}
-        <a href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
-        {% else %}
-        <strong>{{exposant.name}}</strong> - {{exposant.description}}
-        {% endif %}
-      </li>
+    <li>
+      {% if exposant.url %}
+      <a href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
+      {% else %}
+      <strong>{{exposant.name}}</strong> - {{exposant.description}}
+      {% endif %}
+    </li>
     {% endfor %}
-    </ul>
-  </li>
+  </ul>
 {% endfor %}
-</ul>
