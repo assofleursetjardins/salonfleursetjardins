@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<ul>
+
+  {% for data in site.data.animations %}
+  <li>
+
+    <p><strong>{{data.name}}</strong></p>
+    <p>{{data.description}}</p>
+
+  </li>
+  {% endfor %}
+
+</ul>
