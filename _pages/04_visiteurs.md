@@ -11,6 +11,13 @@ layout: page
 
 
 
+## Tarifs
+**Entrée** : 5€ - *Gratuit pour les enfants de -15ans*  
+**Parking** : Gratuit
+
+Un **service gratuit** est proposé pour **transporter vos végétaux** jusqu'à votre véhicule
+
+
 ## Animations
 [Liste de animation]
 
