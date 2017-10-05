@@ -22,31 +22,10 @@ Un **service gratuit** est proposé pour **transporter vos végétaux** jusqu'à
 
 Tous les jours et durant toute la durée du Salon, de nombreuses activités vous sont proposé. Et il y en a pour tous les ages.
 
-**Atelier de l'Apiculteur**  
-Présentation & Sensibilisation au monde des abeilles.
-
-**Atelier de la Ligue pour la Protection des Oiseaux**  
-Présentation de plusieurs espèces & Sensibilisation.
-
-**Atelier des 4 Couleurs**  
-Façonner des fleurs en poterie.
-
-**Atelier sur les Hôtels à Insectesg**  
-Façonner son Hôtel à insectes Particulier.
-
-**Conservatoire d'Espaces Naturels**  
-Présentation & Jeux “La Ruée vers le Nord !” “Exploration de la nature vue du ciel !”
-
-**Ecurie de la Voie Blanche**  
-Promenade à poneys pour enfants.
-
-**Ferme Gröning**  
-Ferme d’archéologie expérimentale de races anciennes.
-
-**Les Poteries de Fredy**  
-Création d’un objet en poterie sur le tour de potier.
-
-
+{% for animation in site.animations %}
+  - **[{{ animation.title }}]({{ animation.url | absolute_url }})**  
+    {{ animation.excerpt }}
+{% endfor %}
 
 ## Localisation
 
