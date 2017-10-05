@@ -1,7 +1,7 @@
 ---
 title: Exemple avec extrait
 excerpt: |-
-  **L'extrait** peut être détailllé en front matter.
+  L'extrait peut être détailllé en **front matter**.
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro asperiores
