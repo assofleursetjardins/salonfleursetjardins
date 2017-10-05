@@ -10,9 +10,9 @@ layout: page
     {% for exposant in data.exposants %}
     <li>
       {% if exposant.url %}
-      <a href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
+      <a id="{{ data.categorie | slugify }}-{{exposant.name | slugify }}" href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
       {% else %}
-      <strong>{{exposant.name}}</strong> - {{exposant.description}}
+      <strong id="{{ data.categorie | slugify }}-{{ exposant.name | slugify }}">{{exposant.name}}</strong> - {{exposant.description}}
       {% endif %}
     </li>
     {% endfor %}
