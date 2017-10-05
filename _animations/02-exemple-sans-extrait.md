@@ -1,5 +1,6 @@
 ---
 title: Exemple avec extrait
+layout: animation
 ---
 
 Ou être la **première ligne** du contenu.
