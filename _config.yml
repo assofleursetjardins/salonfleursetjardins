@@ -21,8 +21,18 @@ description: > # this means to ignore newlines until "baseurl:"
     Il s'adresse aussi bien aux néophytes qu'aux collectionneurs à la recherche des espèces les plus rares.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username:
+# github_username:
+header_pages:
+  - _pages/02_a-propos.md
+  - _pages/03_exposants.md
+  - _pages/04_visiteurs.md
+
+# Si `footer_page`n'est pas spécifié, une liste de liens de toutes les pages seras affichée.
+footer_pages:
+  - _pages/01_index.md
+  - _pages/05_medias.md
+  - _pages/02_a-propos.md
 
 # Build settings
 markdown: kramdown
