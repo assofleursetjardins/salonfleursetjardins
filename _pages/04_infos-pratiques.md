@@ -1,5 +1,5 @@
 ---
-title: Visiteurs
+title: Infos pratiques
 path_description: Services & infos pratiques
 permalink: /visiteurs/
 layout: page

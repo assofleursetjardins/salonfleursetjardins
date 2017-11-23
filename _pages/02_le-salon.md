@@ -1,6 +1,6 @@
 ---
 layout: page
-title: À propos
+title: Le salon
 path_description: À propos du salon
 permalink: /a-propos/
 ---
