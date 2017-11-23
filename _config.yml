@@ -24,15 +24,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
 # github_username:
 header_pages:
-  - _pages/02_le-salon.md
-  - _pages/03_exposants.md
-  - _pages/04_infos-pratiques.md
+  - _pages/01_index.md
+  - _pages/02_exposants.md
+  - _pages/03_infos-pratiques.md
 
 # Si `footer_page`n'est pas spécifié, une liste de liens de toutes les pages seras affichée.
 footer_pages:
   - _pages/01_index.md
-  - _pages/05_medias.md
-  - _pages/02_a-propos.md
+  - _pages/04_medias.md
+  - _pages/03_infos-pratiques.md
 
 # Build settings
 markdown: kramdown
