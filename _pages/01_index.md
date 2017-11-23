@@ -5,6 +5,8 @@ path_description: À propos du salon
 permalink: /
 ---
 
+![Visuel 2018 Salon Fleurs & Jardin](01_index/medias/visuel-2018.jpg)
+
 # Le Salon Fleurs & Jardins fête sa 22ème édition
 ## Les 23, 24 et 25 avril 2017
 
