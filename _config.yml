@@ -21,6 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
     Il s'adresse aussi bien aux néophytes qu'aux collectionneurs à la recherche des espèces les plus rares.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+relative_permalinks: false
 # twitter_username:
 # github_username:
 header_pages:

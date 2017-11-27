@@ -3,6 +3,11 @@ layout: home
 title: Le salon
 path_description: À propos du salon
 permalink: /
+sections: 
+ - des-plantes-et-des-fleurs-bonnes-pour-le-moral
+ - les-chefs-etoiles-de-l-univers-des-fleurs-et-des-plantes
+ - un-espace-nature-unique-de-plus-de-six-hectares
+ - une-situation-geographique-ideale
 ---
 
 ![Visuel 2018 Salon Fleurs & Jardin](01_index/medias/visuel-2018.jpg)

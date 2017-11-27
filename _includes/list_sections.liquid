@@ -1,0 +1,15 @@
+{% comment %}
+Sélectionne les sections de la page courante
+{% endcomment %}
+
+{% capture list %}
+  {% for page_section in page.sections %}
+    {% for site_page in site.pages %}
+      {% if site_page.slug == page_section %}
+        {{ site_page.slug }}|{{ site_page.content }}{% unless forloop.last %}^{% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endcapture %}
+{% assign sections_list = list | split: "^" %}
+

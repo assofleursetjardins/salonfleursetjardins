@@ -10,13 +10,18 @@ layout: default
 
   {{ content | split: '<!-- figure -->' | last }}
 
-  {% comment %}
-  TODO : boucle d'itération pour les sections
-  {% endcomment %}
-  <section>
-    [CONTENU DE LA SECTION]
+  {% include list_sections.liquid %}
 
-    <a href="#">[image plan]</a>
+  {% comment %}
+    index[0] section.slug (si besoin)
+    index[1] section.content
+  {% endcomment %}
+
+  {% for section_list in sections_list %}
+  {% assign section = section_list | split: "|" %}
+  <section id="{{ section[0] }}">
+    {{ section[1] | markdownify }}
   </section>
+  {% endfor %}
 
 </div>
