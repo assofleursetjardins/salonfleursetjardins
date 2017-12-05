@@ -2,8 +2,13 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1em 0;
+  
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -26,7 +31,7 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  //line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
       display: none;
@@ -37,12 +42,60 @@
   }
 
   .page-link {
+    position: relative;
+    display: inline-block;
     color: $text-color;
+
+    font-family: "Playfair Display", cursive;
+    font-weight: bold;
+    font-size: .8em;
     line-height: $base-line-height;
+    text-transform: uppercase;
+    text-align: center;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &.is-active {
+      color: $brand-color;
+    }
+
+    .page-link-desc {
+      color: lighten($text-color, 50%);
+      display: block;
+      font-family: "Montserrat", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: .6em;
+      //text-transform: none;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      transform: translate3d(-50%,-50%,0);
+
+      height: 0;
+      width: 0%;
+
+      background: $grey-color-light;
+
+      transition: all 200ms ease-in-out;
+    }
+
+  }
+
+  .page-link:hover {
+    text-decoration: none;
+
+    &:after {
+
+      height: .8em;
+      width: 80%;
     }
   }
 
@@ -177,6 +230,13 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+
+  p:first-of-type {
+    font-family: $lead-font-family;
+    font-size: $lead-font-size;
+    font-weight: $lead-font-weight;
+    font-style: $lead-font-style;
+  }
 }
 
 .page-heading {

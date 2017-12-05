@@ -1,21 +1,32 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Montserrat", Helvetica, Arial, sans-serif !default;
 $base-font-size:   1.5rem !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
+$heading-font-family: "Abril Fatface", cursive;
+$heading-font-size: 3rem !default;
+$heading-font-weight: normal;
+$heading-small-size: $heading-font-size * 0.875 !default;
+$heading-line-height: 1 !default;
+
+$lead-font-family: "Playfair Display", cursive;
+$lead-font-size: $base-font-size;
+$lead-font-weight: $base-font-weight;
+$lead-font-style: italic;
+
 $spacing-unit:     1.875rem !default;
 
-$text-color:       #111 !default;
+// Colors
+$text-color:       #141412 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #7FC7BD !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color:       #A1ACAD !default;
+$grey-color-light: lighten($grey-color, 25%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
