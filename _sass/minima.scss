@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-$base-font-family: "Montserrat", Helvetica, Arial, sans-serif !default;
-$base-font-size:   1.5rem !default;
-$base-font-weight: 400 !default;
+$base-font-family: "Verdana", Helvetica, Arial, sans-serif !default;
+$base-font-size:   1.2em !default;
+$base-font-weight: 100 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
@@ -14,7 +14,7 @@ $heading-small-size: $heading-font-size * 0.875 !default;
 $heading-line-height: 1 !default;
 
 $lead-font-family: "Playfair Display", cursive;
-$lead-font-size: $base-font-size;
+$lead-font-size: $base-font-size * 1;
 $lead-font-weight: $base-font-weight;
 $lead-font-style: italic;
 

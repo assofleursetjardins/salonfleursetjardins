@@ -1,45 +1,14 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <a class="back-to-top" href="#site-header">Revenir en haut de la page</a>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  <ul class="footer-links">
+    <li>{{ site.title | escape }}</li>
+  </ul>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {% assign default_paths = site.pages | map: "path" %}
-        {% assign footer_paths = site.footer_pages | default: default_paths %}
-        {% if footer_paths %}
-        <ul class="links-list">
-          {% for path in footer_paths %}
-          {% assign page = site.pages | where: "path", path | first %}
-          {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | relative_link }}">{{ page.title | escape }}</a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-  </div>
+  <ul class="footer-legals">
+    <li><a href="">Mentions légales</a></li>
+    <li><a href="mailto:{{site.email}}">Nous écrire</a></li>
+  </ul>
 
 </footer>
