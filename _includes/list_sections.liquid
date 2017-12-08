@@ -14,5 +14,5 @@ Sélectionne les sections de la page courante
 {% endfor %}
 {% endcapture %}
 
-{% assign sections_ids = subpages_ids_list | sstrip | plit: "|" %}
+{% assign sections_ids = subpages_ids_list | strip | plit: "|" %}
 {% assign sections = site.pages | where_exp: "section", "sections_ids contains section.id" %}
