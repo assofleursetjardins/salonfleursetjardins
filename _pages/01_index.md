@@ -3,8 +3,6 @@ layout: home
 title: Le salon
 path_description: À propos du salon
 permalink: /
-sections:
- - une-situation-geographique-ideale
 ---
 
 ![Visuel 2018 Salon Fleurs & Jardin](01_index/medias/visuel-2018.jpg)

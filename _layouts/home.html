@@ -4,6 +4,15 @@ layout: default
 
 <div class="home">
 
+
+
+
+
+
+
+{% for categorie in pages.categories %}
+{{categorie.name}}<br>
+{% endfor %}
 <figure>
   {{ content | split: '<!-- figure -->' | first }}
 </figure>
@@ -17,10 +26,13 @@ layout: default
     index[1] section.content
   {% endcomment %}
 
-  {% for section_list in sections_list %}
-  {% assign section = section_list | split: "|" %}
-  <section id="{{ section[0] }}">
-    {{ section[1] | markdownify }}
+  {% for section in sections %}
+  {{section.title}}
+  {% endfor %}
+  {% for section in sections %}
+  <section id="{{ section.id }}">
+    <h2>{{ section.title }}</h2>
+    {{ section.content | markdownify }}
   </section>
   {% endfor %}
 

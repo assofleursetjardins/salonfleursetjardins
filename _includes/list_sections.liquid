@@ -2,14 +2,17 @@
 Sélectionne les sections de la page courante
 {% endcomment %}
 
-{% capture list %}
-  {% for page_section in page.sections %}
-    {% for site_page in site.pages %}
-      {% if site_page.slug == page_section %}
-        {{ site_page.slug }}|{{ site_page.content }}{% unless forloop.last %}^{% endunless %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endcapture %}
-{% assign sections_list = list | split: "^" %}
+{% assign size = page.id | size %}
+{% assign page_section_id = page.id | slice: 1, size | split: "/" | first %}
 
+{% capture subpages_ids_list %}
+{% for subpage in  site.pages %}
+  {% assign subpage_section_id = subpage.id | slice:1, size | split: "/" | first %}
+  {% if page_section_id == subpage_section_id and subpage.id != page.id %}
+    {{subpage.id}}|
+  {% endif %}
+{% endfor %}
+{% endcapture %}
+
+{% assign sections_ids = subpages_ids_list | sstrip | plit: "|" %}
+{% assign sections = site.pages | where_exp: "section", "sections_ids contains section.id" %}
