@@ -1,7 +1,7 @@
 ---
+title: Une situation géographique idéale
+subtitle: Dans un espace naturel de plus de 6 hectare
 ---
-## Une situation géographique idéale
-### Dans un espace naturel de plus de 6 hectare
 
 Le village du Vaudreuil est situé à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13 ; un village normand doté d’un superbe golf de 18 trous.
 

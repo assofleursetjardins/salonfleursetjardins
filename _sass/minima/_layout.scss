@@ -332,7 +332,7 @@
 .page-content {
   padding: $spacing-unit 0;
 
-  p:first-of-type {
+  p:not(.subtitle):first-of-type > p {
     font-family: $lead-font-family;
     font-size: $lead-font-size;
     font-weight: $lead-font-weight;

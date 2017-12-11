@@ -21,11 +21,9 @@ layout: default
   {% endcomment %}
 
   {% for section in sections %}
-  {{section.title}}
-  {% endfor %}
-  {% for section in sections %}
   <section id="{{ section.id }}">
     <h2>{{ section.title }}</h2>
+    <h3 class="subtitle">{{ section.subtitle }}</h3>
     {{ section.content | markdownify }}
   </section>
   {% endfor %}
