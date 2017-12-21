@@ -20,6 +20,8 @@ h1, h2, h3 {
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
+  margin-top: 0;
+  margin-bottom: $spacing;
 }
 
 h1 {
@@ -28,7 +30,7 @@ h1 {
     font-family: $base-font-family;
     font-size: pixem($large-font-size);
     color: $text-muted-color;
-    margin-top: -1em;
+    margin-top: -2em;
   }
 }
 
@@ -38,7 +40,7 @@ h2 {
     font-family: $base-font-family;
     font-size: pixem($large-font-size);
     color: $text-muted-color;
-    margin-top: -1em;
+    margin-top: -2em;
   }
 }
 
@@ -48,6 +50,7 @@ h3 {
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
+section { margin: $spacing * 2 0; }
 
 /** Medias **/
 figure { margin: 0; }
