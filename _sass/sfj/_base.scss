@@ -16,9 +16,9 @@ a:focus { color: $focus-color;}
 a:active { color: $active-color;}
 
 // Leading style
-.page-home p:first-of-type,
-.page-exposants p:first-of-type {
-  font: $lead-font-style #{$lead-font-size}/#{$lead-line-height} $lead-font-family;
+.page-home > p:first-of-type,
+.page-exposants > p:first-of-type {
+  font: $lead-font-style #{pixem($lead-font-size)}/#{$lead-line-height} $lead-font-family;
 }
 
 
@@ -167,5 +167,9 @@ nav ul {
 
       color: $text-color;
     }
+
   }
 }
+
+/** Page Infos pratiques **/
+.page-infos-pratiques { @extend .page-exposants; }
