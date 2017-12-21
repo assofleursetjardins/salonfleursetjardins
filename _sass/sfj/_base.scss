@@ -26,7 +26,7 @@ a:active { color: $active-color;}
 /** Entêtes **/
 h1, h2, h3 {
   margin-top: 0;
-  margin-bottom: $spacing;
+  margin-bottom: $spacing-small;
 
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
@@ -35,35 +35,37 @@ h1, h2, h3 {
 
 h1 {
   font-size: pixem($xxlarge-font-size);
-
-  & + h2 {
-    margin-top: -2.5em;
-
-    font-family: $base-font-family;
-    font-size: pixem($large-font-size * 0.9); // Ajustmemt pour le uppercase
-    text-transform: uppercase;
-
-    color: $text-muted-color;
-  }
 }
 
 h2 {
   font-size: pixem($xlarge-font-size);
-
-  & + h3 {
-    margin-top: -2.5em;
-
-    font-family: $base-font-family;
-    font-size: pixem($base-font-size * 0.9); // Ajustement pour le uppercase
-    text-transform: uppercase;
-
-    color: $text-muted-color;
-  }
 }
 
 h3 {
   font-size: pixem($large-font-size);
 }
+
+h1 + h2,
+h2 + h3 {
+  margin-top: -$spacing-small;
+
+  font-family: $base-font-family;
+  font-size: pixem($base-font-size * 0.9); // Ajustement pour le uppercase
+  text-transform: uppercase;
+
+  color: $text-muted-color;
+
+  &::after {
+    display: block;
+    width: 5rem;
+    margin-top: 1em;
+
+    border-bottom: 3px solid $color-main;
+
+    content: "";
+  }
+}
+
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
@@ -141,4 +143,29 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
+}
+
+/** Page Exposants **/
+.page-exposants ul {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: $spacing-tiny;
+
+    font-family: $base-font-family;
+    font-size: pixem($xsmall-font-size * 0.9); // Ajustement pour le uppercase
+    text-transform: uppercase;
+
+    color: $text-muted-color;
+
+    strong {
+      font-family: $heading-font-family;
+      font-weight: normal;
+      font-size: pixrem($base-font-size);
+      text-transform: none;
+
+      color: $text-color;
+    }
+  }
 }
