@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="page-{{page.layout}}">
+<article class="page-{{page.title | slugify: latin}}">
 
     {{ content }}
 
