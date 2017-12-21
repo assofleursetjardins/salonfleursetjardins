@@ -148,6 +148,7 @@ $gutter-width     : 24px;
     float: left;
     padding-left: pixrem($gutter-width / 2);
     padding-right: pixrem($gutter-width / 2);
+    width: 100%;
   }
   @elseif ($denominator == null)
   {
