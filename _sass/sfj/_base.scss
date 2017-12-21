@@ -15,6 +15,14 @@ a:hover { color: $link-hover-color;}
 a:focus { color: $focus-color;}
 a:active { color: $active-color;}
 
+// Leading style
+.page-home p:first-of-type,
+.page-exposants p:first-of-type {
+  font: $lead-font-style #{$lead-font-size}/#{$lead-line-height} $lead-font-family;
+}
+
+
+
 /** Entêtes **/
 h1, h2, h3 {
   margin-top: 0;
@@ -132,11 +140,4 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
-}
-
-
-/** Home **/
-article.home p:first-of-type {
-  // Leading style
-  font: $lead-font-style #{$lead-font-size}/#{$lead-line-height} $lead-font-family;
 }
