@@ -16,8 +16,34 @@ a:focus { color: $focus-color;}
 a:active { color: $active-color;}
 
 /** Entêtes **/
-h1, h2 {
-  line-height: $large-line-height;
+h1, h2, h3 {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+}
+
+h1 {
+  font-size: pixem($xxlarge-font-size);
+  & + h2 {
+    font-family: $base-font-family;
+    font-size: pixem($large-font-size);
+    color: $text-muted-color;
+    margin-top: -1em;
+  }
+}
+
+h2 {
+  font-size: pixem($xlarge-font-size);
+  & + h3 {
+    font-family: $base-font-family;
+    font-size: pixem($large-font-size);
+    color: $text-muted-color;
+    margin-top: -1em;
+  }
+}
+
+h3 {
+  font-size: pixem($large-font-size);
 }
 
 /** Espaces blancs **/

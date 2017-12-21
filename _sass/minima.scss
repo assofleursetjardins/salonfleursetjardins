@@ -24,7 +24,7 @@ $base-line-height     : 1.5em !default;
 $heading-font-family  : "Abril Fatface", serif !default;
 $heading-font-size    : 50px !default;
 $heading-font-weight  : normal !default;
-$heading-line-height  : 1.1em !default;
+$heading-line-height  : 1.2em !default;
 
 $lead-font-family     : "Playfair", serif !default;
 $lead-font-size       : 24px !default;
@@ -39,8 +39,14 @@ $xsmall-line-height   : $base-line-height !default;
 $small-font-size      : 16px !default;
 $small-line-height    : $base-line-height !default;
 
-$large-font-size      : 36px !default;
-$large-line-height    : 1.1em !default;
+$large-font-size      : 24px !default;
+$large-line-height    : 1.2em !default;
+
+$xlarge-font-size     : 36px !default;
+$xlarge-line-height   : 1.2em !default;
+
+$xxlarge-font-size    : 48px !default;
+$xxlarge-line-height  : 1.2em !default;
 
 // Définition des couleurs
 
