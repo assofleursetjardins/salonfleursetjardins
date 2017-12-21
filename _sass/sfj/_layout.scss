@@ -1,0 +1,60 @@
+/**
+ * Déclaration du layout
+ *
+ */
+
+/** Mobile first **/
+/* .column-2-6 {
+  @extend .column;
+  @include column(1, 3);
+}
+.column-4-6 {
+  @extend .column;
+  @include column(2, 3);
+}
+ */
+
+/** Déclaration des conteneurs **/
+.wrapper { @include wrapper(); }
+#header,
+#main,
+#footer
+{
+  @extend .wrapper;
+  @include cf();
+}
+
+/** Déclaration des colonnes **/
+.column { @include column(); }
+.header-title,
+//.navigation-link,
+.navigation-icon {
+  @extend .column;
+}
+
+/** Mobile first **/
+.header-title { @include column(3, 4); }
+.navigation-icon { @include column(1, 4); }
+
+// Affichage de la navigation mobile
+#header .navigation-links { display: none; }
+#footer .navigation-links { display: inline; }
+
+/** Petits écrans **/
+@media screen and (min-width: pixrem($device-mobile)) {
+
+/*   .col-test {
+    // 1/3 de 6 en fixe
+    @include column(6/3); // ou 2
+    // 1/3 en fluide
+    @include column(1,3);
+  }
+ */
+  // Contenu principal
+  .page-content { @include wrapper(6); }
+}
+
+// Contenu principal
+.page-content { @extend .wrapper; }
+
+

@@ -1,62 +1,175 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-$base-font-family: "Verdana", Helvetica, Arial, sans-serif !default;
-$base-font-size:   1.2em !default;
-$base-font-weight: 100 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+/**
+* Salon fleurs et jardins
+*
+* Les principes DRY & KISS devrons guider la conceptiondes ces feuiles de styles :
+*
+*  1. un code utile, clair et concis (KISS)
+*  2. limiter la répétition de code (DRY) sauf si cela contredit la règle 1.
+*  3. performance sauf si cela contrdit la règle 2
+*
+* 2017
+**/
 
-$heading-font-family: "Abril Fatface", cursive;
-$heading-font-size: 3rem !default;
-$heading-font-weight: normal;
-$heading-small-size: $heading-font-size * 0.875 !default;
-$heading-line-height: 1 !default;
+// Définition de la typo
 
-$lead-font-family: "Playfair Display", cursive;
-$lead-font-size: $base-font-size * 1;
-$lead-font-weight: $base-font-weight;
-$lead-font-style: italic;
+$root-font-size       : 16px;
 
-$spacing-unit:     1.875rem !default;
+$base-font-family : Verdana, sans-serif !default;
+$base-font-size   : 18px !default;
+$base-font-weight : normal !default;
+$base-line-height : 1.5em !default;
 
-// Colors
-$text-color:       #141412 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #7FC7BD !default;
+$heading-font-family : "Abril Fatface", serif !default;
+$heading-font-size   : 50px !default;
+$heading-font-weight : normal !default;
+$heading-line-height : 1em !default;
 
-$grey-color:       #A1ACAD !default;
-$grey-color-light: lighten($grey-color, 25%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$lead-font-family : "Playfair", serif !default;
+$lead-font-size   : 24px !default;
+$lead-font-weight : normal !default;
+$lead-line-height : 1.5em !default;
+$lead-font-style  : italic;
 
-$table-text-align: left !default;
 
-// Width of the content area
-$content-width:    50rem !default;
+$xsmall-font-size     : 14px !default;
+$xsmall-line-height   : $base-line-height !default;
 
-$on-palm:          600px !default;
-$on-laptop:        50rem !default;
+$small-font-size      : 16px !default;
+$small-line-height    : $base-line-height !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
+$large-font-size      : 36px !default;
+$large-line-height    : 1.1em !default;
+
+// Définition des couleurs
+
+$color-main           : #95C92C !default;
+$color-main-light     : #95C92C !default;
+$color-main-lightest  : #95C92C !default;
+
+$color-darkest        : #141412 !default;
+$color-dark           : #262623 !default;
+$color-light          : #EDF7F2 !default;
+
+$color-adjacent-left  : #4CB6C2 !default;
+$color-adjacent-right : #7FC7BD !default;
+
+$color-muted          : #545450 !default;
+$color-muted-light    : #A1ACAD !default;
+$color-muted-lightest : #E8EAEA !default;
+$color-muted-dark     : #262623 !default;
+
+
+// Usage des couleurs
+$background-color     : $color-light !default;
+$brand-color          : $color-main !default;
+
+$text-color: $color-dark;
+$text-color-dark: $color-darkest;
+$text-muted-color: $color-muted;
+$active-color: $color-adjacent-right;
+$focus-color: $color-adjacent-left;
+$link-color: $color-darkest;
+$link-hover-color: $color-adjacent-left;
+$link-visited-color: $color-muted-light;
+
+
+// Système de mesure
+
+$spacing: 1.5em;
+$spacing-small: $spacing / 2;
+$spacing-tiny: $spacing / 3;
+$spacing-large: $spacing * 2;
+
+@function pixrem($value) {
+  @return $value / $root-font-size + rem;
+}
+
+@function pixem($value) {
+  @return $value / $base-font-size + em;
+}
+
+
+// Système de grille
+
+$device-mobile: 640px;
+$device-tablet: 768px;
+$device-laptop: 1024px;
+$device-desktop: 1280px;
+$device-max-width: $device-desktop;
+$column-width: 96px;
+$gutter-width: 24px;
+
+// Spécification du conteneur
+// Exemples d'usages
+// Initialisation
+// @include wrapper();
+// Système de grille 6
+// @include wrapper(6);
+@mixin wrapper($cols: auto) {
+
+  @if $cols == auto
+  {
+    width: auto;
+    max-width: pixrem($device-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding: $spacing-small;
+  }
+  @else
+  {
+    width: pixrem($column-width * $cols);
+  }
+
+}
+
+// Spécification d'une colonne
+// Usage hybride, fixe  et fluide.
+// Exemples d'usages
+// 1/3 d'un système de 6 colonnes en fixe
+// @include column(6/3);
+// idem précedent
+// @include column(2);
+// 1/3 en fluide
+// @include column(1,3);
+@mixin column($numerator: null, $denominator: null) {
+
+  @if $numerator == null
+  {
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    padding-left: pixrem($gutter-width / 2);
+    padding-right: pixrem($gutter-width / 2);
+  }
+  @elseif ($denominator == null)
+  {
+    width: pixrem($column-width * $numerator);
+  }
+  @else
+  {
+    width: percentage($numerator / $denominator);
+      }
+}
+
+// Clearfix
+@mixin cf () {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
   }
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
-
-// Import partials.
+// Importation des portions
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "sfj/base",
+  "sfj/layout"
 ;
+
+
+// @include media-query($device-mobile) {.test-a { color: green; } }
+// @include media-query($device-tablet) {.test-b { color: red; } }
+// @include media-query($device-mobile) {.test-c { color: pink; } }
+// @include media-query($device-mobile) {.test { color: pink; } }

@@ -1,0 +1,104 @@
+/**
+ * Définition du style de base
+ */
+
+/** Élements typographiques **/
+body {
+  font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background: $background-color;
+}
+
+a:link { color: $link-color; }
+a:visited { color: $link-visited-color; }
+a:hover { color: $link-hover-color;}
+a:focus { color: $focus-color;}
+a:active { color: $active-color;}
+
+/** Entêtes **/
+h1, h2 {
+  line-height: $large-line-height;
+}
+
+/** Espaces blancs **/
+p, ul, ol { margin-bottom: $spacing; }
+
+/** Medias **/
+figure { margin: 0; }
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/** Header **/
+.header-title { margin-bottom: $spacing; }
+
+/** Navigation **/
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navigation {
+  &-inline ul li { display: inline; }
+  &-icon {
+    text-align: right;
+  }
+
+  &-links {
+    display: inline;
+
+    small {
+      display: block;
+    }
+  }
+
+  &-link {
+    display: block;
+    margin: 0 0 $spacing / 3 0;
+
+    text-align: center;
+    font-family: $heading-font-family;
+    font-size: pixem($large-font-size);
+    line-height: $large-line-height;
+    text-decoration: none;
+
+    &:link,
+    &:visited { color: $text-color; }
+
+    &:hover { color: $link-hover-color;}
+    &:focus { color: $focus-color;}
+    &:active { color: $active-color;}
+
+    small {
+      font-family: $base-font-family;
+      font-size: pixrem($xsmall-font-size);
+      color: $text-muted-color !important;
+    }
+  }
+}
+
+#mobile-navigation {
+  // Mobile first
+  padding-bottom: 8em;
+  // font-size: $large-font-size;
+  // END Mobile first
+}
+
+/** Footer **/
+#footer {
+  font-size: $xsmall-font-size;
+  color: $text-muted-color;
+
+  a, a:link, a:visited { color: $text-color; }
+  a:hover { color: $text-color-dark; }
+
+}
+
+
+/** Home **/
+article.home p:first-of-type {
+  // Leading style
+  font: $lead-font-style #{$lead-font-size}/#{$lead-line-height} $lead-font-family;
+}

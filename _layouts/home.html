@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<article class="home">
 
-{% for categorie in pages.categories %}
-{{categorie.name}}<br>
-{% endfor %}
-<figure>
-  {{ content | split: '<!-- figure -->' | first }}
-</figure>
+  {% for categorie in pages.categories %}
+  {{categorie.name}}<br>
+  {% endfor %}
+  <figure>
+    {{ content | split: '<!-- figure -->' | first }}
+  </figure>
 
   {{ content | split: '<!-- figure -->' | last }}
 
@@ -28,4 +28,4 @@ layout: default
   </section>
   {% endfor %}
 
-</div>
+</article>
