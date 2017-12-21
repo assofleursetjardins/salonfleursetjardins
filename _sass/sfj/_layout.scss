@@ -27,10 +27,9 @@
 /** Déclaration des colonnes **/
 .column { @include column(); }
 .header-title,
-//.navigation-link,
-.navigation-icon {
-  @extend .column;
-}
+.navigation-link,
+.navigation-icon,
+#footer section { @extend .column; }
 
 /** Mobile first **/
 .header-title { @include column(3, 4); }
