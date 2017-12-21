@@ -86,8 +86,8 @@ nav ul {
 
     text-align: center;
     font-family: $heading-font-family;
-    font-size: pixem($large-font-size);
-    line-height: $large-line-height;
+    font-size: pixem($xlarge-font-size);
+    line-height: 1.1em;
     text-decoration: none;
 
     &:link,
@@ -99,7 +99,7 @@ nav ul {
 
     small {
       font-family: $base-font-family;
-      font-size: pixrem($xsmall-font-size);
+      font-size: pixrem($small-font-size);
       color: $text-muted-color !important;
     }
   }
