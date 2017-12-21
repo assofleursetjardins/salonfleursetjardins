@@ -17,30 +17,39 @@ a:active { color: $active-color;}
 
 /** Entêtes **/
 h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: $spacing;
+
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
-  margin-top: 0;
-  margin-bottom: $spacing;
 }
 
 h1 {
   font-size: pixem($xxlarge-font-size);
+
   & + h2 {
+    margin-top: -2.5em;
+
     font-family: $base-font-family;
-    font-size: pixem($large-font-size);
+    font-size: pixem($large-font-size * 0.9); // Ajustmemt pour le uppercase
+    text-transform: uppercase;
+
     color: $text-muted-color;
-    margin-top: -2em;
   }
 }
 
 h2 {
   font-size: pixem($xlarge-font-size);
+
   & + h3 {
+    margin-top: -2.5em;
+
     font-family: $base-font-family;
-    font-size: pixem($large-font-size);
+    font-size: pixem($base-font-size * 0.9); // Ajustement pour le uppercase
+    text-transform: uppercase;
+
     color: $text-muted-color;
-    margin-top: -2em;
   }
 }
 
