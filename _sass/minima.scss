@@ -86,7 +86,7 @@ $link-visited-color   : $color-muted;
 $spacing       : 1.5em;
 $spacing-small : $spacing / 2;
 $spacing-tiny  : $spacing / 3;
-$spacing-large : $spacing * 2;
+$spacing-large : $spacing * 3;
 
 @function pixrem($value) {
   @return $value / $root-font-size + rem;

@@ -1,8 +1,5 @@
 <footer id="footer">
   <section>
-    <nav class="navigation mobile-navigation" id="mobile-navigation">
-      {% include navigation/links.html %}
-    </nav>
     <h4>Navigation</h4>
     <nav>
       <ul>
@@ -10,7 +7,7 @@
         <li><a href="{{ "/" | relative_url }}">Page d'accueil</a></li>
         {% comment %}
         Sitemap
-        Les pages qui e possèdent pas de permaliens osnt exclus,
+        Les pages qui e possèdent pas de permaliens dont exclus,
         cela permet notememnt de filter les sections
         {% endcomment %}
         {% for page in site.pages %}
@@ -18,7 +15,6 @@
         <li><a href="{{page.link}}">{{page.title}}</a></li>
         {% endif %}
         {% endfor %}
-
       </ul>
     </nav>
   </section>
@@ -35,6 +31,10 @@
         <li><a href="">Mentions légales</a></li>
         <li><a href="mailto:{{site.email}}">Nous écrire</a></li>
       </ul>
+    </nav>
+    <nav class="navigation mobile-navigation" id="mobile-navigation">
+      {% include navigation/links.html %}
+      <a href="#header" class="mobile-navigation-close">Revenir à la page</a>
     </nav>
   </section>
 

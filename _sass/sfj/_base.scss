@@ -69,7 +69,7 @@ h2 + h3 {
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
-section { margin: $spacing * 2 0; }
+section { margin-bottom: $spacing * 2; }
 
 /** Medias **/
 figure { margin: 0; }
@@ -127,12 +127,21 @@ nav ul {
   }
 }
 
-#mobile-navigation {
+.mobile-navigation {
   // Mobile first
-  padding-bottom: 8em;
-  padding-top: 3em;
+  position: relative;
+  height: 100vh;
+  padding: $spacing-large 0;
+  // box-sizing: border-box;
   overflow: hidden; // forcer l'espacement bas
+
   // END Mobile first
+  &-close {
+    position: absolute;
+    font-size: pixem($small-font-size);
+    top: 1em;
+    right: 0;
+  }
 }
 
 /** Footer **/
