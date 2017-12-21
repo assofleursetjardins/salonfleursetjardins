@@ -99,10 +99,10 @@ $spacing-large : $spacing * 2;
 
 // Système de grille
 
-$device-mobile    : 640px;
+$device-mobile    : 640px; // *
 $device-tablet    : 768px;
 $device-laptop    : 1024px;
-$device-desktop   : 1280px;
+$device-desktop   : 1280px; // *
 $device-max-width : $device-desktop;
 $column-width     : 96px;
 $gutter-width     : 24px;
