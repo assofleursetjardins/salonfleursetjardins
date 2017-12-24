@@ -33,10 +33,13 @@ $lead-line-height     : 1.4em !default;
 $lead-font-style      : italic;
 
 
-$xsmall-font-size     : 14px !default;
+$xxsmall-font-size     : 10px !default;
+$xxsmall-line-height   : $base-line-height !default;
+
+$xsmall-font-size     : 12px !default;
 $xsmall-line-height   : $base-line-height !default;
 
-$small-font-size      : 16px !default;
+$small-font-size      : 14px !default;
 $small-line-height    : $base-line-height !default;
 
 $large-font-size      : 24px !default;
@@ -99,8 +102,8 @@ $spacing-large : $spacing * 3;
 
 // Système de grille
 
-$device-mobile    : 640px; // *
-$device-tablet    : 768px;
+$device-mobile    : 640px;
+$device-tablet    : 768px; // *
 $device-laptop    : 1024px;
 $device-desktop   : 1280px; // *
 $device-max-width : $device-desktop;

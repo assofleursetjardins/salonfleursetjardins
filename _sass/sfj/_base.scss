@@ -80,7 +80,15 @@ img {
 }
 
 /** Header **/
-.header-title { margin-bottom: $spacing; }
+.header {
+  &-title { margin-bottom: $spacing; }
+  &-navigation {
+    .navigation-link {
+      font-size: pixem($large-font-size);
+      small { font-size: pixem($xxsmall-font-size); }
+    }
+  }
+}
 
 /** Navigation **/
 nav ul {
@@ -89,6 +97,8 @@ nav ul {
 }
 
 .navigation {
+  margin-top: $spacing;
+
   &-inline ul li { display: inline; }
   &-icon {
     text-align: right;
@@ -127,7 +137,7 @@ nav ul {
   }
 }
 
-.mobile-navigation {
+.navigation-mobile {
   // Mobile first
   position: relative;
   height: 100vh;
