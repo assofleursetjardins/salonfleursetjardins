@@ -152,6 +152,7 @@ $gutter-width     : 24px;
     padding-left: pixrem($gutter-width / 2);
     padding-right: pixrem($gutter-width / 2);
     width: 100%;
+    min-height: 1px; // Pour usage span
   }
   @elseif ($denominator == null)
   {
