@@ -5,7 +5,6 @@ permalink: /visiteurs/
 layout: page
 ---
 
-- [Animations](#animations)
 - [Localisation](#localisation)
 - [Restauration](#restauration)
 - [Hébergement](#hébergement)
