@@ -165,7 +165,7 @@ nav ul {
 }
 
 /** Page Exposants **/
-.page-exposants ul {
+.exposants-list ul {
   list-style: none;
   padding-left: 0;
 
@@ -190,5 +190,5 @@ nav ul {
   }
 }
 
-/** Page Infos pratiques **/
-.page-infos-pratiques { @extend .page-exposants; }
+/** Liste d'animations **/
+.animations { @extend .exposants-list; }
