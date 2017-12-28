@@ -16,16 +16,23 @@
 
 /** Déclaration des conteneurs **/
 .wrapper { @include wrapper(); }
-#header,
+.wrapper-fluid { @include wrapper(); }
+#main {
+  @extend .wrapper;
+  @include cf();
+}
+#cover,
 #main,
 #footer
 {
-  @extend .wrapper;
+  @extend .wrapper-fluid;
   @include cf();
 }
 
 /** Déclaration des colonnes **/
 .column { @include column(); }
+#content,
+#aside,
 .header-title,
 .header-navigation,
 .navigation-link,
@@ -68,12 +75,6 @@
     &-icon { display: none; }
   }
 
-  /** Home **/
-  .home-section
-  {
-    @include column(3);
-  }
-
   /** Footer **/
   #footer > section {
     @include column(1, 3);
@@ -91,14 +92,19 @@
 /** Écrans laptop **/
 @media screen and (min-width: pixrem($device-laptop)) {
   /** Conteneurs **/
-  #main { @include wrapper(9); }
+  .wrapper { @include wrapper(9); }
+  #content { @include column(6); }
+  #aside {@include column(3); }
   /** Page exposants **/
   .page-exposants-content-span { @include column(1, 3); }
   .page-exposants-content { @include column(2, 3); }
   .exposants-list .exposant { @include column(1, 3); }
 }
 
-// Contenu principal
-.page-content { @extend .wrapper; }
+@media screen and (min-width: pixrem($device-desktop)) {
+  .wrapper { @include wrapper(12); }
+  #content { @include column(8); }
+  #aside {@include column(4); }
+}
 
 
