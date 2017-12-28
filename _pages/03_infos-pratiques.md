@@ -5,27 +5,12 @@ permalink: /visiteurs/
 layout: page
 ---
 
-- [Animations](#animations)
 - [Localisation](#localisation)
 - [Restauration](#restauration)
 - [Hébergement](#hébergement)
 
-
-
-## Tarifs
-**Entrée** : 5€ - *Gratuit pour les enfants de -15ans*
-**Parking** : Gratuit
-
 Un **service gratuit** est proposé pour **transporter vos végétaux** jusqu'à votre véhicule
 
-
-## Animations
-
-Tous les jours et durant toute la durée du Salon, de nombreuses activités vous sont proposé. Et il y en a pour tous les ages.
-
-{% for animation in site.animations %}
-  - **[{{ animation.title }}]({{ animation.url | absolute_url }})** {{animation.description}}
-{% endfor %}
 
 ## Localisation
 
@@ -34,8 +19,6 @@ Tous les jours et durant toute la durée du Salon, de nombreuses activités vous
 Un village au caractère bucolique qui invite aux promenades avec sa voie verte le long de l'Eure et que accueil l'un des plus beaux golfs de Normandie avec un parcours de 18 trous et dont le club-house est aménagé dans une grange dîmière du 18ème siècle.
 
 [Plan d'accès au salon rue des flots](https://goo.gl/maps/Lg9BNZqmVvM2)
-
-
 
 
 ## Restauration
