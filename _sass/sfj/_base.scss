@@ -209,7 +209,9 @@ nav ul {
   color: $color-light;
 
   // Edition infos
-  .hero-banner__edition {}
+  .hero-banner__edition {
+    font-size: $lead-font-size;
+  }
 
   // Dates
   .hero-banner__dates span {
