@@ -4,13 +4,37 @@
   {% include head.html %}
 
   <body>
+    <header id="large-cover">
+      <div class="large-cover__content">
+        <h2>23<sup>ème</sup> éditions</h2>
+        <img src="assets/images/logo-2-light.png" width="600" alt="">
+        <div class="date">
+          <span>27, 28 et 29 avril 2018</span>
+        </div>
+      </div>
 
+    </header>
     <main id="main" aria-label="Content">
-      {{ content }}
+      <div id="content" style="padding-top:3em;">
+        {{ content }}
+      </div>
+      <aside id="aside">
+        <section id="section-inscription" class="callout">
+          <h3>VOUS ÊTES EXPOSANT ?</h3>
+          <p>Il est encore temps pour proposer votre candidature et compter parmi nos exposants pour cette édition 2018.</p>
+          <a href="mailto:mailto:salonfleursetjardins@levaudreuil.fr?subject=[Fleurs et Jardins] - Proposition de candidature" class="button">Proposer ma candidature</a>
+        </section>
+
+        <section id="acces" class="callout">
+          <h3>UN ACCÈS FACILE</h3>
+          <p>Le village du Vaudreuil est situé  à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13 ; un village normand doté d’une voie verte exceptionnelle et d’un golf (18 trous)  au charme romantique et bien sûr sportif.</p>
+          <a href="https://www.google.com/maps/dir//49.2499755,1.1969795/@49.249976,1.196979,16z?hl=fr" class="button">Situer sur une carte</a>
+        </section>
+      </aside>
     </main>
 
     <footer id="footer">
-      Salon Fleurs &amp; Jardins © 2018
+      <p class="credits">Salon Fleurs &amp; Jardins © 2018</p>
     </footer>
 
   </body>
