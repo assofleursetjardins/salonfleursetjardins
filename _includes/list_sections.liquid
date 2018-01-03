@@ -3,16 +3,5 @@ Sélectionne les sections de la page courante
 {% endcomment %}
 
 {% assign size = page.id | size %}
-{% assign page_section_id = page.id | slice: 1, size | split: "/" | first %}
-
-{% capture subpages_ids_list %}
-{% for subpage in  site.pages %}
-  {% assign subpage_section_id = subpage.id | slice:1, size | split: "/" | first %}
-  {% if page_section_id == subpage_section_id and subpage.id != page.id %}
-    {{subpage.id}}|
-  {% endif %}
-{% endfor %}
-{% endcapture %}
-
-{% assign sections_ids = subpages_ids_list | strip | split: "|" %}
-{% assign sections = site.pages | where_exp: "section", "sections_ids contains section.id" %}
+{% assign page_section_id = page.id | slice: 1, size | split: "/" | first | append: "/" %}
+{% assign sections = site.pages | where_exp: "section", "section.id contains page_section_id" %}

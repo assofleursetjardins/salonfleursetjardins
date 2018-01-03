@@ -2,30 +2,53 @@
 layout: default
 ---
 
-<div class="home">
+<header id="cover">
+  <article>
+    {% for categorie in pages.categories %}
+    {{categorie.name}}<br>
+    {% endfor %}
+    <figure>
+      {{ content | split: '<!-- figure -->' | first }}
+    </figure>
 
-{% for categorie in pages.categories %}
-{{categorie.name}}<br>
-{% endfor %}
-<figure>
-  {{ content | split: '<!-- figure -->' | first }}
-</figure>
+    {{ content | split: '<!-- figure -->' | last }}
+  </article>
+</header>
 
-  {{ content | split: '<!-- figure -->' | last }}
+<main id="main" aria-label="Content">
+  <div id="content">
+    <article>
+      <h2>Les exposants</h2>
+      <h3>140 professionnels seront présents</h3>
+      <p>Parmis nos exposants vous retrouvrez des <a href="exposants/#">paysagistes</a>, ...</p>
+      <a href="exposants">Découvrez tous nos exposants</a>
+    </article>
 
-  {% include list_sections.liquid %}
+    <article>
+      <h2>Animations</h2>
+      <h3>Pour petits et grands</h3>
+      <p>
+        Tous les jours et durant toute la durée du Salon, de nombreuses activités
+        vous sont proposé. Et il y en a pour tous les ages.
+      </p>
 
-  {% comment %}
-    index[0] section.slug (si besoin)
-    index[1] section.content
-  {% endcomment %}
+      <ul>
+      {% for animation in site.animations %}
+        <li><strong>{{ animation.title }}</strong>{{animation.description}}</li>
+      {% endfor %}
+      </ul>
+    </article>
+  </div>
 
-  {% for section in sections %}
-  <section id="{{ section.id }}">
-    <h2>{{ section.title }}</h2>
-    <h3 class="subtitle">{{ section.subtitle }}</h3>
-    {{ section.content | markdownify }}
-  </section>
+  <aside id="aside">
+  {% for section in site.pages-sections %}
+    {% for p-section in page.sections %}
+    {% if section.id contains p-section %}
+    <section id="section-{{ section.title | slugify: latin }}">
+      {{ section.content | markdownify }}
+    </section>
+    {% endif %}
+    {% endfor %}
   {% endfor %}
-
-</div>
+  </aside>
+</main>

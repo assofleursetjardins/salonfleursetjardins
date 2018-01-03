@@ -1,14 +1,41 @@
-<footer class="site-footer">
-
-  <a class="back-to-top" href="#site-header">Revenir en haut de la page</a>
-
-  <ul class="footer-links">
-    <li>{{ site.title | escape }}</li>
-  </ul>
-
-  <ul class="footer-legals">
-    <li><a href="">Mentions légales</a></li>
-    <li><a href="mailto:{{site.email}}">Nous écrire</a></li>
-  </ul>
+<footer id="footer">
+  <section>
+    <h4>Navigation</h4>
+    <nav>
+      <ul>
+        <li><a class="back-to-top" href="#header">Revenir en haut de la page</a></li>
+        <li><a href="{{ "/" | relative_url }}">Page d'accueil</a></li>
+        {% comment %}
+        Sitemap
+        Les pages qui e possèdent pas de permaliens dont exclus,
+        cela permet notememnt de filter les sections
+        {% endcomment %}
+        {% for page in site.pages %}
+        {% if page.permalink %}
+        <li><a href="{{page.link}}">{{page.title}}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </section>
+  <section>
+    <h4>{{site.title | escape}}</h4>
+    <address>
+      Addresse
+    </address>
+    Contacts
+  </section>
+  <section>
+    <nav class="navigation-inline">
+      <ul class="footer-legals">
+        <li><a href="">Mentions légales</a></li>
+        <li><a href="mailto:{{site.email}}">Nous écrire</a></li>
+      </ul>
+    </nav>
+    <nav class="navigation navigation-mobile" id="navigation-mobile">
+      {% include navigation/links.html %}
+      <a href="#header" class="navigation-mobile-close">Revenir à la page</a>
+    </nav>
+  </section>
 
 </footer>

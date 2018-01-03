@@ -1,0 +1,194 @@
+/**
+ * Définition du style de base
+ */
+
+/** Élements typographiques **/
+body {
+  font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background: $background-color;
+}
+
+a:link { color: $link-color; }
+a:visited { color: $link-visited-color; }
+a:hover { color: $link-hover-color;}
+a:focus { color: $focus-color;}
+a:active { color: $active-color;}
+
+// Leading style
+.page-home > p:first-of-type,
+.page-exposants > p:first-of-type {
+  font: $lead-font-style #{pixem($lead-font-size)}/#{$lead-line-height} $lead-font-family;
+}
+
+
+
+/** Entêtes **/
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: $spacing-small;
+
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+}
+
+h1 {
+  font-size: pixem($xxlarge-font-size);
+}
+
+h2 {
+  font-size: pixem($xlarge-font-size);
+}
+
+h3 {
+  font-size: pixem($large-font-size);
+}
+
+h1 + h2,
+h2 + h3 {
+  margin-top: -$spacing-small;
+
+  font-family: $base-font-family;
+  font-size: pixem($base-font-size * 0.9); // Ajustement pour le uppercase
+  text-transform: uppercase;
+
+  color: $text-muted-color;
+
+  &::after {
+    display: block;
+    width: 5rem;
+    margin-top: 1em;
+
+    border-bottom: 3px solid $color-main;
+
+    content: "";
+  }
+}
+
+
+/** Espaces blancs **/
+p, ul, ol { margin-bottom: $spacing; }
+section { margin-bottom: $spacing * 2; }
+
+/** Medias **/
+figure { margin: 0; }
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/** Header **/
+.header {
+  &-title { margin-bottom: $spacing; }
+  &-navigation {
+    .navigation-link {
+      font-size: pixem($large-font-size);
+      small { font-size: pixem($xxsmall-font-size); }
+    }
+  }
+}
+
+/** Navigation **/
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navigation {
+  margin-top: $spacing;
+
+  &-inline ul li { display: inline; }
+  &-icon {
+    text-align: right;
+  }
+
+  &-links {
+    display: inline;
+
+    small {
+      display: block;
+    }
+  }
+
+  &-link {
+    display: block;
+    margin: 0 0 $spacing / 3 0;
+
+    text-align: center;
+    font-family: $heading-font-family;
+    font-size: pixem($xlarge-font-size);
+    line-height: 1.1em;
+    text-decoration: none;
+
+    &:link,
+    &:visited { color: $text-color; }
+
+    &:hover { color: $link-hover-color;}
+    &:focus { color: $focus-color;}
+    &:active { color: $active-color;}
+
+    small {
+      font-family: $base-font-family;
+      font-size: pixrem($small-font-size);
+      color: $text-muted-color !important;
+    }
+  }
+}
+
+.navigation-mobile {
+  // Mobile first
+  position: relative;
+  height: 100vh;
+  padding: $spacing-large 0;
+  // box-sizing: border-box;
+  overflow: hidden; // forcer l'espacement bas
+
+  // END Mobile first
+  &-close {
+    position: absolute;
+    font-size: pixem($small-font-size);
+    top: 1em;
+    right: 0;
+  }
+}
+
+/** Footer **/
+#footer {
+  font-size: $small-font-size;
+  color: $text-muted-color;
+
+  a, a:link, a:visited { color: $text-color; }
+  a:hover { color: $text-color-dark; }
+
+}
+
+/** Page Exposants **/
+.exposants-list ul {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: $spacing-small;
+
+    font-family: $base-font-family;
+    font-size: pixem($xsmall-font-size * 0.9); // Ajustement pour le uppercase
+    text-transform: uppercase;
+
+    color: $text-muted-color;
+
+    strong {
+      font-family: $heading-font-family;
+      font-weight: normal;
+      font-size: pixrem($base-font-size);
+      text-transform: none;
+
+      color: $text-color;
+    }
+
+  }
+}
+
+/** Liste d'animations **/
+.animations { @extend .exposants-list; }

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="page-{{page.title | slugify: latin}} {% unless page.sections %}fullwidth{% endunless %} ">
+
+    {{ content }}
+
+</article>
+
+{% if page.sections %}
+<aside>
+{% for section in site.pages-sections %}
+  {% for p-section in page.sections %}
+  {% if section.id contains p-section %}
+  <section id="section-{{ section.title | slugify: latin }}">
+    {{ section.content | markdownify }}
+  </section>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
+</aside>
+{% endif %}

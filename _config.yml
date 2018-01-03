@@ -25,7 +25,7 @@ relative_permalinks: false
 # twitter_username:
 # github_username:
 header_pages:
-  - _pages/01_index.md
+  - _pages/02_le-salon.md
   - _pages/02_exposants.md
   - _pages/03_infos-pratiques.md
 
@@ -49,6 +49,7 @@ collections:
   animations:
     output: true
     layout: page
+  pages-sections:
 
 defaults:
   - scope:

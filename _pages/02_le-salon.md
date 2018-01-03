@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Salon
-excerpt: À propos du salon
-permalink: /a-propos/
+title: Le salon
+path_description: À propos du salon
+permalink: /le-salon/
+sections: 
+ - localisation
 ---
 
 
