@@ -2,6 +2,11 @@
  * Définition du style de base
  */
 
+%callout {
+  padding: $gutter-width;
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
+}
+
 /** Élements typographiques **/
 body {
   font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
@@ -77,6 +82,11 @@ figure { margin: 0; }
 img {
   display: inline-block;
   max-width: 100%;
+}
+
+/** Buttons **/
+.button {
+	@include button($color-main);
 }
 
 /** Header **/
@@ -162,6 +172,10 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
+  .footer__credits {
+    text-align: center;
+  }
+
 }
 
 /** Page Exposants **/
@@ -192,3 +206,56 @@ nav ul {
 
 /** Liste d'animations **/
 .animations { @extend .exposants-list; }
+
+/** HOME **/
+.hero-banner {
+
+  padding: 10vh 0;
+  text-align: center;
+
+  background-image: linear-gradient( to bottom, rgba(0,0,0,.4), rgba(0,0,0,.6) ), url("images/visuel-2018.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+
+  box-shadow: 0 0 50px rgba($color-dark, .4);
+
+  color: $color-light;
+
+  // Edition infos
+  .hero-banner__edition {
+    font-size: $lead-font-size;
+  }
+
+  // Dates
+  .hero-banner__dates span {
+    display: inline-block;
+    margin-top: 1em;
+    padding: .5em 1em;
+    font-size: $lead-font-size;
+    background: $color-darkest
+  }
+}
+
+/** SECTIONS **/
+// Inscription callout
+#section-inscription {
+  @extend %callout;
+  //background: $color-main;
+  background: $color-adjacent-right;
+  color: $color-light;
+
+  h3 { color: inherit; }
+  h3:after { border-color: inherit; }
+
+  .button {
+    @include button($color-light);
+  }
+
+}
+
+// Localisation callout
+#section-localisation {
+  @extend %callout;
+}
+
