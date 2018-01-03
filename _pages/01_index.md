@@ -3,18 +3,12 @@ layout: landing
 title: Le salon
 path_description: À propos du salon
 permalink: /
-sections:
- - localisation
- - tarifs
 ---
 
-![Visuel 2018 Salon Fleurs & Jardin](assets/images/visuel-2018.jpg)
+# 23ème édition du salon
+## Plantes aquatiques à l'honneur
 
-<!-- figure -->
+**C’est toujours avec plaisir et passion que nous organisons cette nouvelle édition dont les dates coïncident avec le réveil de la nature : un renouveau qui réserve toujours émotion et surprise.**
 
-# Le Salon Fleurs & Jardins fête sa 22ème édition
-## Les 23, 24 et 25 avril 2017
-
-C’est avec une certaine fierté que nous sommes heureux de présenter aux visiteurs cette nouvelle Edition  du Salon Fleurs et Jardins du Vaudreuil qui n’ a cessé au cours des années de s’ agrandir  pour permettre la plus belle présentation de fleurs et de plantes sur un espace environnemental fabuleux de plus de 6 hectares.
-
-<a href="" class="button">Candidatez maintenant</a>
+Le Salon Fleurs et Jardins du Vaudreuil est fier d’être depuis des années le rendez-vous incontournable de la filière verte en Normandie : c’est la rencontre des meilleurs producteurs de cette filière avec tous les amoureux et passionnés des fleurs, des plantes et du jardin en général. Ce Salon avec près de 130 exposants venus des quatre coins de la France tient ses quartiers dans un cadre environnemental unique sur plus de six hectares, le long des berges de l’Eure. Un écrin de verdure à la mesure des milliers de plantes, d’espèces rares présentées pour le plaisir des yeux et des sens. Comment, en effet, résister aux couleurs, aux odeurs enivrantes présentes tout au long de larges allées qui permettent aux visiteurs la plus agréable des découvertes.
+Un Salon  qui s’adresse à tous les publics avec des animations pour les enfants liées avec la nature et qui comblera aussi bien le simple amateur que le spécialiste à la recherche des variétés les plus rares .
