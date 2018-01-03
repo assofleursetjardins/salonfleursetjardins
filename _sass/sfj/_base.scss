@@ -162,6 +162,10 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
+  .footer__credits {
+    text-align: center;
+  }
+
 }
 
 /** Page Exposants **/
