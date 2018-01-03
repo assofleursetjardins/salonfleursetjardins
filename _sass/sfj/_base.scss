@@ -2,6 +2,11 @@
  * Définition du style de base
  */
 
+%callout {
+  padding: $gutter-width;
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
+}
+
 /** Élements typographiques **/
 body {
   font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
@@ -77,6 +82,11 @@ figure { margin: 0; }
 img {
   display: inline-block;
   max-width: 100%;
+}
+
+/** Buttons **/
+.button {
+	@include button($color-main);
 }
 
 /** Header **/
@@ -226,3 +236,26 @@ nav ul {
     background: $color-darkest
   }
 }
+
+/** SECTIONS **/
+// Inscription callout
+#section-inscription {
+  @extend %callout;
+  //background: $color-main;
+  background: $color-adjacent-right;
+  color: $color-light;
+
+  h3 { color: inherit; }
+  h3:after { border-color: inherit; }
+
+  .button {
+    @include button($color-light);
+  }
+
+}
+
+// Localisation callout
+#section-localisation {
+  @extend %callout;
+}
+
