@@ -2,26 +2,28 @@
 layout: page
 ---
 
-<div class="page-exposants-content-span"></div>
-<div class="page-exposants-content">
-{{ content }}
-</div>
+<main id="main" aria-label="Content">
+  <div class="page-exposants-content-span"></div>
+  <div class="page-exposants-content">
+  {{ content }}
+  </div>
 
-<div class="exposants-list">
-{% for data in site.data.exposants %}
-<section class="exposant">
-  <h2>{{ data.categorie }}</h2>
-  <ul>
-    {% for exposant in data.exposants %}
-    <li>
-      {% if exposant.url %}
-      <a id="{{ data.categorie | slugify }}-{{exposant.name | slugify }}" href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
-      {% else %}
-      <strong id="{{ data.categorie | slugify }}-{{ exposant.name | slugify }}">{{exposant.name}}</strong> - {{exposant.description}}
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endfor %}
-</div>
+  <div class="exposants-list">
+  {% for data in site.data.exposants %}
+  <section class="exposant">
+    <h2>{{ data.categorie }}</h2>
+    <ul>
+      {% for exposant in data.exposants %}
+      <li>
+        {% if exposant.url %}
+        <a id="{{ data.categorie | slugify }}-{{exposant.name | slugify }}" href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
+        {% else %}
+        <strong id="{{ data.categorie | slugify }}-{{ exposant.name | slugify }}">{{exposant.name}}</strong> - {{exposant.description}}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  </div>
+</main>
