@@ -3,16 +3,11 @@ layout: blank
 ---
 
 <header id="cover">
-  <article>
-    {% for categorie in pages.categories %}
-    {{categorie.name}}<br>
-    {% endfor %}
-    <figure>
-      {{ content | split: '<!-- figure -->' | first }}
-    </figure>
-
-    {{ content | split: '<!-- figure -->' | last }}
-  </article>
+  <div class="hero-banner">
+    <p class="hero-banner__edition">23<sup>ème</sup> édition</p>
+    <img class="hero-banner__image" src="assets/images/logo-light.png" width="600" alt="">
+    <p class="hero-banner__dates"><span>27, 28 et 29 avril 2018</span></p>
+  </div>
 </header>
 
 <main id="main" aria-label="Content">

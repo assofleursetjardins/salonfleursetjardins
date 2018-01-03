@@ -192,3 +192,31 @@ nav ul {
 
 /** Liste d'animations **/
 .animations { @extend .exposants-list; }
+
+/** HOME **/
+.hero-banner {
+
+  padding: 10vh 0;
+  text-align: center;
+
+  background-image: linear-gradient( to bottom, rgba(0,0,0,.4), rgba(0,0,0,.6) ), url("images/visuel-2018.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+
+  box-shadow: 0 0 50px rgba($color-dark, .4);
+
+  color: $color-light;
+
+  // Edition infos
+  .hero-banner__edition {}
+
+  // Dates
+  .hero-banner__dates span {
+    display: inline-block;
+    margin-top: 1em;
+    padding: .5em 1em;
+    font-size: $lead-font-size;
+    background: $color-darkest
+  }
+}
