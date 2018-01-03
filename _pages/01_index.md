@@ -4,7 +4,7 @@ title: Le salon
 path_description: À propos du salon
 permalink: /
 sections:
- - localisation
+  - inscription
 ---
 
 # 23ème Édition du salon
