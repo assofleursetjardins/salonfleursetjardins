@@ -222,6 +222,12 @@ nav ul {
 
   color: $color-light;
 
+  // Logo
+  .hero-banner__image {
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
   // Edition infos
   .hero-banner__edition {
     font-size: $lead-font-size;
