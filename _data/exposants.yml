@@ -240,9 +240,6 @@
     - name: Riduet
       description: Bijoux semi-précieux, peinture sur verre autour du végétal
       url:
-
-- categorie: Mode en plein air
-  exposants:
     - name: Atelier Alaya
       description: Artisanat, café, thé, épices du Népal
       url:
@@ -366,9 +363,6 @@
     - name: Vaudreuil Folies
       description: Brocante
       url:
-
-- categorie: Associations
-  exposants:
     - name: A.R.P.J.H.N
       description: Promotion parcs et jardins
       url:
