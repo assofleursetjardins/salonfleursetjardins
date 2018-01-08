@@ -71,6 +71,23 @@ h2 + h3 {
   }
 }
 
+hr {
+  position: relative;
+  border:none;
+  margin: 3em auto;
+  height: 1px;
+  background: $color-main;
+}
+hr:before {
+  content:"\273D";
+  position: absolute;
+  display: block;
+  left: -1.15rem;
+  top:-1.15rem;
+  color: $color-main;
+  font-size: 3em;
+}
+
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
