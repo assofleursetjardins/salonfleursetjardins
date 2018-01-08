@@ -2,15 +2,23 @@
 layout: page
 ---
 
-<div class="page-exposants-content-span"></div>
-<div class="page-exposants-content">
 {{ content }}
-</div>
 
+<div class="exposants-index">
+    <ul>
+        {% for data in site.data.exposants %}
+          <li>
+            <a href="#{{ data.categorie | slugify }}">
+              {{ data.categorie }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+</div>
 <div class="exposants-list">
 {% for data in site.data.exposants %}
 <section class="exposant">
-  <h2>{{ data.categorie }}</h2>
+  <h2 id="{{ data.categorie | slugify }}">{{ data.categorie }}</h2>
   <ul>
     {% for exposant in data.exposants %}
     <li>
