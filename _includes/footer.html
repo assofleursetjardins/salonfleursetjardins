@@ -21,15 +21,15 @@
   <section>
     <h4>{{site.title | escape}}</h4>
     <address>
-      Addresse
+      {{site.adresse}}<br>
+      Tél. {{site.phone.contact}}
     </address>
-    Contacts
   </section>
   <section>
     <nav class="navigation-inline">
       <ul class="footer-legals">
         <li><a href="">Mentions légales</a></li>
-        <li><a href="mailto:{{site.email}}">Nous écrire</a></li>
+        <li><a href="mailto:{{site.emails.contact}}">Nous écrire</a></li>
       </ul>
     </nav>
     <nav class="navigation navigation-mobile" id="navigation-mobile">

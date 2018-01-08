@@ -2,6 +2,10 @@
  * Définition du style de base
  */
 
+%callout {
+  padding: $gutter-width;
+}
+
 /** Élements typographiques **/
 body {
   margin: 0;
@@ -67,6 +71,23 @@ h2 + h3 {
   }
 }
 
+hr {
+  position: relative;
+  border:none;
+  margin: 3em auto;
+  height: 1px;
+  background: $color-main;
+}
+hr:before {
+  content:"\273D";
+  position: absolute;
+  display: block;
+  left: -1.125rem;
+  top:-1.125rem;
+  color: $color-main;
+  font-size: 3em;
+}
+
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
@@ -80,19 +101,9 @@ img {
   max-width: 100%;
 }
 
-/** Boutons **/
+/** Buttons **/
 .button {
-  display: inline-block;
-  border:4px solid $color-main;
-  padding: $spacing-small;
-
-  color: $color-main !important;
-  text-decoration: none;
-  letter-spacing: 1px;
-  &:hover {
-    background: $color-main;
-    color: $color-light !important;
-  }
+	@include button($color-main);
 }
 
 /** Header **/
@@ -289,6 +300,12 @@ nav ul {
 
   color: $color-light;
 
+  // Logo
+  .hero-banner__image {
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
   // Edition infos
   .hero-banner__edition {
     font-size: $lead-font-size;
@@ -302,4 +319,32 @@ nav ul {
     font-size: $lead-font-size;
     background: $color-darkest
   }
+}
+
+/** SECTIONS **/
+#section-tarifs,
+#section-localisation,
+#section-inscription {
+  @extend %callout;
+}
+
+// Inscription callout
+#section-inscription {
+  //background: $color-main;
+  background: $color-adjacent-right;
+
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
+  color: $color-light;
+
+  h3 { color: inherit; }
+  h3:after { border-color: inherit; }
+
+  .button {
+    @include button($color-light);
+  }
+
+}
+
+#section-localisation {
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
 }

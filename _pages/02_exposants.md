@@ -3,6 +3,10 @@ title: Exposants
 path_description: Nos 140 exposants
 permalink: /exposants/
 layout: exposants
+sections:
+ - inscription
+ - infos
+ - localisation
 ---
 
 # Exposants
