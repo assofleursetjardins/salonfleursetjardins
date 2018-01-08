@@ -5,6 +5,7 @@ path_description: À propos du salon
 permalink: /le-salon/
 sections: 
  - localisation
+ - tarifs
 ---
 
 
