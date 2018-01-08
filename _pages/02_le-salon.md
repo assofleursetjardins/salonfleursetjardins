@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Le salon
-path_description: À propos du salon
+path_description: Programme & Animations
 permalink: /le-salon/
 sections: 
  - localisation
