@@ -4,7 +4,6 @@
 
 %callout {
   padding: $gutter-width;
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
 }
 
 /** Élements typographiques **/
@@ -82,8 +81,8 @@ hr:before {
   content:"\273D";
   position: absolute;
   display: block;
-  left: -1.15rem;
-  top:-1.15rem;
+  left: -1.125rem;
+  top:-1.125rem;
   color: $color-main;
   font-size: 3em;
 }
@@ -261,11 +260,18 @@ nav ul {
 }
 
 /** SECTIONS **/
-// Inscription callout
+#section-tarifs,
+#section-localisation,
 #section-inscription {
   @extend %callout;
+}
+
+// Inscription callout
+#section-inscription {
   //background: $color-main;
   background: $color-adjacent-right;
+
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
   color: $color-light;
 
   h3 { color: inherit; }
@@ -277,8 +283,6 @@ nav ul {
 
 }
 
-// Localisation callout
 #section-localisation {
-  @extend %callout;
+  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
 }
-
