@@ -1,22 +1,28 @@
 ---
 layout: default
 ---
-<article class="page-{{page.title | slugify: latin}} {% unless page.sections %}fullwidth{% endunless %} ">
+<main id="main" aria-label="Content">
+  <div id="content">
 
-    {{ content }}
+    <article class="page-{{page.title | slugify: latin}} {% unless page.sections %}fullwidth{% endunless %} ">
 
-</article>
+        {{ content }}
 
-{% if page.sections %}
-<aside>
-{% for section in site.pages-sections %}
-  {% for p-section in page.sections %}
-  {% if section.id contains p-section %}
-  <section id="section-{{ section.title | slugify: latin }}">
-    {{ section.content | markdownify }}
-  </section>
-  {% endif %}
+    </article>
+  </div>
+  
+  {% if page.sections %}
+  <aside id="aside">
+  {% for section in site.pages-sections %}
+    {% for p-section in page.sections %}
+    {% if section.id contains p-section %}
+    <section id="section-{{ section.title | slugify: latin }}">
+      {{ section.content | markdownify }}
+    </section>
+    {% endif %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
-</aside>
-{% endif %}
+  </aside>
+  {% endif %}
+
+</main>
