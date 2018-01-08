@@ -14,7 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Salon Fleurs & Jardins
-email: raphael+afej@@befreez.fr
+emails:
+  contact: salonfleursetjardins@levaudreuil.fr
+  presse: marc-alvarez@bbox.fr
+phone:
+  contact: 02 32 61 27 85
+  presse: 02 32 59 14 48
+adresse: Rue des Flots – 27100 Le Vaudreuil (Eure)
+
 description: > # this means to ignore newlines until "baseurl:"
     Le Salon Fleurs et Jardins organisé en plein air sur un site environnemental exceptionnel,
     les bords de l'Eure, est le rendez-vous printanier des amoureux des fleurs et des plantes.
