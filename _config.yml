@@ -41,6 +41,7 @@ footer_pages:
   - _pages/01_index.md
   - _pages/04_medias.md
   - _pages/03_infos-pratiques.md
+  - _pages/05_mentions-legales.md
 
 # Build settings
 markdown: kramdown
