@@ -75,7 +75,7 @@ hr {
   border:none;
   margin: 3em auto;
   height: 1px;
-  background: $color-main;
+  background: $color-muted-light;
 }
 hr:before {
   content:"\273D";
@@ -83,7 +83,7 @@ hr:before {
   display: block;
   left: -1.125rem;
   top:-1.125rem;
-  color: $color-main;
+  color: $color-muted-light;
   font-size: 3em;
 }
 
