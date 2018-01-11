@@ -7,11 +7,9 @@ sections:
   - inscription
 ---
 
-# 23ème Édition du salon
-## Plantes aquatiques à l'honneur
+# Le salon Fleurs & Jardins du Vaudreuil fête cette année sa 23ème édition
+## Les plantes aquatiques sont à l'honneur
 
-**C’est toujours avec plaisir et passion que nous organisons cette nouvelle édition dont les dates coïncident avec le réveil de la nature : un renouveau qui réserve toujours émotion et surprise.**
+Ce Salon dont les dates coïncident avec le réveil de la nature permettra aux visiteurs, dont la fidélité ne se dément pas, de rencontrer au Vaudreuil plus d'une centaine d'exposants dans un cadre environnemental unique sur plus de six hectares. Un écrin de verdure à la mesure des milliers de plantes, de fleurs aux variétés les plus diverses, présentées par des horticulteurs, pépiniéristes qui sont avant tout des passionnés issus d’une filière verte exigeante et compétente  au service d’un jardinage réussi. Des professionnels à l’écoute qui vous étonneront également par le remarquable rapport qualité-prix de leur production.
 
-Le Salon Fleurs et Jardins du Vaudreuil est fier d’être depuis des années le rendez-vous incontournable de la filière verte en Normandie : c’est la rencontre des meilleurs producteurs de cette filière avec tous les amoureux et passionnés des fleurs, des plantes et du jardin en général. Ce Salon avec près de 130 exposants venus des quatre coins de la France tient ses quartiers dans un cadre environnemental unique sur plus de six hectares, le long des berges de l’Eure. Un écrin de verdure à la mesure des milliers de plantes, d’espèces rares présentées pour le plaisir des yeux et des sens. Comment, en effet, résister aux couleurs, aux odeurs enivrantes présentes tout au long de larges allées qui permettent aux visiteurs la plus agréable des découvertes.
-
-Un Salon  qui s’adresse à tous les publics avec des animations pour les enfants liées avec la nature et qui comblera aussi bien le simple amateur que le spécialiste à la recherche des variétés les plus rares.
+Un Salon qui s’adresse à tous les publics et qui comblera aussi bien le simple amateur que le spécialiste à la recherche d’espèces rares. Le Salon du Vaudreuil aussi une occasion unique de rencontrer des paysagistes qui vous aideront à réaliser vos rêves pour un jardin personnalisé et correspondant à votre budget. Du véritable sur mesure !
