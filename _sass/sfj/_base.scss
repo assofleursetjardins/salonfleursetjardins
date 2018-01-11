@@ -271,7 +271,6 @@ nav ul {
   //background: $color-main;
   background: $color-main;
 
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
   color: $color-light;
 
   h3 { color: inherit; }
@@ -284,7 +283,7 @@ nav ul {
 }
 
 #section-localisation {
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
+  border: pixrem(5px) solid $color-muted-light;
 }
 
 #site-logo #et {
