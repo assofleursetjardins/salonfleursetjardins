@@ -16,7 +16,7 @@ layout: page
 
 Le village du Vaudreuil est situé à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13.
 
-![Golf du Vaudreuil (27)](http://www.moulin-de-connelles.fr/wp-content/uploads/2013/05/golf-vaudreuil.jpg)
+![Village Le Vaudreuil](/assets/medias/notre-village.jpg)
 
 **Depuis Paris** : Autoroute de Normandie A13 sortie 19, puis suivre fléchage Salon Fleurs et Jardins
 
