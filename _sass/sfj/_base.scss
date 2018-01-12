@@ -288,6 +288,7 @@ nav ul {
   .button {
     width: 100%;
     padding: 1em;
+    margin: 0;
     @include button-theme($color-light, $color-adjacent-right);
   }
 
