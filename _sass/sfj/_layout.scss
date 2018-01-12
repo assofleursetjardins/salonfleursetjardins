@@ -48,6 +48,10 @@
 .header-title { @include column(3, 4); }
 .navigation-icon { @include column(1, 4); }
 
+.site-header {
+  display: flex;
+  align-items: center;
+}
 // Affichage de la navigation mobile, masuqerla navigation standard
 .navigation {
   display: none;
