@@ -1,10 +1,10 @@
 <footer id="footer">
+  
   <section>
     <h4>Navigation</h4>
     <nav>
       <ul>
         <li><a class="back-to-top" href="#header">Revenir en haut de la page</a></li>
-        <li><a href="{{ "/" | relative_url }}">Page d'accueil</a></li>
         {% comment %}
         Sitemap
         Les pages qui e possèdent pas de permaliens dont exclus,
@@ -18,24 +18,29 @@
       </ul>
     </nav>
   </section>
+
   <section>
     <h4>{{site.title | escape}}</h4>
     <address>
       {{site.adresse}}<br>
-      Tél. {{site.phone.contact}}
+      <a href="tel:{{site.phone.contact}}">Tél. {{site.phone.contact}}</a>
     </address>
+    <a href="mailto:{{site.emails.contact}}">Nous écrire</a>
   </section>
+
   <section>
-    <nav class="navigation-inline">
-      <ul class="footer-legals">
-        <li><a href="">Mentions légales</a></li>
-        <li><a href="mailto:{{site.emails.contact}}">Nous écrire</a></li>
-      </ul>
-    </nav>
+    <h4>Avec l'aimable soutien de</h4>
+    <a href=""><img src="/assets/images/logo-le-vaudreuil.jpg" alt=""></a>
+    <a href=""><img src="/assets/images/logo-seine-eure.jpg" alt=""></a>
+    <a href=""><img src="/assets/images/logo-francebleu-normandie.jpg" alt=""></a>
     <nav class="navigation navigation-mobile" id="navigation-mobile">
       {% include navigation/links.html %}
       <a href="#header" class="navigation-mobile-close">Revenir à la page</a>
     </nav>
   </section>
+
+  <p class="credits">
+    {{site.title}} © {{ site.time | date: '%Y' }}
+  </p>
 
 </footer>

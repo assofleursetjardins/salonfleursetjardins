@@ -188,7 +188,8 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
-  .footer__credits {
+  .credits {
+    clear: both;
     text-align: center;
   }
 
@@ -289,3 +290,12 @@ nav ul {
 #site-logo #et {
   fill: $color-main;
 }
+
+#footer {
+  img {
+    max-width: pixrem(80px);
+    margin: 1em;
+    filter: grayscale(1);
+  }
+}
+
