@@ -53,7 +53,7 @@ $xxlarge-line-height  : 1.2em !default;
 
 // Définition des couleurs
 
-$color-main           : #95C92C !default;
+$color-main           : #76B201 !default;
 $color-main-light     : #95C92C !default;
 $color-main-lightest  : #95C92C !default;
 
@@ -62,7 +62,7 @@ $color-dark           : #262623 !default;
 $color-light          : rgb(255, 255, 255) !default;
 
 $color-adjacent-left  : #4CB6C2 !default;
-$color-adjacent-right : #7FC7BD !default;
+$color-adjacent-right : #c54e5f !default;
 
 $color-muted          : #545450 !default;
 $color-muted-light    : #A1ACAD !default;
@@ -174,14 +174,15 @@ $gutter-width     : 24px;
 }
 
 // Buttons
-@mixin button-bg($bg) {
-  background: $bg;
+@mixin button-theme($background: $color-main, $color: $color-light) {
+  background: $background;
+  color: $color !important;
   &:hover {
-    background:darken($bg,8%);
+    background:darken($background,8%);
     transition: all 0.3s ease;
   }
   &:active {
-    background:darken($bg,25%);
+    background:darken($background,25%);
   } 
 }
 

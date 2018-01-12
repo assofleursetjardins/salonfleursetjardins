@@ -110,7 +110,7 @@ img {
   color:white !important;
   text-decoration:none;
   font-size:1.2em;
-  @include button-bg($color-main);
+  @include button-theme($color-main, $color-light);
  }
 
 /** Header **/
@@ -278,7 +278,7 @@ nav ul {
 // Inscription callout
 #section-inscription {
   //background: $color-main;
-  background: $color-main;
+  background: $color-adjacent-right;
 
   color: $color-light;
 
@@ -288,8 +288,7 @@ nav ul {
   .button {
     width: 100%;
     padding: 1em;
-    color: $color-main !important;
-    @include button-bg($color-light);
+    @include button-theme($color-light, $color-adjacent-right);
   }
 
 }
