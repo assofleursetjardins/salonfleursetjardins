@@ -12,7 +12,7 @@
         {% endcomment %}
         {% for page in site.pages %}
         {% if page.permalink %}
-        <li><a href="{{page.link}}">{{page.title}}</a></li>
+        <li><a href="{{page.permalink}}">{{page.title}}</a></li>
         {% endif %}
         {% endfor %}
       </ul>
