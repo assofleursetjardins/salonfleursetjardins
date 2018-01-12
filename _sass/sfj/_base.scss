@@ -102,8 +102,16 @@ img {
 
 /** Buttons **/
 .button {
-	@include button($color-main);
-}
+  display: inline-block;
+  padding:.5em 1em;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  color:white !important;
+  text-decoration:none;
+  font-size:1.2em;
+  @include button-bg($color-main);
+ }
 
 /** Header **/
 .header {
@@ -278,7 +286,10 @@ nav ul {
   h3:after { border-color: inherit; }
 
   .button {
-    @include button($color-light);
+    width: 100%;
+    padding: 1em;
+    color: $color-main !important;
+    @include button-bg($color-light);
   }
 
 }
