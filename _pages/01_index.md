@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Le salon
+title: Accueil
 path_description: À propos du salon
 permalink: /
 sections:
