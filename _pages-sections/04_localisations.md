@@ -7,7 +7,8 @@ title: Localisation
 
 Le village du Vaudreuil est situé à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13 ; un village normand doté d’un superbe golf de 18 trous.
 
-<a href="https://goo.gl/maps/Lg9BNZqmVvM2" class="button">Plan d'accès au salon rue des flots</a>
+<a href="/infos-pratiques/#comment-venir-au-vaudreuil-eure" class="button">Comment se rendre au salon</a>
+<a href="https://goo.gl/maps/Lg9BNZqmVvM2" class="button">Obtenir un itinéraire</a>
 
 <!--
 [Plan d'accès au salon rue des flots](https://goo.gl/maps/Lg9BNZqmVvM2)
