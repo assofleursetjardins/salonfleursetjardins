@@ -5,6 +5,7 @@ permalink: /infos-pratiques/
 layout: page
 ---
 
+# Info pratiques
 - [Comment venir au Vaudreuil](#localisation)
 - [Se restaurer](#restauration-sur-place)
 - [Se loger](#hébergement-à-proximité)
