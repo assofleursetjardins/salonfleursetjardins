@@ -100,6 +100,21 @@ img {
   max-width: 100%;
 }
 
+/** Icones **/
+.icon {
+  display: inline-block;
+  width: 2.4em;
+  height: 2.4em;
+  stroke-width: 0;
+  stroke: $color-dark;
+  fill: $color-dark;
+
+  &:hover {
+    stroke: $color-main;
+    fill: $color-main;
+  }
+}
+
 /** Buttons **/
 .button {
   display: inline-block;
@@ -168,6 +183,14 @@ nav ul {
       font-size: pixrem($small-font-size);
       color: $text-muted-color !important;
     }
+  }
+}
+
+.social-links {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
   }
 }
 

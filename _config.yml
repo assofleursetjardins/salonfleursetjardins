@@ -35,8 +35,11 @@ relative_permalinks: false
 # Google Analytics tracking code
 google_analytics: UA-112422626-1
 
+# Social network
+facebook_username: levaudreuil.fr
 # twitter_username:
 # github_username:
+
 header_pages:
   - _pages/02_le-salon.md
   - _pages/02_exposants.md
