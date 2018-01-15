@@ -11,8 +11,18 @@ layout: default
     </article>
   </div>
 
-  {% if page.sections %}
   <aside id="aside">
+  {% if page.anchors %}
+    <section class="sub-navigation">
+      <h4>Navigation</h4>
+      <ul>
+      {% for anchor in page.anchors %}
+        <li>{{ anchor | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+      {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+  {% if page.sections %}
   {% for section in site.pages-sections %}
     {% for p-section in page.sections %}
     {% if section.id contains p-section %}
@@ -22,7 +32,7 @@ layout: default
     {% endif %}
     {% endfor %}
   {% endfor %}
-  </aside>
   {% endif %}
+  </aside>
 
 </main>
