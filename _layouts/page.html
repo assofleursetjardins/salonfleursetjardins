@@ -4,7 +4,7 @@ layout: default
 <main id="main" aria-label="Content">
   <div id="content">
 
-    <article class="page-{{page.title | slugify: latin}} {% unless page.sections %}fullwidth{% endunless %} ">
+    <article class="article-{{page.title | slugify: latin}} {% unless page.sections %}fullwidth{% endunless %} ">
 
         {{ content }}
 

@@ -76,7 +76,7 @@ hr {
   border:none;
   margin: 3em auto;
   height: 1px;
-  background: $color-main;
+  background: $color-muted-light;
 }
 hr:before {
   content:"\273D";
@@ -84,7 +84,7 @@ hr:before {
   display: block;
   left: -1.125rem;
   top:-1.125rem;
-  color: $color-main;
+  color: $color-muted-light;
   font-size: 3em;
 }
 
@@ -101,10 +101,33 @@ img {
   max-width: 100%;
 }
 
+/** Icones **/
+.icon {
+  display: inline-block;
+  width: 2.4em;
+  height: 2.4em;
+  stroke-width: 0;
+  stroke: $color-dark;
+  fill: $color-dark;
+
+  &:hover {
+    stroke: $color-main;
+    fill: $color-main;
+  }
+}
+
 /** Buttons **/
 .button {
-	@include button($color-main);
-}
+  display: inline-block;
+  padding:.5em 1em;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  color:white !important;
+  text-decoration:none;
+  font-size:1.2em;
+  @include button-theme($color-main, $color-light);
+ }
 
 /** Header **/
 .header {
@@ -164,6 +187,14 @@ nav ul {
   }
 }
 
+.social-links {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+  }
+}
+
 .navigation-mobile {
   // Mobile first
   position: relative;
@@ -220,7 +251,8 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
-  .footer__credits {
+  .credits {
+    clear: both;
     text-align: center;
   }
 
@@ -333,18 +365,33 @@ nav ul {
   //background: $color-main;
   background: $color-adjacent-right;
 
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
   color: $color-light;
 
   h3 { color: inherit; }
   h3:after { border-color: inherit; }
 
   .button {
-    @include button($color-light);
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    @include button-theme($color-light, $color-adjacent-right);
   }
 
 }
 
 #section-localisation {
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
+  border: pixrem(5px) solid $color-muted-light;
 }
+
+#site-logo #et {
+  fill: $color-main;
+}
+
+#footer {
+  img {
+    max-width: pixrem(80px);
+    margin: 1em;
+    filter: grayscale(1);
+  }
+}
+

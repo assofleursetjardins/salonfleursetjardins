@@ -1,12 +1,12 @@
 ---
-layout: blank
+layout: default
 ---
 
 <header id="cover">
   <div class="hero-banner">
-    <p class="hero-banner__edition">23<sup>ème</sup> édition</p>
+    <p class="hero-banner__edition">{{site.edition}}<sup>ème</sup> édition</p>
     <img class="hero-banner__image" src="assets/images/logo-light.png" width="600" alt="">
-    <p class="hero-banner__dates"><span>27, 28 et 29 avril 2018</span></p>
+    <p class="hero-banner__dates"><span>{{site.date}}</span></p>
   </div>
 </header>
 
@@ -15,13 +15,25 @@ layout: blank
 
     {{content}}
 
-    <!-- ELEMENTS MASQUÉS TEMPORAIREMENT
+    <hr>
+    
+    <article>
+      <h2>Le programme</h2>
+      <h3>Riche en découvertes</h3>
+      <p>Actualités, animations, ateliers, interventions... Retrouvez le programme jour par jour...</p>
+      <a class="button" href="/le-salon/#le-programme">Découvrir</a>
+    </article>
+
+    <hr>
+    
     <article>
       <h2>Les exposants</h2>
       <h3>140 professionnels seront présents</h3>
-      <p>Parmis nos exposants vous retrouvrez des <a href="exposants/#">paysagistes</a>, ...</p>
-      <a href="exposants">Découvrez tous nos exposants</a>
+      <p>Tous animés par la même passion des plantes et de l’art du jardin. Retrouvez tout ceux qui seront présents pendant ces 3 journées. Parmis nos exposants vous retrouvrez des <a href="exposants/#">paysagistes</a>, ...</p>
+      <a class="button" href="/exposants">Découvrez tous nos exposants</a>
     </article>
+
+    <hr>
 
     <article>
       <h2>Animations</h2>
@@ -30,14 +42,9 @@ layout: blank
         Tous les jours et durant toute la durée du Salon, de nombreuses activités
         vous sont proposé. Et il y en a pour tous les ages.
       </p>
-
-      <ul>
-      {% for animation in site.animations %}
-        <li><strong>{{ animation.title }}</strong>{{animation.description}}</li>
-      {% endfor %}
-      </ul>
+      <a class="button" href="/le-salon/#les-animations">Voir les animations</a>
     </article>
-    -->
+    
   </div>
 
   <aside id="aside">

@@ -1,10 +1,10 @@
 <footer id="footer">
+  
   <section>
     <h4>Navigation</h4>
     <nav>
       <ul>
         <li><a class="back-to-top" href="#header">Revenir en haut de la page</a></li>
-        <li><a href="{{ "/" | relative_url }}">Page d'accueil</a></li>
         {% comment %}
         Sitemap
         Les pages qui e possèdent pas de permaliens dont exclus,
@@ -12,30 +12,47 @@
         {% endcomment %}
         {% for page in site.pages %}
         {% if page.permalink %}
-        <li><a href="{{page.link}}">{{page.title}}</a></li>
+        <li><a href="{{page.permalink}}">{{page.title}}</a></li>
         {% endif %}
         {% endfor %}
       </ul>
     </nav>
   </section>
+
   <section>
     <h4>{{site.title | escape}}</h4>
     <address>
       {{site.adresse}}<br>
-      Tél. {{site.phone.contact}}
+      <a href="tel:{{site.phone.contact}}">Tél. {{site.phone.contact}}</a>
     </address>
+    <a href="mailto:{{site.emails.contact}}">Nous écrire</a>
+
+    <h4>Retrouvez-nous également sur</h4>
+    <ul class="social-links">
+      {% if site.facebook_username %}
+      <li><a href="https://www.facebook.com/{{site.facebook_username}}">
+        <svg class="icon" aria-labelledby="simpleicons-facebook-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <title id="simpleicons-facebook-icon">Facebook icon</title>
+          <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/>
+        </svg>
+      </a></li>
+      {% endif %}
+    </ul>
   </section>
+
   <section>
-    <nav class="navigation-inline">
-      <ul class="footer-legals">
-        <li><a href="">Mentions légales</a></li>
-        <li><a href="mailto:{{site.emails.contact}}">Nous écrire</a></li>
-      </ul>
-    </nav>
+    <h4>Avec l'aimable soutien de</h4>
+    <a href=""><img src="/assets/images/logo-le-vaudreuil.jpg" alt=""></a>
+    <a href=""><img src="/assets/images/logo-seine-eure.jpg" alt=""></a>
+    <a href=""><img src="/assets/images/logo-francebleu-normandie.jpg" alt=""></a>
     <nav class="navigation navigation-mobile" id="navigation-mobile">
       {% include navigation/links.html %}
       <a href="#header" class="navigation-mobile-close">Revenir à la page</a>
     </nav>
   </section>
+
+  <p class="credits">
+    {{site.title}} © {{ site.time | date: '%Y' }}
+  </p>
 
 </footer>

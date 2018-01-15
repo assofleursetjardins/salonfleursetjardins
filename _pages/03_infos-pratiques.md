@@ -5,6 +5,7 @@ permalink: /infos-pratiques/
 layout: page
 ---
 
+# Info pratiques
 - [Comment venir au Vaudreuil](#localisation)
 - [Se restaurer](#restauration-sur-place)
 - [Se loger](#hébergement-à-proximité)
@@ -15,7 +16,7 @@ layout: page
 
 Le village du Vaudreuil est situé à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13.
 
-![Golf du Vaudreuil (27)](http://www.moulin-de-connelles.fr/wp-content/uploads/2013/05/golf-vaudreuil.jpg)
+![Village Le Vaudreuil](/assets/medias/notre-village.jpg)
 
 **Depuis Paris** : Autoroute de Normandie A13 sortie 19, puis suivre fléchage Salon Fleurs et Jardins
 
@@ -38,7 +39,7 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 ### Si vous êtes plutot amateur de bonnes tables, nous vous proposons quelques restaurants proximités
 
 - Restaurant le Boujou - Le Vaudreuil : 02 32 59 02 90
-- Restaurant du Golf : 02 32 50 51 51
+- Restaurant du Golf : 02 32 50 51 51 [Voir le plan](https://www.google.fr/maps/place/Restaurant+du+Golf+du+Vaudreuil/@49.2599562,1.2204614,17z/data=!3m1!4b1!4m5!3m4!1s0x47e125f39882ce57:0xd7b570c814e287f1!8m2!3d49.2599562!4d1.2226501)
 - Restaurant La Cascade Insolite : 02 32 25 97 41
 
 ---
@@ -79,8 +80,7 @@ Tél. 02 32 59 85 55
 ### Si vous séjournez plusieurs jours au Vaudreuil voici quelques lieux incontournables
 - Voie verte le long de l'Eure
 - Golf du Vaudreuil (18 trous)
-- Forêt de Bord
-- Base de loisirs de Léry-Poses
-- Serre Zoologique
-- Biotropica
+- Forêt domaniale de Bord
+- [Base de loisirs de Léry-Poses](http://www.lery-poses.fr/)
+- [Serre Zoologique Biotropica](http://www.biotropica.fr/)
 - Parcours découverte des pâtures

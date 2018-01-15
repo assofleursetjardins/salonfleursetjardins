@@ -9,30 +9,38 @@ sections:
 ---
 
 
-## Le Salon Fleurs & Jardins fête sa 22ème édition
+# À propos du salon Fleurs&nbsp;&&nbsp;Jardins du Vaudreuil
 
-C’est avec une certaine fierté que nous sommes heureux de présenter aux visiteurs cette nouvelle Edition  du Salon Fleurs et Jardins du Vaudreuil qui n’ a cessé au cours des années de s’ agrandir  pour permettre la plus belle présentation de fleurs et de plantes sur un espace environnemental fabuleux de plus de 6 hectares. Un Salon qui accueille près de 140 exposants avec les meilleurs spécialistes de la filière verte. Des exposants renommés, venus de toute la France, qui font le succès de ce Salon haut-normand qui chaque année est un rendez-vous incontournable au printemps pour tous les amoureux des fleurs et des plantes du simple néophyte au collectionneur à la recherche des espèces les plus délicates et rares. 
+C’est avec une certaine fierté que nous sommes heureux de présenter aux visiteurs cette nouvelle édition du Salon Fleurs et Jardins du Vaudreuil qui n’a cessé au cours des années de s’agrandir pour permettre la plus belle présentation de fleurs et de plantes sur un espace environnemental fabuleux de plus de 6 hectares. Un Salon qui accueille chaque année [plus d'une centaine d'exposants](/exposants) avec les meilleurs spécialistes de la filière verte. Des exposants renommés, venus de toute la France, qui font le succès de ce salon haut-normand qui est devenu un rendez-vous incontournable au printemps pour tous les amoureux des fleurs et des plantes du simple néophyte au collectionneur à la recherche des espèces les plus délicates et rares. 
 
-Ce Salon ambitionne chaque année de proposer au public les dernières créations des producteurs présents avec le plus large éventail de fleurs et de plantes. On y découvre notamment des variétés infinies de fleurs exotiques, fleurs pour parterre, plantes aromatiques, plantes méditerranéennes,  fleurs miniatures  avec bien évidemment la présentation des arbres et arbustes d’ornement, palmiers, arbres fruitiers et une exposition également d’espèces lointaines (asiatiques ou sud-américaines) qui s’adaptent très bien au climat normand.
+![Vue du salon dans un espace environnemental exceptionnel](/assets/medias/vue-du-salon.jpg)
 
+Ce Salon ambitionne, à chaqu'une de ses éditions, de proposer au public les dernières créations des producteurs présents avec le plus large éventail de fleurs et de plantes. On y découvre notamment des variétés infinies de fleurs exotiques, fleurs pour parterre, plantes aromatiques, plantes méditerranéennes, fleurs miniatures  avec bien évidemment la présentation des arbres et arbustes d’ornement, palmiers, arbres fruitiers et une exposition également d’espèces lointaines (asiatiques ou sud-américaines) qui s’adaptent très bien au climat normand.
 
-## Des plantes et des fleurs bonnes pour le moral
+![Vue du salon et de ses allées](/assets/medias/vue-du-salon-3.jpg)
 
-Diverses études démontrent en effet l’apport psychologique des fleurs et des plantes, tant à la maison que sur le lieu de travail. La présence de zones vertes dans les bureaux réduit le stress et favorise les relations au sein des équipes. En définitif, reconstituer un environnement végétal dans sa maison ou sur son lieu de travail contribue à notre équilibre.
+En venant au Salon du Vaudreuil vous découvrirez un espace environnemental exceptionnel. Tout est mis en œuvre pour le confort du visiteur. De larges allées où il fait bon déambuler permettent de découvrir des centaines d’espèces des plus simples aux espèces les plus étonnantes, à la beauté rare et enchanteresse. Un Salon où l’on peut prendre son temps et choisir  ses «coups de cœur » en toute sérénité. C’est un magnifique parterre de fleurs et de plantes qui s’exposent : rosiers grimpants, rosiers arbustifs, rosiers lianes, rosiers anciens, rosiers tiges ou encore buissons, variétés exceptionnels et rares d’hortensias, d’orchidées, de dahlias,  de fuchsias, de tulipes ou encore de rhododendrons.
 
+---
 
-## Une situation géographique idéale
+## Le programme
+Retrouver les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisée.
 
-Le village du Vaudreuil est situé  à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13 ; un village normand doté d’un superbe golf de 18 trous.
+### Vendredi 27
+- 14h : Ouverture du Salon
+- 19h : Fermeture
 
+### Samedi 28
+- 10h : Ouverture du salon
+- 10h15 : Inauguration par les officiels
+- 19h : Fermeture
 
-## Les chefs étoilés de l'univers des fleurs et des plantes
+### Dimanche 29
+- 10h : Ouverture du salon
+- ... : ...
+- 18h : Fermeture
 
-Les producteurs présents au Salon : horticulteurs, pépiniéristes, paysagistes sont de véritables artistes, des passionnés. Ce sont les chefs étoilés d’une filière verte créatrice respectueuse de la nature. Tout est fait pour le plaisir de nos yeux émerveillés devant ce spectacle de la nature qui respire bonheur et amour. Des artistes qui vous aideront également pour optimiser vos choix selon vos envies et votre budget. Des professionnels à l’écoute qui vous conseillerons pour un jardinage facile et écologique et vous aiderons à avoir la main verte.
+---
 
-Le Salon Fleurs et Jardins du Vaudreuil permet encore aux visiteurs de découvrir  les dernières nouveautés dans le domaine de l’outillage de jardin avec des démonstrations gratuites en compagnie de professionnels réputés.
-
-
-## Un espace nature unique de plus de six hectares
-
-En venant au Salon du Vaudreuil vous découvrirez un espace environnemental exceptionnel. Tout est mis en œuvre pour le confort du visiteur. De larges allées où il fait bon déambuler permettent de découvrir des centaines d’espèces des plus simples aux espèces les plus étonnantes, à la beauté rare et enchanteresse. Un Salon où l’on peut prendre son temps et choisir  ses «coups de cœur » en toute sérénité.  Sur un espace rural de plus de six hectares c’est un magnifique parterre de fleurs et de plantes qui s’exposent : rosiers grimpants, rosiers arbustifs, rosiers lianes, rosiers anciens, rosiers tiges ou encore buissons, variétés exceptionnels et rares d’hortensias, d’orchidées, de dahlias,  de fuchsias, de tulipes ou encore de rhododendrons.
+## Les animations
+Tout au long de ces trois journées, différentes animations sont organisées pour les petits et les grands.
