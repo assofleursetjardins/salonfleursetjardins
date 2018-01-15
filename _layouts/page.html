@@ -17,7 +17,7 @@ layout: default
       <h4>Navigation</h4>
       <ul>
       {% for anchor in page.anchors %}
-        <li>{{ anchor | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+        <li>{{ anchor | markdownify | remove: "<p>" | remove: "</p>" }}</li>
       {% endfor %}
       </ul>
     </section>
