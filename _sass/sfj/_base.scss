@@ -259,26 +259,52 @@ nav ul {
 }
 
 /** Page Exposants **/
-.exposants-list ul {
-  list-style: none;
-  padding-left: 0;
+.exposants-list, .exposants-index{
+  margin-bottom: 1.5em;
 
-  li {
-    margin-bottom: $spacing-small;
+  ul {
+    list-style: none;
+    padding-left: 0;
 
-    font-family: $base-font-family;
-    font-size: pixem($xsmall-font-size * 0.9); // Ajustement pour le uppercase
-    text-transform: uppercase;
+    li {
+      margin-bottom: $spacing-small;
 
-    color: $text-muted-color;
+      font-family: $base-font-family;
+      font-size: pixem($xsmall-font-size); // Ajustement pour le uppercase
+      text-transform: uppercase;
 
-    strong {
-      font-family: $heading-font-family;
-      font-weight: normal;
-      font-size: pixrem($base-font-size);
-      text-transform: none;
+      color: $text-muted-color;
 
-      color: $text-color;
+      strong {
+        font-family: $heading-font-family;
+        font-weight: normal;
+        font-size: pixrem($large-font-size * 0.9);
+        text-transform: none;
+
+        color: $text-color;
+      }
+    }
+  }
+
+  // Test rapide d'une variant d'affichage en ligne
+  &-inline {
+    @extend .exposants-list !optional;
+
+    .exposant {
+      // Desactivation forcé des colonnes
+      display: inline-block !important;
+      width: auto !important;
+      float: none !important;
+      padding: 0 !important;
+      margin-bottom: 1.5em;
+    }
+
+    ul, p , li { display: inline; }
+
+    li {
+      display: inline;
+      &::after { content: " — "; }
+      &:last-of-type::after { content: ""; }
     }
 
   }

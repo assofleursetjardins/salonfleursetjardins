@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-<div class="exposants-index">
+<div class="exposants-index-inline">
     <ul>
         {% for data in site.data.exposants %}
           <li>
@@ -15,7 +15,8 @@ layout: page
         {% endfor %}
       </ul>
 </div>
-<div class="exposants-list">
+
+<div class="exposants-list-inline">
 {% for data in site.data.exposants %}
 <section class="exposant">
   <h2 id="{{ data.categorie | slugify }}">{{ data.categorie }}</h2>
@@ -23,9 +24,11 @@ layout: page
     {% for exposant in data.exposants %}
     <li>
       {% if exposant.url %}
-      <a id="{{ data.categorie | slugify }}-{{exposant.name | slugify }}" href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a> - {{exposant.description}}
+      <a id="{{ data.categorie | slugify }}-{{exposant.name | slugify }}" href="{{exposant.url}}"><strong>{{exposant.name}}</strong></a>
+      {{exposant.description}}
       {% else %}
-      <strong id="{{ data.categorie | slugify }}-{{ exposant.name | slugify }}">{{exposant.name}}</strong> - {{exposant.description}}
+      <strong id="{{ data.categorie | slugify }}-{{ exposant.name | slugify }}">{{exposant.name}}</strong>
+      {{exposant.description}}
       {% endif %}
     </li>
     {% endfor %}
