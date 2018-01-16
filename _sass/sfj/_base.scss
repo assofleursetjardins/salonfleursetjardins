@@ -179,14 +179,15 @@ nav ul {
     line-height: 1.1em;
     text-decoration: none;
     background-color: rgba($color-light, .6);
-    border: pixrem(5px) solid transparent;
+    border: pixrem(2px) solid transparent;
+    transition: all 200ms ease;
 
     &:link,
     &:visited { color: $text-color; }
 
     &:hover { 
-      background-color: rgba($color-light, .9);
-      border: pixrem(5px) solid $color-muted-light;
+      background-color: rgba($color-light, 1);
+      border-color: $color-muted-light;
     }
     &:focus { color: $focus-color;}
     &:active { color: $active-color;}
@@ -258,7 +259,12 @@ nav ul {
 
 /** Aside **/
 #aside {
-  padding-top: 8vw;
+  margin-top: 8vw;
+}
+.page-accueil {
+  #aside {
+    margin-top: -5vw;
+  }
 }
 
 /** Footer **/
@@ -314,7 +320,17 @@ nav ul {
       width: auto !important;
       float: none !important;
       padding: 0 !important;
+      margin-top: 1.5em;
       margin-bottom: 1.5em;
+
+      h2:before {
+        content: '';
+        display: block;
+        width: pixrem(55px);
+        height: pixrem(2px);
+        margin-bottom: 1em;
+        background-color: $color-muted-light;
+      }
     }
 
     ul, p , li { display: inline; }
