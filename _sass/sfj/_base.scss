@@ -16,7 +16,7 @@ body {
   background-image: url("images/body-bg-2.png");
   background-position: top right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: 35%, 20%;
 }
 
@@ -255,6 +255,12 @@ nav ul {
     }
   }
 }
+
+/** Aside **/
+#aside {
+  padding-top: 8vw;
+}
+
 /** Footer **/
 #footer {
   font-size: $small-font-size;
