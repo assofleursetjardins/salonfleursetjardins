@@ -339,11 +339,6 @@ nav ul {
     }
   }
 
-  /** Écrans laptop **/
-  @media screen and (min-width: pixrem($device-laptop)) {
-
-    margin-top: -5em;
-  }
 }
 
 /** Liste d'animations **/
