@@ -15,7 +15,7 @@ C’est avec une certaine fierté que nous sommes heureux de présenter aux visi
 
 ![Vue du salon dans un espace environnemental exceptionnel](/assets/medias/vue-du-salon.jpg)
 
-Ce Salon ambitionne, à chaqu'une de ses éditions, de proposer au public les dernières créations des producteurs présents avec le plus large éventail de fleurs et de plantes. On y découvre notamment des variétés infinies de fleurs exotiques, fleurs pour parterre, plantes aromatiques, plantes méditerranéennes, fleurs miniatures  avec bien évidemment la présentation des arbres et arbustes d’ornement, palmiers, arbres fruitiers et une exposition également d’espèces lointaines (asiatiques ou sud-américaines) qui s’adaptent très bien au climat normand.
+Ce Salon ambitionne, à chaque édition, de proposer au public les dernières créations des producteurs présents avec le plus large éventail de fleurs et de plantes. On y découvre notamment des variétés infinies de fleurs exotiques, fleurs pour parterre, plantes aromatiques, plantes méditerranéennes, fleurs miniatures  avec bien évidemment la présentation des arbres et arbustes d’ornement, palmiers, arbres fruitiers et une exposition également d’espèces lointaines (asiatiques ou sud-américaines) qui s’adaptent très bien au climat normand.
 
 ![Vue du salon et de ses allées](/assets/medias/vue-du-salon-3.jpg)
 
@@ -24,7 +24,7 @@ En venant au Salon du Vaudreuil vous découvrirez un espace environnemental exce
 ---
 
 ## Le programme
-Retrouver les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisée.
+Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisée.
 
 ### Vendredi 27
 - 14h : Ouverture du Salon
