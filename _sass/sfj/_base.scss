@@ -12,6 +12,12 @@ body {
   padding: 0;
   font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
   color: $text-color;
+  background: $background-color;
+  background-image: url("images/body-bg-2.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 35%, 20%;
 }
 
 a:link { color: $link-color; }
