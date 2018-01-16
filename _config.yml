@@ -14,7 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Salon Fleurs & Jardins
-email: raphael+afej@@befreez.fr
+edition: 23
+date: 27, 28 et 29 avril 2018
+emails:
+  contact: salonfleursetjardins@levaudreuil.fr
+  presse: marc-alvarez@bbox.fr
+phone:
+  contact: 02 32 61 27 85
+  presse: 02 32 59 14 48
+adresse: Rue des Flots – 27100 Le Vaudreuil (27)
+
 description: > # this means to ignore newlines until "baseurl:"
     Le Salon Fleurs et Jardins organisé en plein air sur un site environnemental exceptionnel,
     les bords de l'Eure, est le rendez-vous printanier des amoureux des fleurs et des plantes.
@@ -22,8 +31,15 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 relative_permalinks: false
+
+# Google Analytics tracking code
+google_analytics: UA-112422626-1
+
+# Social network
+facebook_username: levaudreuil.fr
 # twitter_username:
 # github_username:
+
 header_pages:
   - _pages/02_le-salon.md
   - _pages/02_exposants.md
@@ -34,6 +50,7 @@ footer_pages:
   - _pages/01_index.md
   - _pages/04_medias.md
   - _pages/03_infos-pratiques.md
+  - _pages/05_mentions-legales.md
 
 # Build settings
 markdown: kramdown

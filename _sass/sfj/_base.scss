@@ -4,14 +4,20 @@
 
 %callout {
   padding: $gutter-width;
-  box-shadow: 0 0 pixrem($base-font-size) rgba($color-dark, .1);
 }
 
 /** Élements typographiques **/
 body {
+  margin: 0;
+  padding: 0;
   font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background: $background-color;
+  background-image: url("images/body-bg-2.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 35%, 20%;
 }
 
 a:link { color: $link-color; }
@@ -71,6 +77,23 @@ h2 + h3 {
   }
 }
 
+hr {
+  position: relative;
+  border:none;
+  margin: 3em auto;
+  height: 1px;
+  background: $color-muted-light;
+}
+hr:before {
+  content:"\273D";
+  position: absolute;
+  display: block;
+  left: -1.125rem;
+  top:-1.125rem;
+  color: $color-muted-light;
+  font-size: 3em;
+}
+
 
 /** Espaces blancs **/
 p, ul, ol { margin-bottom: $spacing; }
@@ -84,10 +107,33 @@ img {
   max-width: 100%;
 }
 
+/** Icones **/
+.icon {
+  display: inline-block;
+  width: 2.4em;
+  height: 2.4em;
+  stroke-width: 0;
+  stroke: $color-dark;
+  fill: $color-dark;
+
+  &:hover {
+    stroke: $color-main;
+    fill: $color-main;
+  }
+}
+
 /** Buttons **/
 .button {
-	@include button($color-main);
-}
+  display: inline-block;
+  padding:.5em 1em;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  color:white !important;
+  text-decoration:none;
+  font-size:1.2em;
+  @include button-theme($color-main, $color-light);
+ }
 
 /** Header **/
 .header {
@@ -125,17 +171,24 @@ nav ul {
   &-link {
     display: block;
     margin: 0 0 $spacing / 3 0;
+    padding: .5em;
 
     text-align: center;
     font-family: $heading-font-family;
     font-size: pixem($xlarge-font-size);
     line-height: 1.1em;
     text-decoration: none;
+    background-color: rgba($color-light, .6);
+    border: pixrem(2px) solid transparent;
+    transition: all 200ms ease;
 
     &:link,
     &:visited { color: $text-color; }
 
-    &:hover { color: $link-hover-color;}
+    &:hover { 
+      background-color: rgba($color-light, 1);
+      border-color: $color-muted-light;
+    }
     &:focus { color: $focus-color;}
     &:active { color: $active-color;}
 
@@ -144,6 +197,14 @@ nav ul {
       font-size: pixrem($small-font-size);
       color: $text-muted-color !important;
     }
+  }
+}
+
+.social-links {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
   }
 }
 
@@ -163,6 +224,48 @@ nav ul {
     right: 0;
   }
 }
+#large-cover {
+
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.8)),  url(images/visuel-2018.jpg);
+  background-size: cover;
+  background-position:top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  box-shadow: 0 -10px 20px $color-dark inset;
+
+  color: $color-light;
+
+  .large-cover__content {
+    @extend .wrapper-fluid;
+    @include cf();
+    text-align: center;
+  }
+  .date {
+    margin-top:2em;
+   text-align: center;
+    span {
+      padding: .5em;
+      font-size: 2em;
+      background: $color-darkest;
+      display: inline-block;
+    }
+  }
+}
+
+/** Aside **/
+#aside {
+  margin-top: 8vw;
+}
+.page-accueil {
+  #aside {
+    margin-top: -5vw;
+  }
+}
 
 /** Footer **/
 #footer {
@@ -172,36 +275,97 @@ nav ul {
   a, a:link, a:visited { color: $text-color; }
   a:hover { color: $text-color-dark; }
 
-  .footer__credits {
+  .credits {
+    clear: both;
     text-align: center;
   }
 
 }
 
 /** Page Exposants **/
-.exposants-list ul {
-  list-style: none;
-  padding-left: 0;
+.exposants-list, .exposants-index{
+  margin-bottom: 1.5em;
 
-  li {
-    margin-bottom: $spacing-small;
+  ul {
+    list-style: none;
+    padding-left: 0;
 
-    font-family: $base-font-family;
-    font-size: pixem($xsmall-font-size * 0.9); // Ajustement pour le uppercase
-    text-transform: uppercase;
+    li {
+      margin-bottom: $spacing-small;
 
-    color: $text-muted-color;
+      font-family: $base-font-family;
+      font-size: pixem($xsmall-font-size); // Ajustement pour le uppercase
+      text-transform: uppercase;
 
-    strong {
-      font-family: $heading-font-family;
-      font-weight: normal;
-      font-size: pixrem($base-font-size);
-      text-transform: none;
+      color: $text-muted-color;
 
-      color: $text-color;
+      strong {
+        font-family: $heading-font-family;
+        font-weight: normal;
+        font-size: pixrem($large-font-size * 0.9);
+        text-transform: none;
+
+        color: $text-color;
+      }
+    }
+  }
+
+  // Test rapide d'une variant d'affichage en ligne
+  &-inline {
+    @extend .exposants-list !optional;
+
+    .exposant {
+      // Desactivation forcé des colonnes
+      display: inline-block !important;
+      width: auto !important;
+      float: none !important;
+      padding: 0 !important;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+
+      h2:before {
+        content: '';
+        display: block;
+        width: pixrem(55px);
+        height: pixrem(2px);
+        margin-bottom: 1em;
+        background-color: $color-muted-light;
+      }
+    }
+
+    ul, p , li { display: inline; }
+
+    li {
+      display: inline;
+      &::after { content: " — "; }
+      &:last-of-type::after { content: ""; }
     }
 
   }
+}
+
+.callout {
+  padding: 2em;
+  box-shadow: 0 0 40px  rgba(0,0,0,.1);
+  color: $color-muted ;
+}
+
+#section-inscription {
+  background-color: $color-main;
+  box-sizing: border-box;
+  color: $color-light;
+
+  .button {
+
+    color: $color-light !important;
+    border-color: $color-light;
+    text-decoration: none;
+    letter-spacing: 1px;
+    &:hover {
+      background: $color-light;
+    }
+  }
+
 }
 
 /** Liste d'animations **/
@@ -244,24 +408,44 @@ nav ul {
 }
 
 /** SECTIONS **/
-// Inscription callout
+#section-tarifs,
+#section-localisation,
 #section-inscription {
   @extend %callout;
+}
+
+// Inscription callout
+#section-inscription {
   //background: $color-main;
   background: $color-adjacent-right;
+
   color: $color-light;
 
   h3 { color: inherit; }
   h3:after { border-color: inherit; }
 
   .button {
-    @include button($color-light);
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    @include button-theme($color-light, $color-adjacent-right);
   }
 
 }
 
-// Localisation callout
 #section-localisation {
-  @extend %callout;
+  border: pixrem(5px) solid $color-muted-light;
+}
+
+#site-logo #et {
+  fill: $color-main;
+}
+
+#footer {
+  img {
+    max-width: pixrem(80px);
+    margin: 1em;
+    filter: grayscale(1);
+  }
 }
 

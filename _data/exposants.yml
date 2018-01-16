@@ -21,9 +21,6 @@
     - name: Gomond
       description: Plantes à massif
       url:
-    - name: Le Carrefour de la Fleur
-      description: Fuchsias, pivoines, bambous
-      url:
     - name: Lemire
       description: Plantes à massif
       url:
@@ -38,9 +35,6 @@
   exposants:
     - name: Alexandre Rambert
       description: Arbustes à fleurs
-      url:
-    - name: Arbore et Sens
-      description: Arbres et vivaces
       url:
     - name: Baudu Bruno
       description: Vivaces, graminées, aromatiques
@@ -119,9 +113,6 @@
       url:
     - name: Catty Fleurs
       description: Plantes et bulbes vivaces gros litrage
-      url:
-    - name: Chez Maryse au Jardin des Vivaces
-      description: Vivaces
       url:
     - name: Eden Carnivore
       description: Producteur de plantes carnivores
@@ -240,9 +231,6 @@
     - name: Riduet
       description: Bijoux semi-précieux, peinture sur verre autour du végétal
       url:
-
-- categorie: Mode en plein air
-  exposants:
     - name: Atelier Alaya
       description: Artisanat, café, thé, épices du Népal
       url:
@@ -366,9 +354,6 @@
     - name: Vaudreuil Folies
       description: Brocante
       url:
-
-- categorie: Associations
-  exposants:
     - name: A.R.P.J.H.N
       description: Promotion parcs et jardins
       url:
