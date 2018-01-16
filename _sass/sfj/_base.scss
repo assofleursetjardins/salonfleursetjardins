@@ -171,17 +171,23 @@ nav ul {
   &-link {
     display: block;
     margin: 0 0 $spacing / 3 0;
+    padding: .5em;
 
     text-align: center;
     font-family: $heading-font-family;
     font-size: pixem($xlarge-font-size);
     line-height: 1.1em;
     text-decoration: none;
+    background-color: rgba($color-light, .6);
+    border: pixrem(5px) solid transparent;
 
     &:link,
     &:visited { color: $text-color; }
 
-    &:hover { color: $link-hover-color;}
+    &:hover { 
+      background-color: rgba($color-light, .9);
+      border: pixrem(5px) solid $color-muted-light;
+    }
     &:focus { color: $focus-color;}
     &:active { color: $active-color;}
 
