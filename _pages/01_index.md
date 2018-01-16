@@ -5,6 +5,7 @@ path_description: À propos du salon
 permalink: /
 sections:
   - inscription
+  - localisation
 ---
 
 # Le salon Fleurs & Jardins du Vaudreuil fête cette année sa 23ème édition
