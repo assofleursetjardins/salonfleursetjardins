@@ -12,9 +12,9 @@ anchors:
 
 # Informations pratiques
 
-[rapide résumé de la page ici (± 140 signes)]
+Vous exposez ou vous visitez le salon Fleurs & Jardins ? Retrouvez ci-dessous toutes les informations pour passer un agréable séjour dans notre beau village du Vaudreuil.
 
-## Comment venir au Vaudreuil (Eure)
+## Comment venir au Vaudreuil(27)
 ### Une situation géographique idéale
 
 Le village du Vaudreuil est situé à moins de 100 kilomètres de la région parisienne, à 20km de Rouen ou encore 120km de Caen par l’autoroute A13.
