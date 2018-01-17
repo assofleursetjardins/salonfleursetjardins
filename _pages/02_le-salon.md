@@ -37,18 +37,14 @@ Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un t
 
 ### Dimanche 29
 - 10h : Ouverture du salon
-- ... : ...
 - 18h : Fermeture
 
 ---
 
 ## Les animations
 Tout au long de ces trois journées, différentes animations sont organisées pour les petits et les grands.
-- **Atelier de l'Apiculteur** Présentation & Sensibilisation au monde des abeilles.
 - **Atelier de la Ligue pour la Protection des Oiseaux** Présentation de plusieurs espèces & Sensibilisation.
-- **Atelier des 4 Couleurs** Façonner des fleurs en poterie.
-- **Atelier sur les Hôtels à Insectesg** Façonner son Hôtel à insectes Particulier.
 - **Conservatoire d'Espaces Naturels** Présentation & Jeux “La Ruée vers le Nord !” “Exploration de la nature vue du ciel !”
 - **Ecurie de la Voie Blanche** Promenade à poneys pour enfants.
 - **Ferme Gröning** Ferme d'archéologie expérimentale de races anciennes.
-- **Les Poteries de Fredy** Création d'un objet en poterie sur le tour de potier.
+
