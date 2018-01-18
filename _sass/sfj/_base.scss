@@ -15,11 +15,10 @@ body {
 }
 body:not(.page-accueil) {
   background: $background-color;
-  background-image: url("images/body-bg-2.png");
+  background-image: url("images/body-bg-2.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 35%, 20%;
 }
 
 a:link { color: $link-color; }
@@ -261,6 +260,8 @@ nav ul {
 
 /** Aside **/
 #aside {
+  position: relative;
+  z-index: 1;
   margin-top: 8vw;
 }
 .page-accueil {
