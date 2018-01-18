@@ -131,10 +131,14 @@ img {
   margin-bottom: 1rem;
   box-sizing: border-box;
   text-align: center;
-  color:white !important;
+  color: white;
   text-decoration:none;
   font-size:1.2em;
   @include button-theme($color-main, $color-light);
+
+  &:hover {
+    color: $color-muted-lightest;
+  }
  }
 
 /** Header **/
@@ -197,7 +201,7 @@ nav ul {
     small {
       font-family: $base-font-family;
       font-size: pixrem($small-font-size);
-      color: $text-muted-color !important;
+      color: $text-muted-color;
     }
   }
 }
@@ -302,12 +306,13 @@ nav ul {
     }
   }
 
-  // Test rapide d'une variant d'affichage en ligne
+  // Test rapide d'une variante d'affichage en ligne
   &-inline {
     @extend .exposants-list !optional;
 
     .exposant {
       // Desactivation forcé des colonnes
+      // Les "!important" sont à virer une fois cette vairante validée
       display: inline-block !important;
       width: auto !important;
       float: none !important;
@@ -349,7 +354,7 @@ nav ul {
 
   .button {
 
-    color: $color-light !important;
+    color: $color-light;
     border-color: $color-light;
     text-decoration: none;
     letter-spacing: 1px;
@@ -422,7 +427,6 @@ nav ul {
     margin: 0;
     @include button-theme($color-light, $color-adjacent-right);
   }
-
 }
 
 #section-localisation {
@@ -441,3 +445,31 @@ nav ul {
   }
 }
 
+/** Cookie Banner **/
+.cookie-banner {
+  padding: 1em 1.8em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 998;
+  max-width: $column-width * 4;
+  font-size: $small-font-size;
+  color: white;
+  background-color: $color-muted-dark;
+
+  p a {
+    color: white;
+  }
+
+  &-close {
+    @extend .button;
+    display: block;
+    &:link,
+    &:hover,
+    &:visited {
+      color: $color-muted-dark;
+      font-size: $small-font-size;
+      font-weight: bold;
+    }
+  }
+}

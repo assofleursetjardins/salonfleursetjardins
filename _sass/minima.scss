@@ -176,14 +176,14 @@ $gutter-width     : 24px;
 // Buttons
 @mixin button-theme($background: $color-main, $color: $color-light) {
   background: $background;
-  color: $color !important;
+  color: $color;
   &:hover {
     background:darken($background,8%);
     transition: all 0.3s ease;
   }
   &:active {
     background:darken($background,25%);
-  } 
+  }
 }
 
 // Importation des portions
