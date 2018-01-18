@@ -187,7 +187,7 @@ nav ul {
     &:link,
     &:visited { color: $text-color; }
 
-    &:hover { 
+    &:hover {
       background-color: rgba($color-light, 1);
       border-color: $color-muted-light;
     }
@@ -256,16 +256,6 @@ nav ul {
       background: $color-darkest;
       display: inline-block;
     }
-  }
-}
-
-/** Aside **/
-#aside {
-  margin-top: 8vw;
-}
-.page-accueil {
-  #aside {
-    margin-top: -5vw;
   }
 }
 

@@ -104,6 +104,11 @@
   .page-exposants-content-span { @include column(1, 3); }
   .page-exposants-content { @include column(2, 3); }
   .exposants-list .exposant { @include column(1, 2); }
+  /** Aside **/
+  #aside { margin-top: 8vw; }
+  .page-accueil {
+    #aside { margin-top: -5vw; }
+  }
 }
 
 @media screen and (min-width: pixrem($device-desktop)) {
