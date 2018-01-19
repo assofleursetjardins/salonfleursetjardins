@@ -125,13 +125,13 @@ img {
 }
 
 /** Buttons **/
-.button {
+.button,
+a.button {
   display: inline-block;
   padding:.5em 1em;
   margin-bottom: 1rem;
   box-sizing: border-box;
   text-align: center;
-  color: white;
   text-decoration:none;
   font-size:1.2em;
   @include button-theme($color-main, $color-light);
