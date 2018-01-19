@@ -449,7 +449,7 @@ nav ul {
 .cookie-banner {
   padding: 1em 1.8em;
   position: fixed;
-  top: 0;
+  bottom: 0;
   right: 0;
   z-index: 998;
   max-width: $column-width * 4;
