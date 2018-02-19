@@ -17,4 +17,5 @@ Pensant trois jours, **plus de 150 professionnels à la compétence reconnue** p
 ## Support de com'
 
 #### Affiches
-- Format PDF - [télécharger](/assets/medias/affiche-2018.pdf)
+- Format PDF - [Télécharger](/assets/medias/affiche-2018.pdf)
+- Format JPG - [Télécharger](/assets/medias/affiche-2018.jpg)
