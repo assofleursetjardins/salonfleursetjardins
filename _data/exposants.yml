@@ -9,9 +9,6 @@
     - name: La Passion du Jardin
       description: Créateur de jardins et plantes rares
       url:
-    - name: Les Jardins d’Agapanthe
-      description: Architecte paysagiste
-      url: http://www.jardin-agapanthe.fr
 
 - categorie: Horticulteurs
   exposants:
