@@ -8,8 +8,7 @@ sections:
   - localisation
 ---
 
-# Le salon Fleurs & Jardins du Vaudreuil fête cette année sa 23ème édition
-## Les plantes aquatiques sont à l'honneur
+# Le Salon Fleurs & Jardins du Vaudreuil fête cette année sa 23ème édition
 
 Ce Salon dont les dates coïncident avec le réveil de la nature permettra aux visiteurs, dont la fidélité ne se dément pas, de rencontrer au Vaudreuil plus d'une centaine d'exposants dans un cadre environnemental unique sur plus de six hectares. Un écrin de verdure à la mesure des milliers de plantes, de fleurs aux variétés les plus diverses, présentées par des horticulteurs, pépiniéristes qui sont avant tout des passionnés issus d’une filière verte exigeante et compétente  au service d’un jardinage réussi. Des professionnels à l’écoute qui vous étonneront également par le remarquable rapport qualité-prix de leur production.
 
