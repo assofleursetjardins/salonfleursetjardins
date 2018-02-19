@@ -46,5 +46,5 @@ Tout au long de ces trois journées, différentes animations sont organisées po
 - **Atelier de la Ligue pour la Protection des Oiseaux** Présentation de plusieurs espèces & Sensibilisation.
 - **Conservatoire d'Espaces Naturels** Présentation & Jeux “La Ruée vers le Nord !” “Exploration de la nature vue du ciel !”
 - **[Ecurie de la Voie Blanche](http://www.ecurie-voie-blanche.fr/)** Promenade à poneys pour enfants.
-- **Ferme Gröning** Ferme d'archéologie expérimentale de races anciennes.
+- **[Ferme Gröning](http://crffm-normandie.wixsite.com/ferme-groning)** Ferme d'archéologie expérimentale de races anciennes.
 
