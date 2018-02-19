@@ -4,7 +4,7 @@ title: tarifs
 
 ## Tarifs
 
-**Entrée** : 5€ / jour puis 2,50€ dès le deuxième jour.  
+**Entrée** : 5€ / jour puis 2,50€ dès la seconde visite.  
 *Gratuit pour les -15ans*.
 
 **Parking** : Gratuit
