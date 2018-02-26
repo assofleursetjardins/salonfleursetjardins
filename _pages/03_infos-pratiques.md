@@ -27,7 +27,7 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 
 **En train** : gare de Val de Reuil (ligne Paris - Rouen - Le Havre)
 
-<a class="button dark" href="https://goo.gl/maps/Lg9BNZqmVvM2">Plan d'accès au salon rue des flots</a>
+<a class="button dark" href="https://drive.google.com/open?id=1lCHaxuIUMqc4R2-BXxu6MCGdJ5cntAgn&usp=sharing" target="_blank">Plan d'accès au salon rue des flots</a>
 
 ---
 
