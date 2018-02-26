@@ -4,7 +4,7 @@ path_description: Restauration, hébergements, ...
 permalink: /infos-pratiques/
 layout: page
 anchors: 
- - "[Comment venir au Vaudreuil](#comment-venir-au-vaudreuil-eure)"
+ - "[Comment venir au Vaudreuil](#comment-venir-au-vaudreuil27)"
  - "[Se restaurer](#restauration-sur-place)"
  - "[Se loger](#hébergement-à-proximité)"
  - "[Loisirs autours du Vaudreuil](#loisirs-autour-du-vaudreuil)"
