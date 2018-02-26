@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-<div class="exposants-index-inline">
+<div class="exposants-index exposants-index-inline">
     <ul>
         {% for data in site.data.exposants %}
           <li>
@@ -16,7 +16,7 @@ layout: page
       </ul>
 </div>
 
-<div class="exposants-list-inline">
+<div class="exposants-list exposants-list-inline">
 {% for data in site.data.exposants %}
 <section class="exposant">
   <h2 id="{{ data.categorie | slugify }}">{{ data.categorie }}</h2>

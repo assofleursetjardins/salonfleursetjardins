@@ -41,7 +41,6 @@
 .home-section,
 .page-exposants-content-span,
 .page-exposants-content,
-.exposants-list .exposant,
 #footer section { @extend .column; }
 
 /** Mobile first **/
@@ -103,7 +102,6 @@
   /** Page exposants **/
   .page-exposants-content-span { @include column(1, 3); }
   .page-exposants-content { @include column(2, 3); }
-  .exposants-list .exposant { @include column(1, 2); }
   /** Aside **/
   #aside { margin-top: 8vw; }
   .page-accueil {
