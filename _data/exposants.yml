@@ -9,9 +9,6 @@
     - name: La Passion du Jardin
       description: Créateur de jardins et plantes rares
       url:
-    - name: Les Jardins d’Agapanthe
-      description: Architecte paysagiste
-      url: http://www.jardin-agapanthe.fr
 
 - categorie: Horticulteurs
   exposants:
@@ -24,13 +21,7 @@
     - name: Lemire
       description: Plantes à massif
       url:
-    - name: Mordret
-      description: Géraniums, aromatiques
-      url:
-    - name: Roulé
-      description: Hibiscus, rosa sinensis, pentas lanceolata
-      url:
-
+    
 - categorie: Pepinieristes
   exposants:
     - name: Alexandre Rambert
@@ -53,9 +44,6 @@
       url:
     - name: Le Clos Normand
       description: Erables japonais, azalées, arbustes
-      url:
-    - name: Les Jardins de Grenelle
-      description: Vivaces, graminées annuelles
       url:
     - name: Les Jardins du Vaudinet
       description: Producteur hémérocalles
@@ -123,14 +111,8 @@
     - name: Jardin Jardine
       description: Plants potagers
       url:
-    - name: Kia Ora Jardin
-      description: Fleuriste
-      url:
     - name: Le Jardin de Jean
       description: Hosta, astroemeria
-      url:
-    - name: Le Jardin de Léonie
-      description: Producteur de plantes aquatiques et de berge
       url:
     - name: Le Jardin de Louna
       description: Plantes style exotique résistantes au froid et plantes rares
@@ -147,7 +129,7 @@
 
 - categorie: Motoculteurs, outils & accessoires
   exposants:
-    - name: ontour Jardin
+    - name: Contour Jardin
       description: Accessoires de jardin
       url:
     - name: JSB
@@ -228,12 +210,6 @@
     - name: Louyes-tu
       description: Chapeaux de pluie, tabliers de jardin
       url:
-    - name: Riduet
-      description: Bijoux semi-précieux, peinture sur verre autour du végétal
-      url:
-    - name: Atelier Alaya
-      description: Artisanat, café, thé, épices du Népal
-      url:
     - name: Autre-Chose Confiserie
       description: Guimauve à l’ancienne
       url:
@@ -291,9 +267,6 @@
     - name: DCO Caméléon
       description: Décoration artisanale de jardin
       url:
-    - name: De l’Osier au Jardin
-      description: Vannerie, architecture végétale
-      url:
     - name: D’Ici et la Poterie
       description: Autour du coquelicot
       url:
@@ -302,9 +275,6 @@
       url:
     - name: Filentroc
       description: Mobilier de jardin en fer forgé
-      url:
-    - name: La Cour d’Hortense
-      description: Décoration autour du jardin
       url:
     - name: Laristan Céramiques
       description: Poteries de jardin
@@ -347,10 +317,7 @@
       url:
     - name: Jardinot
       description: Jardinage raisonné, conseils
-      url:
-    - name: L.P.O.
-      description: Ligue pour la protection des oiseaux
-      url:
+      url:    
     - name: Vaudreuil Folies
       description: Brocante
       url:
