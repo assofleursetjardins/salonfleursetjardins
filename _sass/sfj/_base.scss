@@ -124,16 +124,20 @@ img {
 }
 
 /** Buttons **/
-.button {
+.button,
+a.button {
   display: inline-block;
   padding:.5em 1em;
   margin-bottom: 1rem;
   box-sizing: border-box;
   text-align: center;
-  color:white !important;
   text-decoration:none;
   font-size:1.2em;
   @include button-theme($color-main, $color-light);
+
+  &:hover {
+    color: $color-muted-lightest;
+  }
  }
 
 /** Header **/
@@ -186,7 +190,7 @@ nav ul {
     &:link,
     &:visited { color: $text-color; }
 
-    &:hover { 
+    &:hover {
       background-color: rgba($color-light, 1);
       border-color: $color-muted-light;
     }
@@ -196,7 +200,7 @@ nav ul {
     small {
       font-family: $base-font-family;
       font-size: pixrem($small-font-size);
-      color: $text-muted-color !important;
+      color: $text-muted-color;
     }
   }
 }
@@ -313,16 +317,17 @@ nav ul {
     }
   }
 
-  // Test rapide d'une variant d'affichage en ligne
+  // Test rapide d'une variante d'affichage en ligne
   &-inline {
-    @extend .exposants-list !optional;
+    //@extend .exposants-list !optional;
 
     .exposant {
       // Desactivation forcé des colonnes
-      display: inline-block !important;
-      width: auto !important;
-      float: none !important;
-      padding: 0 !important;
+      // Les "!important" sont à virer une fois cette vairante validée
+      display: inline-block;
+      width: auto;
+      float: none;
+      padding: 0;
       margin-top: 1.5em;
       margin-bottom: 1.5em;
 
@@ -337,6 +342,10 @@ nav ul {
     }
 
     ul, p , li { display: inline; }
+
+    ul {
+      padding: 0;
+    }
 
     li {
       display: inline;
@@ -360,7 +369,7 @@ nav ul {
 
   .button {
 
-    color: $color-light !important;
+    color: $color-light;
     border-color: $color-light;
     text-decoration: none;
     letter-spacing: 1px;
@@ -433,7 +442,6 @@ nav ul {
     margin: 0;
     @include button-theme($color-light, $color-adjacent-right);
   }
-
 }
 
 #section-localisation {
@@ -452,3 +460,31 @@ nav ul {
   }
 }
 
+/** Cookie Banner **/
+.cookie-banner {
+  padding: 1em 1.8em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 998;
+  max-width: $column-width * 4;
+  font-size: $small-font-size;
+  color: white;
+  background-color: $color-muted-dark;
+
+  p a {
+    color: white;
+  }
+
+  &-close {
+    @extend .button;
+    display: block;
+    &:link,
+    &:hover,
+    &:visited {
+      color: $color-muted-dark;
+      font-size: $small-font-size;
+      font-weight: bold;
+    }
+  }
+}
