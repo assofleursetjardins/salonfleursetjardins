@@ -68,7 +68,7 @@ Voie des Clouets - [Plan d'accès]()
 Tél. 02 32 59 51 27
 
 **Hôtel Formule 1**  
-123 rue Bernard Chedeville - [Plan d'accès]()
+123 rue Bernard Chedeville - [Plan d'accès]()  
 Tél. 08 91 70 52 78
 
 **Gîte de france**  
