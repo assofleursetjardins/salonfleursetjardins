@@ -36,6 +36,9 @@
     - name: Faut pas qu’on se plante
       description: Collection arbres et arbustes
       url:
+    - name: Jardins du Val d'Allier
+      description: Collection de géraniums vivaces
+      url:
     - name: Jardins et Pays Sages
       description: Plantes originales à parfum, aromatiques
       url:
@@ -202,52 +205,57 @@
       description: Beaux livres de jardin
       url:
   
-  - categorie: Environnement
+- categorie: Environnement
   exposants:
     - name: C.A.S.E
       description: Compostage, réduction de déchet
       url:
-    - name: C.A.S.E
-      description: Compostage, réduction de déchet
+    - name: Dormeau
+      description: Fabrication d'hôtels à insectes, oiseaux
       url:
 
 - categorie: Mode en plein air
   exposants:
     - name: Fantaisies pour toutes
-      description: Bijoux à thèmes floraux
+      description: Création de bijoux, marque page thème jardin et nature
       url:
-    - name: Louyes-tu
+    - name: Le Fil Chic
+      description: tissus de soie
+      url:
+    - name: Lou-y-es-tu
       description: Chapeaux de pluie, tabliers de jardin
       url:
+- categorie: Produits du terroir
+  exposants:
     - name: Autre-Chose Confiserie
-      description: Guimauve à l’ancienne
+      description: Guimauves maison, bonbons d'antan
+      url:
+    - name: Brasserie Les Deux Amants
+      description: Bières artisanales bio
       url:
     - name: Dantan
       description: Producteur de champagne
       url:
-    - name: Fleur d’Epices
-      description: Spécialités créoles
+    - name: Domaine Audoin De Haut de Sigy
+      description: Vins de Bourgogne
       url:
+    - name: Fleur d’Epices
+      description: Spécialités créoles, épices
+      url:      
     - name: Fleurs des Blés
       description: Brioches feuilletées
       url:
     - name: Glatigny
       description: Miel, pain d’épices, gelée royale
       url:
-    - name: Goût de Nostalgie
-      description: Pains et gâteaux médiévaux
-      url:
     - name: Haras de Marie
-      description: Fromages de Neufchâtel
+      description: Fromages de chèvre, cidre, vinaigre
       url:
     - name: La Violette
-      description: Gâteaux botaniques
+      description: Gâteaux botaniques, thés
       url:
-    - name: Les Ateliers de Laure
-      description: Produits comestibles aux fleurs
-      url:
-    - name: Les Délices de Provence
-      description: Olives, tapenades
+    - name: Le Moulin de la Chapellerie
+      description: Pains médiévaux, tourin, kuko, sablés
       url:
     - name: Les Jardins du Thuit
       description: Confitures de fleurs et fruits
@@ -256,7 +264,10 @@
       description: Producteur de foie gras, pâtés
       url:
     - name: Mada-Vanille
-      description: Vanille et épices de Madagascar
+      description: Vanille et épices, punch de Madagascar
+      url:
+    - name: Merring'Addict
+      description: Meringues parfumées
       url:
     - name: Sampers
       description: Producteur de fraises, dérivés
@@ -276,20 +287,26 @@
     - name: DCO Caméléon
       description: Décoration artisanale de jardin
       url:
-    - name: D’Ici et la Poterie
+    - name: D’Ici & Poterie
       description: Autour du coquelicot
-      url:
-    - name: Dormeau
-      description: Hôtel à insectes et oiseaux, baladeuses
       url:
     - name: Filentroc
       description: Mobilier de jardin en fer forgé
       url:
-    - name: Laristan Céramiques
-      description: Poteries de jardin
+    - name: Jardin Décor
+      description: Décorations de jardins
       url:
-    - name: Le Feraric
-      description: Sculptures originales
+    - name: Laignel Poterie Artisanale
+      description: Poteries de jardin : oyats, lanternes pour massifs
+      url:
+    - name: Laristan Céramiques
+      description: Poteries de jardin : jarres, nichoirs
+      url:
+    - name: Le Grenier de Valentin
+      description: Vasques de jardin
+      url:
+    - name: Le Portefeuille
+      description: Portes pots en bois
       url:
     - name: Le Zen des Roses
       description: Décoration florale japonaise
@@ -297,25 +314,22 @@
     - name: Les Folies de Flodi
       description: Fontaines, statues
       url:
+    - name: Les Girouettes de David
+      description: Fabricant de girouettes
+      url:
     - name: PasPas Création
-      description: Personnages en argile
+      description: Décoration extérieure en argile
       url:
 
 - categorie: Loisirs de plein air
   exposants:
+    - name: Cycles Cauchois
+      description: Vélos, vélos électriques
+      url:
     - name: Le Temps des Cadeaux
-      description: Jeux d’extérieur
+      description: Jeux d’extérieur "made in France"
       url:
-    - name: Ruaux DRT
-      description: Vélos électriques
-      url:
-
-- categorie: Jardin à partager
-  exposants:
-    - name: Les Incroyables Comestibles
-      description: Partager son jardin, permaculture
-      url:
-
+    
 - categorie: Associations
   exposants:
     - name: Bonsaï Club du Manoir
@@ -325,11 +339,14 @@
       description: Conférences diverses, micro-ateliers
       url:
     - name: Jardinot
-      description: Jardinage raisonné, conseils
+      description: Jardinage raisonné, conseils, zéro pesticide
       url:    
     - name: Vaudreuil Folies
       description: Brocante
       url:
+      
+- categorie: Découverte de jardins remarquables
+  exposants:
     - name: A.R.P.J.H.N
       description: Promotion parcs et jardins
       url:
@@ -360,6 +377,6 @@
     - name: Le Clos de Chanchore
       description: Roseraies, jardin arboretum 27 Fresne Cauverville
       url:
-    - name: Office du Tourisme
-      description: Louviers
+    - name: Office du Tourisme Seine-Eure
+      description: Renseignements touristiques
       url:
