@@ -1,19 +1,19 @@
 - categorie: Paysagistes
   exposants:
-    - name: Jardin Décor
-      description: Paysagiste / Décorateur
-      url:
     - name: JCEV
       description: Paysagiste
       url:
     - name: La Passion du Jardin
       description: Créateur de jardins et plantes rares
       url:
+      - name: Les Jardiniers du Poirier Jacob
+      description: Concepteur de jardins
+      url:
 
 - categorie: Horticulteurs
   exposants:
     - name: Au jardin d'Espérance
-      description: Composition flora
+      description: Composition florales
       url:
     - name: Gomond
       description: Plantes à massif
@@ -31,11 +31,8 @@
       description: Vivaces, graminées, aromatiques
       url:
     - name: Boca Plantes
-      description: Glycines, lilas, davidias
-      url:
-    - name: Bruno Martel
-      description: Plantes méconnues
-      url:
+      description: Arbres et arbustes rares, glycines, lilas
+      url:   
     - name: Faut pas qu’on se plante
       description: Collection arbres et arbustes
       url:
@@ -45,15 +42,24 @@
     - name: Le Clos Normand
       description: Erables japonais, azalées, arbustes
       url:
+    - name: Le Jardin de la Gentiane Bleue
+      description: Orchidées rustiques, plantes médicinales rares, permaculture
+      url:      
     - name: Les Jardins du Vaudinet
       description: Producteur hémérocalles
-      url:
-    - name: Les Pépinières de la Roselière
-      description: Topiaires, haies formées
       url:
     - name: Les Rosiers Belmontais
       description: Rosiers en pots
       url:
+    - name: Les Serres de Serquigny
+      description: Plantes méconnues
+      url:
+    - name: N Leloup Collection
+      description: Hydrangeas, magnolias, plantes de terre de bruyère
+      url:      
+    - name: Or-K-Idée Pépinières
+      description: Rosiers D.Austin, vivaces
+      url:      
     - name: Pépinières Benard
       description: Plantes grimpantes, arbustes à fleurs
       url:
@@ -63,20 +69,14 @@
     - name: Pépinières d’Evrecy
       description: Géraniums, plantes de balcon
       url:
-    - name: Pépinières De Tupot
-      description: Arbustes à fleurs et d’ornement
-      url:
+    - name: Pépinières Javoy & Fils
+      description: Plantes grimpantes, petits fruits
+      url:      
     - name: Pépinière Legonin
       description: Vivaces, plantes à massif
-      url:
-    - name: Pépinière Legonin
-      description: Vivaces, plantes à massif
-      url:
-    - name: Pépinière N Leloup
-      description: Hydrangeas, magnolias, plantes de terre de bruyère
-      url:
+      url:   
     - name: Pépinières Oriot
-      description: Rosiériste, rosiers lianes
+      description: Rosiers parfumés, rosiers lianes
       url:
     - name: Pépinières Ravazé
       description: Arbustes d’ornements, arbres fruitiers, conifères
@@ -87,9 +87,12 @@
     - name: Roseraies Chaillou
       description: Rosiers
       url:
-    - name: Vivaces de l’Odon
-      description: Vivaces, fougères, graminées
+    - name: Sylvatica Plantes
+      description: Plantes d'ombre, arbres rares
       url:
+    - name: Végétal Services
+      description: arbustes, conifères
+      url:       
 
 - categorie: Plantes vivaces, rares & bulbes
   exposants:
@@ -99,7 +102,7 @@
     - name: Bonsaï Mo
       description: Bonsais
       url:
-    - name: Catty Fleurs
+    - name: Catty Horticulteur
       description: Plantes et bulbes vivaces gros litrage
       url:
     - name: Eden Carnivore
@@ -107,10 +110,7 @@
       url:
     - name: Gentiaan Bulborum Botanicum
       description: Bulbes rares
-      url:
-    - name: Jardin Jardine
-      description: Plants potagers
-      url:
+      url:   
     - name: Le Jardin de Jean
       description: Hosta, astroemeria
       url:
@@ -120,12 +120,12 @@
     - name: Lerouge Nathalie
       description: Vivaces
       url:
-    - name: Les Serres de la Garenne
-      description: Vivaces annuelles
+    - name: Les Tillandsias
+      description: Tillandsias
       url:
-    - name: N.Leloup Collection
-      description: Hydrangeas, rhododendrons, magnolias, plantes de terre de bruyère
-      url:
+    - name: Vivaces de l'Odon
+      description: Vivaces, fougères, graminées
+      url:    
 
 - categorie: Motoculteurs, outils & accessoires
   exposants:
@@ -153,15 +153,21 @@
     - name: E.A.V.S.
       description: Elagage
       url:
-    - name: Jardin et Style
-      description: Abris bois et décoration
-      url:
     - name: Lesueur
       description: Portails, fermetures métallerie
+      url:
+    - name: Les Matériaux de l'Environnement 
+      description: Gravillons, galets
       url:
     - name: Miroiterie Franconville
       description: Véranda, portail
       url:
+    - name: Plomberie Lérysienne
+      description: Arrosage automatique, récupérateurs d'eau
+      url:
+    - name: Point Jardin
+      description: Matériaux de jardin
+      url:      
     - name: RM Habitat
       description: Portails, pergolas,
       url:
@@ -183,8 +189,11 @@
     - name: Letrillard
       description: Crottin de cheval séché et émiétté
       url:
-    - name: Savon d’Ici
+    - name: Stéphanie Feret
       description: Savons bio saponiliés à froid avec des huiles locales
+      url:
+    - name: Terricole Lombricompost
+      description: Lombricompost
       url:
 
 - categorie: Culture
@@ -192,12 +201,12 @@
     - name: L’Invit’ à Lire
       description: Beaux livres de jardin
       url:
-    - name: Milieu du Ciel
-      description: Photographies de la nature
-      url:
-
-- categorie: Environnement
+  
+  - categorie: Environnement
   exposants:
+    - name: C.A.S.E
+      description: Compostage, réduction de déchet
+      url:
     - name: C.A.S.E
       description: Compostage, réduction de déchet
       url:
