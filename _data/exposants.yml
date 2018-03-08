@@ -371,11 +371,14 @@
     - name: Château de Canteloup
       description: 27 Amfreville s/Monts
       url:
-    - name: Roseraies Normandes
-      description: Château de Mesnil Geoffroy 76 Ermenouville
-      url:
     - name: Le Clos de Chanchore
       description: Roseraies, jardin arboretum 27 Fresne Cauverville
+      url:
+    - name: Le Parc de la Clef
+      description: Roseraies, plantes thérapeutiques 28 Marville les Bois
+      url:
+    - name: Roseraies Normandes
+      description: Château de Mesnil Geoffroy 76 Ermenouville
       url:
     - name: Office du Tourisme Seine-Eure
       description: Renseignements touristiques
