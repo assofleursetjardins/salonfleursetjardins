@@ -18,6 +18,9 @@
     - name: Au Jardin d'Espérance
       description: Composition florales
       url:
+    - name: Catty Horticulteur
+      description: Producteur Plantes vivaces gros litrage, bulbes
+      url:
     - name: Gomond
       description: Plantes à massif, annuelles et vivaces
       url:
@@ -111,11 +114,11 @@
     - name: Baudu Bruno
       description: Vivaces, graminées, aromatiques
       url:
-    - name: Catty Horticulteur
-      description: Plantes et bulbes vivaces gros litrage
-      url:
     - name: Eden Carnivore
       description: Producteur de plantes carnivores
+      url:
+    - name: European Breizh Salvia's
+      description: Sauges vivaces et arbustives
       url:
     - name: Gentiaan Bulborum Botanicum
       description: Bulbes rares
@@ -124,7 +127,7 @@
       description: Collection de géraniums vivaces, vivaces diverses
       url: 
     - name: Le Jardin de Jean
-      description: Hosta, astroemeria
+      description: Vivaces rares, buis astro,hosta, astroemeria
       url:
     - name: Le Jardin de Louna
       description: Plantes style exotique résistantes au froid et plantes rares
@@ -134,6 +137,9 @@
       url:
     - name: Les Tillandsias
       description: Tillandsias
+      url:
+    - name: Pépinières Baudu Bruno
+      description: Vivaces, graminées, aromatiques
       url:
     - name: Vivaces de l'Odon
       description: Vivaces, fougères, graminées
