@@ -111,9 +111,6 @@
     - name: Arno & Viviane
       description: Producteur plantes vivaces et rustiques, nénuphars
       url:
-    - name: Baudu Bruno
-      description: Vivaces, graminées, aromatiques
-      url:
     - name: Eden Carnivore
       description: Producteur de plantes carnivores
       url:
@@ -254,7 +251,7 @@
     - name: Domaine Audoin De Haut de Sigy
       description: Vins de Bourgogne
       url:
-    - name: Fleur d’Epices
+    - name: Fleur d’Epice
       description: Spécialités créoles, épices
       url:      
     - name: Fleurs des Blés
@@ -263,7 +260,7 @@
     - name: Glatigny
       description: Miel, pain d’épices, gelée royale
       url:
-    - name: Haras de Marie
+    - name: Haras Marie
       description: Fromages de chèvre, cidre, vinaigre
       url:
     - name: La Violette
@@ -275,7 +272,7 @@
     - name: Les Jardins du Thuit
       description: Confitures de fleurs et fruits
       url:
-    - name: Marc et Mélanie
+    - name: Marc & Mélanie
       description: Producteur de foie gras, pâtés
       url:
     - name: Mada-Vanille
@@ -302,7 +299,7 @@
     - name: DCO Caméléon
       description: Décoration artisanale de jardin
       url:
-    - name: D’Ici & Poterie
+    - name: D’Ici & La Poterie
       description: Autour du coquelicot
       url:
     - name: Filentroc
