@@ -45,9 +45,6 @@
     - name: Jardins et Pays Sages
       description: Plantes originales à parfum, aromatiques, arbustes nains
       url:
-    - name: Le Clos Normand
-      description: Erables japonais, azalées, arbustes
-      url:
     - name: Le Jardin de la Gentiane Bleue
       description: Orchidées rustiques, plantes médicinales rares, permaculture
       url:
@@ -319,9 +316,6 @@
       url:
     - name: Le Portefeuille
       description: Portes pots en bois
-      url:
-    - name: Le Zen des Roses
-      description: Décoration florale japonaise
       url:
     - name: Les Folies de Flodi
       description: Fontaines, statues
