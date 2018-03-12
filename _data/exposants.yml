@@ -171,11 +171,11 @@
     - name: E.A.V.S.
       description: Elagage
       url:
-    - name: Lesueur
-      description: Portails, fermetures métallerie
-      url:
     - name: Les Matériaux de l'Environnement 
       description: Gravillons, galets
+      url:
+    - name: Lesueur
+      description: Portails, fermetures métallerie
       url:
     - name: Miroiterie Franconville
       description: Véranda, portail
@@ -205,7 +205,7 @@
       description: Produits naturels aux plantes pour le jardinier
       url:
     - name: Letrillard
-      description: Crottin de cheval séché et émiétté
+      description: Crottin de cheval séché et émietté
       url:
     - name: Stéphanie Feret
       description: Savons bio saponiliés à froid avec des huiles locales
@@ -216,14 +216,14 @@
 
 - categorie: Culture
   exposants:
-    - name: L’Invit’ à Lire
+    - name: La Nouvelle Invite
       description: Beaux livres de jardin
       url:
   
 - categorie: Environnement
   exposants:
-    - name: C.A.S.E
-      description: Compostage, réduction de déchet
+    - name: Agglomération Seine Eure
+      description: Compostage, gestion des déchets
       url:
     - name: Dormeau
       description: Fabrication d'hôtels à insectes, oiseaux
@@ -232,7 +232,7 @@
 - categorie: Mode en plein air
   exposants:
     - name: Fantaisies pour toutes
-      description: Création de bijoux, marque page thème jardin et nature
+      description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
       url:
     - name: Le Fil Chic
       description: tissus de soie
@@ -339,10 +339,10 @@
 - categorie: Loisirs de plein air
   exposants:
     - name: Cycles Cauchois
-      description: Vélos, vélos électriques
+      description: Panel de vélos
       url:
     - name: Le Temps des Cadeaux
-      description: Jeux d’extérieur made in France
+      description: Jeux d’extérieur fabriqués en France
       url:
     
 - categorie: Associations
@@ -360,7 +360,7 @@
       description: Brocante
       url:
       
-- categorie: Découverte de jardins remarquables
+- categorie: Découverte de Jardins Remarquables
   exposants:
     - name: A.R.P.J.H.N
       description: Promotion parcs et jardins
