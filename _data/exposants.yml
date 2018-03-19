@@ -105,9 +105,6 @@
 
 - categorie: Plantes vivaces, rares & bulbes
   exposants:
-    - name: Arno & Viviane
-      description: Producteur plantes vivaces et rustiques, nénuphars
-      url:
     - name: Eden Carnivore
       description: Producteur de plantes carnivores
       url:
@@ -141,6 +138,9 @@
 
 - categorie: Motoculteurs, outils & accessoires
   exposants:
+    - name: Au Jardin Facile
+      description: Outillage de coupe, silo à composter bio
+      url:
     - name: Contour Jardin
       description: Accessoires de jardin
       url:
@@ -169,7 +169,7 @@
       description: Gravillons, galets
       url:
     - name: Lesueur
-      description: Portails, fermetures métallerie
+      description: Portails, métallerie
       url:
     - name: Miroiterie Franconville
       description: Véranda, portail
@@ -290,9 +290,15 @@
     - name: Vin Lichtle
       description: Producteur de vins d’Alsace
       url:
+    - name: Visse Manuel
+      description: Confiseur, confiture transformée en bonbons
+      url:
 
 - categorie: Décoration
-  exposants:
+  exposants: 
+    - name: Création MVD
+      description: Bougies à la cire de soja
+      url:
     - name: DCO Caméléon
       description: Décoration artisanale de jardin
       url:
