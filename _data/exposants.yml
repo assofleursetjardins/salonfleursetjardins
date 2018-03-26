@@ -145,7 +145,7 @@
       description: Accessoires de jardin
       url:
     - name: JSB
-      description: Microtracteurs
+      description: Microtracteurs, location matériel BTP et jardin
       url:
     - name: Normandie Couteaux
       description: Couteaux de jardin
@@ -242,9 +242,6 @@
     - name: Brasserie Les Deux Amants
       description: Bières artisanales bio
       url:
-    - name: Dantan
-      description: Producteur de champagne
-      url:
     - name: Domaine Audoin De Haut de Sigy
       description: Vins de Bourgogne
       url:
@@ -332,6 +329,9 @@
     - name: PasPas Création
       description: Décoration extérieure en argile
       url:
+    - name: Wood and Steel
+      description: Fabrication artisanale, pièces uniques en bois, rotin, pierre de lave
+      url:
 
 - categorie: Loisirs de plein air
   exposants:
@@ -365,6 +365,9 @@
     - name: Château d’Acquigny
       description: 27 Acquigny
       url:
+    - name: Château de Canteloup
+      description: 27 Amfreville s/Monts
+      url:
     - name: Château de Pinterville
       description: 27 Pinterville
       url:
@@ -379,9 +382,6 @@
   exposants:
     - name: Abbaye de Bonport
       description: 27 Pont de L’Arche
-      url:
-    - name: Château de Canteloup
-      description: 27 Amfreville s/Monts
       url:
     - name: Le Clos de Chanchore
       description: Roseraies, jardin arboretum 27 Fresne Cauverville
