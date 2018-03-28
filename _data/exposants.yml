@@ -162,6 +162,9 @@
     - name: Chaleur design
       description: Brasero mexicain
       url:
+    - name: Créabois
+      description: Jardinières, mobilier de jardin
+      url:
     - name: E.A.V.S.
       description: Elagage
       url:
@@ -182,6 +185,9 @@
       url:      
     - name: RM Habitat
       description: Portails, pergolas,
+      url:
+    - name: Vérandas Lumbroso
+      description: Fabricant de vérandas,
       url:
     - name: Willemy Charpente
       description: Vérandas en bois, charpente
@@ -318,7 +324,7 @@
       description: Vasques de jardin
       url:
     - name: Le Portefeuille
-      description: Portes pots en bois
+      description: Porte pots en bois
       url:
     - name: Les Folies de Flodi
       description: Fontaines, statues
@@ -336,7 +342,7 @@
 - categorie: Loisirs de plein air
   exposants:
     - name: Cycles Cauchois
-      description: Panel de vélos
+      description: Vélos tourisme, vtt, enfants, vélos électriques
       url:
     - name: Le Temps des Cadeaux
       description: Jeux d’extérieur fabriqués en France
