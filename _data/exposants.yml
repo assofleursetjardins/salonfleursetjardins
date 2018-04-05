@@ -104,7 +104,10 @@
       url:       
 
 - categorie: Plantes vivaces, rares & bulbes
-  exposants:
+  exposants: 
+    - name: Doucet
+      description: Vivaces, plantes annuelles et potagères
+      url:
     - name: Eden Carnivore
       description: Producteur de plantes carnivores
       url:
@@ -119,9 +122,6 @@
       url: 
     - name: Le Jardin de Jean
       description: Vivaces rares, buis astro,hosta, astroemeria
-      url:
-    - name: Le Jardin de Louna
-      description: Plantes style exotique résistantes au froid et plantes rares
       url:
     - name: Lerouge Nathalie
       description: Vivaces
@@ -144,14 +144,14 @@
     - name: Contour Jardin
       description: Accessoires de jardin
       url:
-    - name: JSB
+    - name: JSB - Bercher Location
       description: Microtracteurs, location matériel BTP et jardin
       url:
     - name: Normandie Couteaux
       description: Couteaux de jardin
       url:
-    - name: Ruaux DRT
-      description: Robot tonte, outils à batterie
+    - name: Saint-Etienne
+      description: Matériel de jardin
       url:
     - name: Tricheur et Fils
       description: Robot tondeuse Husqvarna
@@ -186,7 +186,7 @@
     - name: RM Habitat
       description: Portails, pergolas,
       url:
-    - name: Vérandas Lumbroso
+    - name: Lumbroso
       description: Fabricant de vérandas,
       url:
     - name: Willemy Charpente
@@ -240,6 +240,7 @@
     - name: Lou-y-es-tu
       description: Chapeaux de pluie, tabliers de jardin
       url:
+      
 - categorie: Produits du terroir
   exposants:
     - name: Autre-Chose Confiserie
@@ -304,9 +305,6 @@
       url:
     - name: DCO Caméléon
       description: Décoration artisanale de jardin
-      url:
-    - name: D’Ici & La Poterie
-      description: Autour du coquelicot
       url:
     - name: Filentroc
       description: Mobilier de jardin en fer forgé
@@ -394,9 +392,6 @@
       url:
     - name: Le Parc de la Clef
       description: Roseraies, plantes thérapeutiques 28 Marville les Bois
-      url:
-    - name: Roseraies Normandes
-      description: Château de Mesnil Geoffroy 76 Ermenouville
       url:
     - name: Office du Tourisme Seine-Eure
       description: Renseignements touristiques
