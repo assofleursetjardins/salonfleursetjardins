@@ -57,6 +57,9 @@
     - name: Les Jardins du Vaudinet
       description: Producteur hémérocalles
       url:
+    - name: Les Pépinières du Lutin
+      description: Arbres, arbutes, conifères plantes rares
+      url:      
     - name: Les Rosiers Belmontais
       description: Rosiers en pots
       url:
@@ -267,6 +270,9 @@
     - name: La Violette
       description: Gâteaux botaniques, thés
       url:
+    - name: Le Domaine du Framboisier
+      description: Produits à base de framboises
+      url:
     - name: Le Moulin de la Chapellerie
       description: Pains médiévaux, tourin, kuko, sablés
       url:
@@ -281,9 +287,6 @@
       url:
     - name: Merring'Addict
       description: Meringues parfumées
-      url:
-    - name: Sampers
-      description: Producteur de fraises, dérivés
       url:
     - name: Thiennet
       description: Salaisons de Corrèze, fromages du Cantal
