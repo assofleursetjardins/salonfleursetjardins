@@ -13,13 +13,6 @@ body {
   font: $base-font-weight #{pixrem($base-font-size)}/#{$base-line-height} $base-font-family;
   color: $text-color;
 }
-body:not(.page-accueil) {
-  background: $background-color;
-  background-image: url("images/body-bg-2.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
 
 a:link { color: $link-color; }
 a:visited { color: $link-visited-color; }
