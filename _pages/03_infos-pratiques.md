@@ -51,33 +51,31 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 ## Hébergement à proximité
 ### En hôtel ou en gîte, il y en a pour tous les gouts
 
-**Hôtel Grand Slam du Golf**  
-Le Vaudreuil  
-Tél. 02 32 59 02 94
+**Hôtel du Golf** : Tél. 02 32 59 02 94
 
-**Hôtel Première Classe**  
-Voie des Clouets  
-Tél. 02 32 50 61 54
+**Hôtel Kyriad** : Tél. 02 32 50 61 54
 
-**Hôtel Confort Inn Primevère**  
-Voie de Clouets  
-Tél. 02 32 59 51 27
+**Hôtel Ibis Styles** : Tél. 02 32 59 18 19
 
-**Hôtel Best Hôtel**  
-Voie des Clouets - [Plan d'accès]()  
-Tél. 02 32 59 51 27
+**Hôtel Formule 1** : Tél. 08 91 70 52 78
 
-**Hôtel Formule 1**  
-123 rue Bernard Chedeville - [Plan d'accès]()  
-Tél. 08 91 70 52 78
+**Hôtel Mercure** : Tél. 02 32 59 09 09
+
+**Hostellerie Saint-Pierre**   
+Saint-pierre du Vauvray : Tél. 02 32 59 93 29
 
 **Gîte de france**  
-23 rue de l'Hôtel Dieu - Le Vaudreuil - [Plan d'accès](https://goo.gl/maps/DoSFikXX7dJ2)  
-Tél. 02 32 59 37 58
+23 rue de l'Hôtel Dieu - Le Vaudreuil : Tél. 02 32 59 37 58
+
+**Fast Hôtel** : Tél. 02 32 61 06 06
+
+**Best Hôtel** : Tél. 02 32 59 51 27
+
+**Gîte de France**  
+Rue de l’Hôtel Dieu – Le Vaudreuil : Tél. 02 32 59 37 58
 
 **Gîte**  
-19bis rue Papavoine - Le Vaudreuil - [Plan d'accès](https://goo.gl/maps/LbPNPbYGVGU2)  
-Tél. 02 32 59 85 55
+19bis rue Papavoine - Le Vaudreuil : Tél. 02 32 59 85 55
 
 ---
 
