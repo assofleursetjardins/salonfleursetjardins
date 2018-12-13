@@ -10,13 +10,13 @@ layout: page
 
 Pensant trois jours, **plus de 150 professionnels à la compétence reconnue** proposent au public dans un environnement exceptionnel, en bordure de l'Eure...
 
-[Télécharger le communiqué de presse]()
+[Télécharger le communiqué de presse](/assets/medias/dossier-de-presse-2019.pdf)
 
 <hr>
 
 ## Support de com'
 
-#### Affiches-
-- Format PDF - [Télécharger](/assets/medias/affiche-2018.pdf)
-- Format JPG - [Télécharger](/assets/medias/affiche-2018.jpg)
-- Affiche 4x3 format PDF - [Télécharger](/assets/medias/affiche-grand-panneau-2018.pdf)
+#### Affiches
+- Format PDF - [À venir]()
+- Format JPG - [À venir]()
+- Affiche 4x3 format PDF - [À venir]()
