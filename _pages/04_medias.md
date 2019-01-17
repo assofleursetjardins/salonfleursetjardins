@@ -18,5 +18,5 @@ Pensant trois jours, **plus de 150 professionnels à la compétence reconnue** p
 
 #### Affiches
 - Format PDF - [affiche visuel](/assets/medias/affiche-2019.pdf)
-- Format JPG - [À venir]()
+- Format JPG - [affiche visuel](/assets/medias/affiche-2019.jpg)
 - Affiche 4x3 format PDF - [À venir]()
