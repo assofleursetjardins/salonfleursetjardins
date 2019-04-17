@@ -3,387 +3,383 @@
 - categorie: "LE VÉGÉTAL"
   exposants:
   - name: Alexandre Rambert
-      description: Arbustes à fleurs
-      url:
+    description: Arbustes à fleurs
+    url:
   - name: André Rapmund
-      description: Pivoines lagapanzhus bulbes
-      url:
-    - name: Au Jardin d'Espérance
-      description: Plantes à massif
-      url: 
-    - name: Boca Plantes
-      description: Arbres et arbustes, glycines, lilas
-      url: 
-    - name: Bonsaï Mo
-      description: Bonsaïs
-      url:   
-    - name: Cactus Family
-      description: Cactus et plantes grasses
-      url:     
-    - name: Catty Horticulteur
-      description: Producteur Plantes vivaces gros litrage
-      url: 
-    - name: EBSalvia's
-      description: Création et collection de sauges vivaces et arbustives
-      url:
-    - name: Eden Carnivore
-      description: Producteur de plantes carnivores
-      url:
-    - name: Faut pas qu’on se plante
-      description: Collection arbres et arbustes
-      url: 
-    - name: Gentiaan Bulborum Botanicum
-      description: Bulbes rares, dahlias
-      url:  
-    - name: Jardins du Val d'Allier
-      description: Collection de géraniums vivaces, 
-      url:  
-    - name: Jardins et Pays Sages
-      description: Plante à parfum, aromatiques, arbustes nains
-      url:
-    - name: La Cressionnière Saint Firmin
-      description: Cresson et produits autour du cresson, aromatiques, légumes
-      url: 
-    - name: Le Jardin de Jean
-      description: Astro exotique,hosta
-      url:
-    - name: Le Jardin de Louna
-      description: Végétaux à allure exotique 
-      url: 
-    - name: Le Jardin d'Eaurus
-      description: Plantes aquatiques,vivaces, produits bio, décoration de bassin
-      url: 
-    - name: Legonin Christelle
-      description: Vivaces, plantes à massif
-      url:     
-    - name: Lemire
-      description: Plantes à massif, 
-      url: 
-    - name: Lerouge Nathalie
-      description: Vivaces
-      url:
-    - name: Les Rosiers Belmontais
-      description: Rosiers en pots
-      url: 
-    - name: Les Tillandsias
-      description: Tillandsias
-      url:
-    - name: N Leloup Collections
-      description: Producteurs Hydrangeas, magnolias, plantes de terre de bruyère
-      url:    
-    - name: Pépinières Baudu Bruno
-      description: Vivaces, graminées, aromatiques
-      url:   
-    - name: Pépinières Benard
-      description: Plantes grimpantes, arbustes à fleurs
-      url:- name: Pépinières Cailleau
-      description: Rosiériste, rosiers en pot
-      url:
-    - name: Pépinières d’Evrecy
-      description: Géraniums, plantes à massif
-      url:
-    - name: Pépinières du Clos Normand
-      description: Erables japonais, azalées, arbustes
-      url:
-    - name: Pépinières Nativelle
-      description: Arbres et arbustes de haies
-      url:
-    - name: Pépinières Oriot
-      description: Producteur rosiers parfumés, rosiers lianes
-      url:
-    - name: Pépinières Ravazé
-      description: Arbustes, arbres fruitiers, conifères, palmiers
-      url:   
-    - name: Pétale d'Ailleurs
-      description: Plantes originales et méconnues
-      url:
-    - name: Les Pépinières du Lutin
-      description: Arbres, arbutes, conifères plantes rares
-      url:     
-    - name: Végétal Services
-      description: arbustes, conifères
-      url:   
-    - name: Vivaces de l'Odon
-      description: Vivaces, fougères, graminées
-      url: 
-      
- - categorie : PAYSAGISTES
+    description: Pivoines lagapanzhus bulbes
+    url:
+  - name: Au Jardin d'Espérance
+    description: Plantes à massif
+    url:
+  - name: Boca Plantes
+    description: Arbres et arbustes, glycines, lilas
+    url:
+  - name: Bonsaï Mo
+    description: Bonsaïs
+    url:
+  - name: Cactus Family
+    description: Cactus et plantes grasses
+    url:
+  - name: Catty Horticulteur
+    description: Producteur Plantes vivaces gros litrage
+    url:
+  - name: EBSalvia's
+    description: Création et collection de sauges vivaces et arbustives
+    url:
+  - name: Eden Carnivore
+    description: Producteur de plantes carnivores
+    url:
+  - name: Faut pas qu’on se plante
+    description: Collection arbres et arbustes
+    url:
+  - name: Gentiaan Bulborum Botanicum
+    description: Bulbes rares, dahlias
+    url:
+  - name: Jardins du Val d'Allier
+    description: Collection de géraniums vivaces,
+    url:
+  - name: Jardins et Pays Sages
+    description: Plante à parfum, aromatiques, arbustes nains
+    url:
+  - name: La Cressionnière Saint Firmin
+    description: Cresson et produits autour du cresson, aromatiques, légumes
+    url:
+  - name: Le Jardin de Jean
+    description: Astro exotique,hosta
+    url:
+  - name: Le Jardin de Louna
+    description: Végétaux à allure exotique
+    url:
+  - name: Le Jardin d'Eaurus
+    description: Plantes aquatiques,vivaces, produits bio, décoration de bassin
+    url:
+  - name: Legonin Christelle
+    description: Vivaces, plantes à massif
+    url:
+  - name: Lemire
+    description: Plantes à massif,
+    url:
+  - name: Lerouge Nathalie
+    description: Vivaces
+    url:
+  - name: Les Rosiers Belmontais
+    description: Rosiers en pots
+    url:
+  - name: Les Tillandsias
+    description: Tillandsias
+    url:
+  - name: N Leloup Collections
+    description: Producteurs Hydrangeas, magnolias, plantes de terre de bruyère
+    url:
+  - name: Pépinières Baudu Bruno
+    description: Vivaces, graminées, aromatiques
+    url:
+  - name: Pépinières Benard
+    description: Plantes grimpantes, arbustes à fleurs
+    url:
+  - name: Pépinières Cailleau
+    description: Rosiériste, rosiers en pot
+    url:
+  - name: Pépinières d’Evrecy
+    description: Géraniums, plantes à massif
+    url:
+  - name: Pépinières du Clos Normand
+    description: Erables japonais, azalées, arbustes
+    url:
+  - name: Pépinières Nativelle
+    description: Arbres et arbustes de haies
+    url:
+  - name: Pépinières Oriot
+    description: Producteur rosiers parfumés, rosiers lianes
+    url:
+  - name: Pépinières Ravazé
+    description: Arbustes, arbres fruitiers, conifères, palmiers
+    url:
+  - name: Pétale d'Ailleurs
+    description: Plantes originales et méconnues
+    url:
+  - name: Les Pépinières du Lutin
+    description: Arbres, arbutes, conifères plantes rares
+    url:
+  - name: Végétal Services
+    description: arbustes, conifères
+    url:
+  - name: Vivaces de l'Odon
+    description: Vivaces, fougères, graminées
+    url:
+
+- categorie : PAYSAGISTES
   exposants:
-    - name: Architecture & Paysage
-      description: Architecte paysagiste
-      url:
-    - name: JCEV
-      description: Paysagiste
-      url:
-    - name: Les Jardiniers du Poirier Jacob
-      description: Concepteur de jardins
-      url:   
+  - name: Architecture & Paysage
+    description: Architecte paysagiste
+    url:
+  - name: JCEV
+    description: Paysagiste
+    url:
+  - name: Les Jardiniers du Poirier Jacob
+    description: Concepteur de jardins
+    url:
 
 - categorie: AUTOUR DU JARDIN
   exposants:
-    - name: Au Jardin Facile
-      description: Outillage de coupe, silo à composter 
-      url: 
-    - name: Chaleur design
-      description: Brasero mexicain, chauffage de terrasse, barbecue extérieur
-      url:
-    - name: Dormeau
-      description: Fabrication d'hôtels à insectes, à oiseaux
-      url: 
-    - name: L’Aquarium
-      description: Bassins et fournitures, carpes koï
-      url: 
-    - name: L’Atelier du Bien-Etre
-      description: Spas, saunas
-      url:
-    - name: Miroiterie Franconville
-      description: Véranda, pergola,portail, stores
-      url: 
-    - name: Normandie Couteaux
-      description: Couteaux de jardin
-      url: 
-    - name: Point Jardin
-      description: Négoce matériaux et décoration
-      url: 
-    - name: RM Habitat
-      description: Protection solaire, portails, pergolas,
-      url:     
-    - name: Saint-Etienne
-      description: Motoculture
-      url:
-    - name: Tricheur et Fils
-      description: Motoculture
-      url:- name: Vérandas Lumbroso
-      description: Vérandas,
-      url:
-    - name: Willemy Charpente
-      description: Vérandas en bois, charpente
-      url:
+  - name: Au Jardin Facile
+    description: Outillage de coupe, silo à composter
+    url:
+  - name: Chaleur design
+    description: Brasero mexicain, chauffage de terrasse, barbecue extérieur
+    url:
+  - name: Dormeau
+    description: Fabrication d'hôtels à insectes, à oiseaux
+    url:
+  - name: L’Aquarium
+    description: Bassins et fournitures, carpes koï
+    url:
+  - name: L’Atelier du Bien-Etre
+    description: Spas, saunas
+    url:
+  - name: Miroiterie Franconville
+    description: Véranda, pergola,portail, stores
+    url:
+  - name: Normandie Couteaux
+    description: Couteaux de jardin
+    url:
+  - name: Point Jardin
+    description: Négoce matériaux et décoration
+    url:
+  - name: RM Habitat
+    description: Protection solaire, portails, pergolas,
+    url:
+  - name: Saint-Etienne
+    description: Motoculture
+    url:
+  - name: Tricheur et Fils
+    description: Motoculture
+    url:- name: Vérandas Lumbroso
+    description: Vérandas,
+    url:
+  - name: Willemy Charpente
+    description: Vérandas en bois, charpente
+    url:
 
 - categorie: FERTILISANT
   exposants:
   - name: Sylva Fertilis
-      description: Amendement organique et bio stimulant pour les sols
-      url:
+    description: Amendement organique et bio stimulant pour les sols
+    url:
   - name: Tonnerre d'Engrais
-      description: Fertilisant artisanal 100 % naturel
-      url:   
+    description: Fertilisant artisanal 100 % naturel
+    url:
 
 - categorie: ENVIRONNEMENT
   exposants:
   - name: Agglomération Seine-Eure
-      description: Réduction des déchets, compostage
-      url:
+    description: Réduction des déchets, compostage
+    url:
   - name: Conservatoire d'Espaces Naturels Normandie Seine
-      description: Gestion et préservation des espaces naturels
-      url:
-      
+    description: Gestion et préservation des espaces naturels
+    url:
+
 - categorie: DÉCORATION DE JARDIN
-  exposants: 
-    - name: Agathe Fortin
-      description: Poterie, paravent, tableaux d'extérieur
-      url: 
-    - name: Amouroux Nadine
-      description: Silhouettes de jardin en métal
-      url:
-    - name: DCO Caméléon
-      description: Décoration artisanale en métal      
-      url:
-    - name: Dupuis Christian
-      description: Cannage, paillage      
-      url:
-    - name: Filentroc
-      description: Mobilier de jardin en fer forgé
-      url:
-    - name: Grosoeuvre
-      description: Cadrans solaires, animaux métalliques      
-      url:
-    - name: Jardin Décor
-      description: Décorations de jardins
-      url:
-    - name: Jerlcreazinc
-      description: Décoration en zinc      
-      url:
-    - name: Kiki Quenouille
-      description: Mobiles sur le thème floral      
-      url:
-    - name: Laignel 
-      description: Poteries artisanales
-      url:
-    - name: Le Grenier de Valentin
-      description: Poteries anglaises
-      url:
-    - name: Les Folies de Flodi
-      description: Fontaines en pierre pour extérieur
-      url:
-    - name: Les Girouettes de David
-      description: Fabricant de girouettes
-      url:
-    - name: Matières et Nuances
-      description: Décoration en métal recyclé
-      url:
-    - name: PasPas Création
-      description: Personnages en argile
-      url:
-      
-  - categorie: PRODUITS DU TERROIR
-    exposants:
-    - name: Autre-Chose Confiserie
-      description: Guimauves maison, bonbons d'antan
-      url:
-    - name: Blaye-Carreau
-      description: Côtes de Blaye et Côtes de Bourg
-      url:
-    - name: Brasserie Normande Septantesix
-      description: Fabricant de bière
-      url:
-    - name: Délices d'Autrefois
-      description: Sablés, pain châtaigne cuit sur place
-      url: 
-    - name: Doucet de Beauregard
-      description: Vins de Champagne
-      url:      
-    - name: Fleur d’Epice
-      description: Spécialités antillaises, épices
-      url:      
-    - name: Fleurs des Blés
-      description: Brioches feuilletées
-      url:
-    - name: Glatigny
-      description: Miel, pain d’épices, gelée royale
-      url:
-    - name: Haras Marie
-      description: Fromages de Neufchatel, cidre, vinaigre
-      url: 
-    - name: La Maison du Sureau
-      description: Produits à base de sureau
-      url:
-    - name: La Violette
-      description: Gâteaux botaniques, fromages aux herbes
-      url:
-    - name: Les Fraises de Glisolles
-      description: Fraises, framboises
-      url:
-    - name: Les Jardins du Thuit
-      description: Confitures naturelles 
-      url:
-    - name: Les Plaisirs de Cri-Cri
-      description: Fruits déshydratés "maison", gingembre confit
-      url: 
-    - name: L'Ile aux Abeilles
-      description: Miel et dérivés
-      url:
-    - name: Mada-Vanille
-      description: Vanille et épices de Madagascar
-      url:
-    - name: Merring'Addict
-      description: Meringues parfumées
-      url: 
-    - name: Saveur et Voyage
-      description: Fruits secs, confits, graines "vitalité"
-      url: 
-    - name: Thé Nomade
-      description: Thés, infusions, tisanes
-      url:
-    - name: Thiennet
-      description: Salaisons, fromages de Corrèze
-      url:
-    - name: Vin Lichtle
-      description: Producteur de vins d’Alsace
-      url:
-    
+  exposants:
+  - name: Agathe Fortin
+    description: Poterie, paravent, tableaux d'extérieur
+    url:
+  - name: Amouroux Nadine
+    description: Silhouettes de jardin en métal
+    url:
+  - name: DCO Caméléon
+    description: Décoration artisanale en métal
+    url:
+  - name: Dupuis Christian
+    description: Cannage, paillage
+    url:
+  - name: Filentroc
+    description: Mobilier de jardin en fer forgé
+    url:
+  - name: Grosoeuvre
+    description: Cadrans solaires, animaux métalliques
+    url:
+  - name: Jardin Décor
+    description: Décorations de jardins
+    url:
+  - name: Jerlcreazinc
+    description: Décoration en zinc
+    url:
+  - name: Kiki Quenouille
+    description: Mobiles sur le thème floral
+    url:
+  - name: Laignel
+    description: Poteries artisanales
+    url:
+  - name: Le Grenier de Valentin
+    description: Poteries anglaises
+    url:
+  - name: Les Folies de Flodi
+    description: Fontaines en pierre pour extérieur
+    url:
+  - name: Les Girouettes de David
+    description: Fabricant de girouettes
+    url:
+  - name: Matières et Nuances
+    description: Décoration en métal recyclé
+    url:
+  - name: PasPas Création
+    description: Personnages en argile
+    url:
+
+- categorie: PRODUITS DU TERROIR
+  exposants:
+  - name: Autre-Chose Confiserie
+    description: Guimauves maison, bonbons d'antan
+    url:
+  - name: Blaye-Carreau
+    description: Côtes de Blaye et Côtes de Bourg
+    url:
+  - name: Brasserie Normande Septantesix
+    description: Fabricant de bière
+    url:
+  - name: Délices d'Autrefois
+    description: Sablés, pain châtaigne cuit sur place
+    url:
+  - name: Doucet de Beauregard
+    description: Vins de Champagne
+    url:
+  - name: Fleur d’Epice
+    description: Spécialités antillaises, épices
+    url:
+  - name: Fleurs des Blés
+    description: Brioches feuilletées
+    url:
+  - name: Glatigny
+    description: Miel, pain d’épices, gelée royale
+    url:
+  - name: Haras Marie
+    description: Fromages de Neufchatel, cidre, vinaigre
+    url:
+  - name: La Maison du Sureau
+    description: Produits à base de sureau
+    url:
+  - name: La Violette
+    description: Gâteaux botaniques, fromages aux herbes
+    url:
+  - name: Les Fraises de Glisolles
+    description: Fraises, framboises
+    url:
+  - name: Les Jardins du Thuit
+    description: Confitures naturelles
+    url:
+  - name: Les Plaisirs de Cri-Cri
+    description: Fruits déshydratés "maison", gingembre confit
+    url:
+  - name: L'Ile aux Abeilles
+    description: Miel et dérivés
+    url:
+  - name: Mada-Vanille
+    description: Vanille et épices de Madagascar
+    url:
+  - name: Merring'Addict
+    description: Meringues parfumées
+    url:
+  - name: Saveur et Voyage
+    description: Fruits secs, confits, graines "vitalité"
+    url:
+  - name: Thé Nomade
+    description: Thés, infusions, tisanes
+    url:
+  - name: Thiennet
+    description: Salaisons, fromages de Corrèze
+    url:
+  - name: Vin Lichtle
+    description: Producteur de vins d’Alsace
+    url:
+
 - categorie: PRODUITS NATURELS
   exposants:
-    - name: Comme au Jardin
-      description: Produits naturels aux plantes 
-      url:
-    - name: Créateurs 27
-      description: Savons saponifiés à froid
-      url:
-    - name: Ressoursee Champs Jouault
-      description: Producteur de spiruline
-      url:
-    
+  - name: Comme au Jardin
+    description: Produits naturels aux plantes
+    url:
+  - name: Créateurs 27
+    description: Savons saponifiés à froid
+    url:
+  - name: Ressoursee Champs Jouault
+    description: Producteur de spiruline
+    url:
+
 - categorie: Culture
   exposants:
-    - name: La Nouvelle Invite
-      description: Beaux livres de jardin
-      url:
-  
+  - name: La Nouvelle Invite
+    description: Beaux livres de jardin
+    url:
+
 
 - categorie: LOISIRS DE PLEIN AIR - MODE
   exposants:
-    - name: Fantaisies pour toutes
-      description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
-      url:
-    - name: Le Fil Chic
-      description: tissus de soie
-      url:
-    - name: Lou-y-es-tu
-      description: Chapeaux de pluie, tabliers de jardin
-      url:
-      
-
-  
-    
-  
+  - name: Fantaisies pour toutes
+    description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
+    url:
+  - name: Le Fil Chic
+    description: tissus de soie
+    url:
+  - name: Lou-y-es-tu
+    description: Chapeaux de pluie, tabliers de jardin
+    url:
 
 - categorie: Loisirs de plein air
   exposants:
-    - name: Cycles Cauchois
-      description: Vélos tourisme, vtt, enfants, vélos électriques
-      url:
-    - name: Le Temps des Cadeaux
-      description: Jeux d’extérieur fabriqués en France
-      url:
-    
+  - name: Cycles Cauchois
+    description: Vélos tourisme, vtt, enfants, vélos électriques
+    url:
+  - name: Le Temps des Cadeaux
+    description: Jeux d’extérieur fabriqués en France
+    url:
+
 - categorie: Associations
   exposants:
-    - name: Bonsaï Club du Manoir
-      description: Conseils bonsaï
-      url:
-    - name: Bouton d’Eure
-      description: Conférences diverses, micro-ateliers
-      url:
-    - name: Jardinot
-      description: Jardinage raisonné, conseils, zéro pesticide
-      url:    
-    - name: Vaudreuil Folies
-      description: Brocante
-      url:
-      
+  - name: Bonsaï Club du Manoir
+    description: Conseils bonsaï
+    url:
+  - name: Bouton d’Eure
+    description: Conférences diverses, micro-ateliers
+    url:
+  - name: Jardinot
+    description: Jardinage raisonné, conseils, zéro pesticide
+    url:
+  - name: Vaudreuil Folies
+    description: Brocante
+    url:
+
 - categorie: Découverte de Jardins Remarquables
   exposants:
-    - name: A.R.P.J.H.N
-      description: Promotion parcs et jardins
-      url:
-    - name: Château d’Acquigny
-      description: 27 Acquigny
-      url:
-    - name: Château de Canteloup
-      description: 27 Amfreville s/Monts
-      url:
-    - name: Château de Pinterville
-      description: 27 Pinterville
-      url:
-    - name: Château et Jardins de Vascoeuil
-      description: 27 Vascoeuil
-      url:
-    - name: La Route Royale de L’Eure
-      description:
-      url:
+  - name: A.R.P.J.H.N
+    description: Promotion parcs et jardins
+    url:
+  - name: Château d’Acquigny
+    description: 27 Acquigny
+    url:
+  - name: Château de Canteloup
+    description: 27 Amfreville s/Monts
+    url:
+  - name: Château de Pinterville
+    description: 27 Pinterville
+    url:
+  - name: Château et Jardins de Vascoeuil
+    description: 27 Vascoeuil
+    url:
+  - name: La Route Royale de L’Eure
+    description:
+    url:
 
 - categorie: Avec la participation de
   exposants:
-    - name: Abbaye de Bonport
-      description: 27 Pont de L’Arche
-      url:
-    - name: Le Clos de Chanchore
-      description: Roseraies, jardin arboretum 27 Fresne Cauverville
-      url:
-    - name: Le Parc de la Clef
-      description: Roseraies, plantes thérapeutiques 28 Marville les Bois
-      url:
-    - name: Office du Tourisme Seine-Eure
-      description: Renseignements touristiques
-      url:
+  - name: Abbaye de Bonport
+    description: 27 Pont de L’Arche
+    url:
+  - name: Le Clos de Chanchore
+    description: Roseraies, jardin arboretum 27 Fresne Cauverville
+    url:
+  - name: Le Parc de la Clef
+    description: Roseraies, plantes thérapeutiques 28 Marville les Bois
+    url:
+  - name: Office du Tourisme Seine-Eure
+    description: Renseignements touristiques
+    url:
