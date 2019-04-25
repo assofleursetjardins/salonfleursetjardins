@@ -305,38 +305,34 @@
     description: Producteur de spiruline
     url:
 
-- categorie: Culture
+- categorie: LOISIRS DE PLEIN AIR - MODE
   exposants:
+  - name: AGNES ET MARYSE
+    description: St James prêt à porter
+    url:
+  - name: Fantaisies pour toutes
+    description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
+    url: 
+  - name: Georget Cycles
+    description: Vélos tourisme, vtt, enfants, vélos électriques
+    url:
   - name: La Nouvelle Invite
     description: Beaux livres de jardin
     url:
-
-
-- categorie: LOISIRS DE PLEIN AIR - MODE
-  exposants:
-  - name: Fantaisies pour toutes
-    description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
-    url:
-  - name: Fantaisies pour toutes
-    description: Création de bijoux à thèmes floraux, marque page thème jardin et nature
-    url:
   - name: Le Fil Chic
-    description: tissus de soie
-    url:
-  - name: Lou-y-es-tu
-    description: Chapeaux de pluie, tabliers de jardin
-    url:
-
-- categorie: Loisirs de plein air
-  exposants:
-  - name: Cycles Cauchois
-    description: Vélos tourisme, vtt, enfants, vélos électriques
+    description: Articles et vêtements de soie
     url:
   - name: Le Temps des Cadeaux
     description: Jeux d’extérieur fabriqués en France
     url:
+  - name: Lou-y-es-tu
+    description: Chapeaux de pluie, tabliers de jardin
+    url:
+  - name: Pacy Bazar
+    description: Jeux de plein air, chapeaux
+    url:
 
-- categorie: Associations
+- categorie: ASSOCIATIONS
   exposants:
   - name: Bonsaï Club du Manoir
     description: Conseils bonsaï
@@ -348,19 +344,16 @@
     description: Jardinage raisonné, conseils, zéro pesticide
     url:
   - name: Vaudreuil Folies
-    description: Brocante
+    description: Brocante de jardin
     url:
 
-- categorie: Découverte de Jardins Remarquables
+- categorie: JARDINS REMARQUABLES
   exposants:
   - name: A.R.P.J.H.N
     description: Promotion parcs et jardins
     url:
   - name: Château d’Acquigny
     description: 27 Acquigny
-    url:
-  - name: Château de Canteloup
-    description: 27 Amfreville s/Monts
     url:
   - name: Château de Pinterville
     description: 27 Pinterville
@@ -377,11 +370,14 @@
   - name: Abbaye de Bonport
     description: 27 Pont de L’Arche
     url:
+  - name: Château de Bisy
+    description: 27 Vernon
+    url:
+  - name: Château de Canteloup
+    description: 27 Amfreville s/Monts
+    url:
   - name: Le Clos de Chanchore
     description: Roseraies, jardin arboretum 27 Fresne Cauverville
-    url:
-  - name: Le Parc de la Clef
-    description: Roseraies, plantes thérapeutiques 28 Marville les Bois
     url:
   - name: Office du Tourisme Seine-Eure
     description: Renseignements touristiques
