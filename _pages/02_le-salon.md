@@ -43,5 +43,5 @@ Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un t
 
 ## Les animations
 Tout au long de ces trois journées, différentes animations vous sont proposées pour les petits et les grands.
-- **Conservatoire d'Espaces Naturels** Présentation & Jeux “La Ruée vers le Nord !” “Exploration de la nature vue du ciel !”
+- **Ferme du Mathou** Grande ferme : basse-cour, moutons, vache, alpagas, ânes...
 - **[Ecurie de la Voie Blanche](http://www.ecurie-voie-blanche.fr/)** Promenade à poneys pour enfants.
