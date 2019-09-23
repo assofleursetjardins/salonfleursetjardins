@@ -26,16 +26,16 @@ En venant au Salon du Vaudreuil vous découvrirez un espace environnemental exce
 ## Le programme
 Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisé.
 
-### Vendredi 26
+### Vendredi 22
 - 14h : Ouverture du Salon
 - 19h : Fermeture
 
-### Samedi 27
+### Samedi 23
 - 10h : Ouverture du salon
 - 10h15 : Inauguration par les officiels
 - 19h : Fermeture
 
-### Dimanche 28
+### Dimanche 24
 - 10h : Ouverture du salon
 - 18h : Fermeture
 
