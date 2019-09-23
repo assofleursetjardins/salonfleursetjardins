@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Salon Fleurs & Jardins
-edition: 23
-date: 26, 27 et 28 avril 2019
+edition: 25
+date: 24, 25 et 26 avril 2020
 emails:
   contact: salonfleursetjardins@levaudreuil.fr
   presse: marc-alvarez@bbox.fr
