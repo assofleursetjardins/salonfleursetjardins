@@ -2,24 +2,25 @@
 layout: default
 ---
 
-<header id="cover" style="text-align:center;">
-  <img src="assets/images/hero-banner-2020.jpg" alt="Visule 2020 de la 25ème édition du salon fleurs et jardins">
-  <!--
-  <div class="hero-banner">
-    <p class="hero-banner__edition">{{site.edition}}<sup>ème</sup> édition</p>
-    <img class="hero-banner__image" src="assets/images/logo-light.png" width="600" alt="">
+
+<header id="cover" class="hero-banner">
+
+  <div class="hero-banner__content">
+    {{content}}
     <p class="hero-banner__dates"><span>{{site.date}}</span></p>
   </div>
-  -->
+
+  <figure class="hero-banner__image">
+    <img src="assets/images/hero-banner-2020.jpg" alt="Visule 2019 de la 24ème édition du salon fleurs et jardins">
+  </figure>
 </header>
 
 <main id="main" aria-label="Content">
+
   <div id="content">
 
-    {{content}}
-
     <hr>
-    
+
     <article>
       <h2>Le programme</h2>
       <h3>Riche en découvertes</h3>
@@ -28,7 +29,7 @@ layout: default
     </article>
 
     <hr>
-    
+
     <article>
       <h2>Les exposants</h2>
       <h3>140 professionnels seront présents</h3>
@@ -47,7 +48,7 @@ layout: default
       </p>
       <a class="button" href="/le-salon/#les-animations">Voir les animations</a>
     </article>
-    
+
   </div>
 
   <aside id="aside">
