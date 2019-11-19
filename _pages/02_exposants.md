@@ -1,6 +1,6 @@
 ---
 title: Exposants
-path_description: Nos 140 exposants
+path_description: Nos 120 exposants
 permalink: /exposants/
 layout: exposants
 sections:
@@ -10,9 +10,9 @@ sections:
 ---
 
 # Exposants
-## Plus de 140 professionnels
+## Plus de 120 professionnels
 
-Environ 140 exposants, pépiniéristes, horticulteurs, paysagistes, matériel de jardin, décoration, produits
+Environ 120 exposants, pépiniéristes, horticulteurs, paysagistes, matériel de jardin, décoration, produits
 du terroir, etc.. viennent exposer leurs savoir-faire et présenter leurs produits sur un espace d'un hectare.
 Chaque année, de nouveaux exposants rejoignent le "Salon Fleurs et Jardins", enrichissant la diversité
 et assurant toujours plus de découvertes aux nombreux visiteurs.
