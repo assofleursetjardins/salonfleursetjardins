@@ -26,13 +26,9 @@ En venant au Salon du Vaudreuil vous découvrirez un espace environnemental exce
 ## Le programme
 Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisé.
 
-### Vendredi 24 avril 2020
-- 14h : Ouverture du Salon
-- 19h : Fermeture
-
 ### Samedi 25 avril 2020
 - 10h : Ouverture du salon
-- 10h15 : Inauguration par les officiels
+- Inauguration par les officiels
 - 19h : Fermeture
 
 ### Dimanche 26 avril 2020
@@ -42,6 +38,5 @@ Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un t
 ---
 
 ## Les animations
-Tout au long de ces trois journées, différentes animations vous sont proposées pour les petits et les grands.
-- **Ferme du Mathou** Grande ferme : basse-cour, moutons, vache, alpagas, ânes...
+Tout au long de ces deux journées, différentes animations vous sont proposées pour les petits et les grands.
 - **[Ecurie de la Voie Blanche](http://www.ecurie-voie-blanche.fr/)** Promenade à poneys pour enfants.
