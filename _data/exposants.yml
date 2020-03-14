@@ -113,7 +113,7 @@
   
 - categorie : PAYSAGISTES
   exposants:
-    - name: JCEV
+  - name: JCEV
     description: Paysagiste
     url:
   
@@ -251,7 +251,7 @@
   
 - categorie: LOISIRS DE PLEIN AIR - MODE
   exposants:
-- name: Georget Cycles
+  - name: Georget Cycles
     description: Vélos tourisme, vtt, enfants, vélos électriques
     url:
   - name: La Nouvelle Invite
