@@ -36,7 +36,7 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 ### Le salon Fleurs & Jardins vous propose une restauration sur le pouce, assise ou à emporter
 
 - Restauration assise : Maison BARBE traiteur - [Voir le site](http://www.maisonbarbe.com/)
-- Restauration à emporter : Fleurs des Blés - Sandwicherie, viennoiserie
+- Restauration à emporter : Fleurs des Blés : Sandwicherie, viennoiserie
 
 
 ## Restauration à proximité
