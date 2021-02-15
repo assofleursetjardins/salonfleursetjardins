@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Salon Fleurs & Jardins
+title: Association Fleurs & Jardins
 edition: 25
 date: ANNULATION SUITE CORONAVIRUS 25 et 26 avril 2020
 emails:
@@ -22,7 +22,7 @@ emails:
 phone:
   contact: 02 32 61 27 85
   presse: 02 32 59 14 48
-adresse: Rue des Flots – 27100 Le Vaudreuil (27)
+adresse: Rue B. Chedeville – 27100 Le Vaudreuil (27)
 
 description: > # this means to ignore newlines until "baseurl:"
     Le Salon Fleurs et Jardins organisé en plein air sur un site environnemental exceptionnel,
