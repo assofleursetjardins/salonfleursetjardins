@@ -18,6 +18,3 @@ Nous vous souhaitons une très belle déambulation dans les rues de ce village t
 
 #### Affiches
 
-- Format PDF - [affiche visuel](/assets/medias/affiche-2020.pdf)
-- Format JPG - [affiche visuel](/assets/medias/affiche-2020.jpg)
-- Affiche 4x3 format PDF - [À venir]()
