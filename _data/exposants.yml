@@ -184,7 +184,7 @@
     url:
   - name: Créabois
     description: Ameublement, décoration de jardin
-    url:   
+    url:
   - name: DCO Caméléon
     description: Décoration artisanale en métal
     url:
@@ -203,65 +203,11 @@
   - name: Les Folies de Flodi
     description: Fontaines en pierre pour extérieur, statues de Bali
     url:
-  
-- categorie: PRODUITS DU TERROIR
-  exposants:
-  - name: Blaye-Carreau
-    description: Côtes de Blaye et Côtes de Bourg
-    url:
-  - name: Délices d'Autrefois
-    description: Sablés, pain châtaigne cuit sur place
-    url:
-  - name: Domaine CH Audoin
-    description: Producteur de Bourgogne
-    url:  
-  - name: Doucet de Beauregard
-    description: Vins de Champagne
-    url:
-  - name: Fleur d’Epice
-    description: Spécialités antillaises, épices
-    url:
-  - name: Fleurs des Blés
-    description: Brioches feuilletées
-    url:
-  - name: Glatigny
-    description: Miel, pain d’épices, gelée royale
-    url:
-  - name: Haras Marie
-    description: Fromages de Neufchatel, cidre, vinaigre
-    url:
-  - name: La Violette
-    description: Gâteaux botaniques, fromages aux herbes et fruits
-    url:
-  - name: Mada-Vanille
-    description: Vanille et épices de Madagascar
-    url:
-  - name: Thiennet
-    description: Salaisons, fromages de Corrèze
-    url:
-  - name: Vin Lichtle
-    description: Producteur de vins d’Alsace
-    url:
 
 - categorie: PRODUITS NATURELS
   exposants:
   - name: Huilerie Hunte
     description: Fabricant d'huile de lin
-    url:
-  
-- categorie: LOISIRS DE PLEIN AIR - MODE
-  exposants:
-  - name: Georget Cycles
-    description: Vélos tourisme, vtt, enfants, vélos électriques
-    url:
-  - name: La Nouvelle Invite
-    description: Beaux livres de jardin
-    url:
-  - name: Lou-y-es-tu
-    description: Chapeaux de pluie, tabliers de jardin
-    url:
-  - name: Poule de Luxe
-    description: Sacs, accessoires en lin
     url:
 
 - categorie: ASSOCIATIONS
@@ -277,40 +223,4 @@
     url:
   - name: Vaudreuil Folies
     description: Brocante de jardin
-    url:
-
-- categorie: JARDINS REMARQUABLES
-  exposants:
-  - name: A.R.P.J.H.N
-    description: Promotion parcs et jardins
-    url:
-  - name: Château d’Acquigny
-    description: 27 Acquigny
-    url:
-  - name: Château de Pinterville
-    description: 27 Pinterville
-    url:
-  - name: Château et Jardins de Vascoeuil
-    description: 27 Vascoeuil
-    url:
-  - name: La Route Royale de L’Eure
-    description:
-    url:
-
-- categorie: Avec la participation de
-  exposants:
-  - name: Abbaye de Bonport
-    description: 27 Pont de L’Arche
-    url:
-  - name: Château de Bisy
-    description: 27 Vernon
-    url:
-  - name: Château de Canteloup
-    description: 27 Amfreville s/Monts
-    url:
-  - name: Le Clos de Chanchore
-    description: Roseraies, jardin arboretum 27 Fresne Cauverville
-    url:
-  - name: Office du Tourisme Seine-Eure
-    description: Renseignements touristiques
     url:
