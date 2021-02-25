@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Le salon
+title: À propos
 path_description: Programme & Animations
 permalink: /le-salon/
 sections: 
