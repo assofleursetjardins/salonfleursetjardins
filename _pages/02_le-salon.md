@@ -15,7 +15,7 @@ Fort de notre expérience acquise au cours des 25 dernières années avec la cr�
 
 Des exposants renommés sont à nouveau au Rendez vous venus de toute la France et feront le succès des journées proposées à tous les amoureux de la nature et des plantes .
 
-![Vue du salon dans un espace environnemental exceptionnel](/assets/medias/vue-du-salon.jpg)
+![Vue du centre ville du Vaudreuil](/assets/medias/photo-centre-ville.jpg)
 
 Ce Marché Floral ambitionne de présenter au Public les dernières créations des producteurs présents avec le plus large éventail possible de fleurs .
 
