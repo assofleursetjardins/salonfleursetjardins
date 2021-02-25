@@ -8,8 +8,15 @@ sections:
   - localisation
 ---
 
-# Le Salon Fleurs & Jardins du Vaudreuil fête cette année sa 25ème édition
+# L’Association Fleurs et Jardins du Vaudreuil organise cette année un Marché Floral
 
-Ce Salon dont les dates coïncident avec le réveil de la nature permettra aux visiteurs, dont la fidélité ne se dément pas, de rencontrer au Vaudreuil plus d'une centaine d'exposants dans un cadre environnemental unique sur plus de six hectares. Un écrin de verdure à la mesure des milliers de plantes, de fleurs aux variétés les plus diverses, présentées par des horticulteurs, pépiniéristes qui sont avant tout des passionnés issus d’une filière verte exigeante et compétente  au service d’un jardinage réussi. Des professionnels à l’écoute qui vous étonneront également par le remarquable rapport qualité-prix de leur production.
+Dans la continuité du Salon Fleurs et Jardins dont la 25ème Edition en 2020 n’a pu avoir lieu en raison du Covid19 et en raison de la
+crise sanitaire actuelle, l’Association a décidé d’organiser un Marché Floral dans les rues du Vaudreuil en respectant les contraintes sanitaires et
+sécuritaires en vigueur à ce jour.
 
-Un Salon qui s’adresse à tous les publics et qui comblera aussi bien le simple amateur que le spécialiste à la recherche d’espèces rares. Le Salon du Vaudreuil aussi une occasion unique de rencontrer des paysagistes qui vous aideront à réaliser vos rêves pour un jardin personnalisé et correspondant à votre budget. Du véritable sur mesure !
+Ce qui permettra aux visiteurs, dont la fidélité ne se dément pas, de rencontrer des professionnels, Horticulteurs, Pepiniéristes etc qui sont avant tout des
+passionnés issus d’un filière verte exigeante et compétente au service d’un jardinage réussi.
+
+Des professionnels à l’écoute qui vous étonneront également par le rapport qualité prix de leur production.
+
+Ce Marché Floral s’adresse à tous les publics et comblera tous les amateurs de plantes et de fleurs.

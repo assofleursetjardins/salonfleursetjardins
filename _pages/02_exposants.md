@@ -1,6 +1,6 @@
 ---
 title: Exposants
-path_description: Nos 120 exposants
+path_description: Des professionnels à l’écoute
 permalink: /exposants/
 layout: exposants
 sections:
@@ -12,8 +12,8 @@ sections:
 # Exposants
 ## Plus de 120 professionnels
 
-Environ 120 exposants, pépiniéristes, horticulteurs, paysagistes, matériel de jardin, décoration, produits
-du terroir, etc.. viennent exposer leurs savoir-faire et présenter leurs produits sur un espace d'un hectare.
+Comme par le passé nos fidèles exposants, pépiniéristes, horticulteurs, paysagistes, matériel de jardin, décoration, produits
+du terroir, etc.. viendront exposer leur savoir-faire et présenter leurs produits  dans les rues du Vaudreuil.
 Chaque année, de nouveaux exposants rejoignent le "Salon Fleurs et Jardins", enrichissant la diversité
 et assurant toujours plus de découvertes aux nombreux visiteurs.
 
