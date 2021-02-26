@@ -32,17 +32,9 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 
 ---
 
-## Restauration sur place
-### Le salon Fleurs & Jardins vous propose une restauration sur le pouce, assise ou à emporter
-
-- Restauration assise : Maison BARBE traiteur - [Voir le site](http://www.maisonbarbe.com/)
-- Restauration à emporter : Fleurs des Blés : Sandwicherie, viennoiserie
-
-
 ## Restauration à proximité
 ### Si vous êtes plutot amateur de bonnes tables, nous vous proposons quelques restaurants proximités
 
-- Restaurant le Boujou - Le Vaudreuil : 02 32 59 02 90
 - Restaurant du Golf : 02 32 50 51 51 [Voir le plan](https://www.google.fr/maps/place/Restaurant+du+Golf+du+Vaudreuil/@49.2599562,1.2204614,17z/data=!3m1!4b1!4m5!3m4!1s0x47e125f39882ce57:0xd7b570c814e287f1!8m2!3d49.2599562!4d1.2226501)
 - Restaurant La Cascade Insolite : 02 32 25 97 41
 
