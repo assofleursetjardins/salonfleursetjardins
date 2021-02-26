@@ -25,8 +25,6 @@ Ce Marché Floral ambitionne de présenter au Public les dernières créations d
 
 ## Le programme
 
-Retrouvez les temps forts du salon au jour le jour. Plusieurs fois par jour un tirage de la tombola visiteurs est organisé.
-
 ### Samedi 24 avril 2021
 
 - 10h : Ouverture du marcher floral
