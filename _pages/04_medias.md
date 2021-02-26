@@ -10,8 +10,6 @@ Pour sa 26ème année, déjà, l'**Association Fleurs et Jardins** poursuit sa b
 
 Nous vous souhaitons une très belle déambulation dans les rues de ce village très pittoresque en ce début de Printemps .
 
-[Télécharger le communiqué de presse](/assets/medias/dossier-de-presse-2020.pdf)
-
 <hr>
 
 ## Support de com'
