@@ -28,7 +28,6 @@ Ce Marché Floral ambitionne de présenter au Public les dernières créations d
 ### Samedi 24 avril 2021
 
 - 10h : Ouverture du marcher floral
-- Inauguration par les officiels
 - 18h : Fermeture
 
 ### Dimanche 25 avril 2021
