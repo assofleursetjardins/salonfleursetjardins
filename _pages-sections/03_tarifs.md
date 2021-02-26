@@ -4,9 +4,7 @@ title: tarifs
 
 ## Tarifs
 
-**Entrée** : 5€ / jour puis 2,50€ dès la seconde visite.  
-*Gratuit pour les -15ans*.
+**Entrée** : Gratuite.  
 
 **Parking** : Gratuit
 
-Un **service gratuit** pour transporter vos végétaux.
