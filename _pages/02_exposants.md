@@ -10,7 +10,7 @@ sections:
 ---
 
 # Exposants
-## Plus de 120 professionnels
+## Plus de 30 professionnels
 
 Comme par le passé nos fidèles exposants, pépiniéristes, horticulteurs, paysagistes, matériel de jardin, décoration, produits
 du terroir, etc.. viendront exposer leur savoir-faire et présenter leurs produits  dans les rues du Vaudreuil.
