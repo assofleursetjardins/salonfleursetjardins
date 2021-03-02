@@ -16,3 +16,5 @@ Nous vous souhaitons une très belle déambulation dans les rues de ce village t
 
 #### Affiches
 
+- [Téléchargez l'affiche](/medias/affiche-2021.pdf) | PDF | 1,3Mo
+

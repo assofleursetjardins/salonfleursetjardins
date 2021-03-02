@@ -12,7 +12,7 @@ anchors:
 
 # Informations pratiques
 
-Vous exposez ou vous visitez le Marcher Floral ? Retrouvez ci-dessous toutes les informations pour passer un agréable séjour dans notre beau village du Vaudreuil.
+Vous exposez ou vous visitez le Marché Floral ? Retrouvez ci-dessous toutes les informations pour passer un agréable séjour dans notre beau village du Vaudreuil.
 
 ## Comment venir au Vaudreuil(27)
 ### Une situation géographique idéale
@@ -27,7 +27,7 @@ Le village du Vaudreuil est situé à moins de 100 kilomètres de la région par
 
 **En train** : gare de Val de Reuil (ligne Paris - Rouen - Le Havre)
 
-<a class="button dark" href="https://www.google.com/maps/dir//49.2562515,1.2087/@49.2566822,1.205022,16z" target="_blank">Plan d'accès au Marcher Floral</a>
+<a class="button dark" href="https://www.google.com/maps/dir//49.2562515,1.2087/@49.2566822,1.205022,16z" target="_blank">Plan d'accès au Marché Floral</a>
 <a class="button" href="https://www.google.com/maps/dir//49.2562515,1.2087/@49.2566822,1.205022,16z" target="_blank">Obtenir un itinéraire</a>
 
 ---
