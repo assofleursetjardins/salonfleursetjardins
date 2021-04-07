@@ -8,6 +8,10 @@ sections:
   - localisation
 ---
 
+<div style="padding: 1em; background: #0268a2; color:#fff;">
+  En raison de la crise sanitaire, nous sommes contrains à nouveau d'annuler le marcher floral.
+</div>
+  
 # L’Association Fleurs et Jardins du Vaudreuil organise cette année un Marché Floral
 
 Dans la continuité du Salon Fleurs et Jardins dont la 25ème Edition en 2020 n’a pu avoir lieu en raison du Covid19 et en raison de la
